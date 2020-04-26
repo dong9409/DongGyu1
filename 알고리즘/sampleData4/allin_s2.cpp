@@ -1,0 +1,2 @@
+#include<bits/stdc++.h>
+int N,a=1,b,e,f,g,t,j=2;int main(){std::ifstream i("allin.inp");std::ofstream o("allin.out");i>>N>>b;for(;j<=N;++j){i>>t;if(t<=b)a=j,b=t;if(t-b>f||t-b==f&&a!=g) e=j,f=t-b,g=a;}o<<g<<' '<<e;return 0;}
