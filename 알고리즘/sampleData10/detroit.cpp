@@ -6,7 +6,7 @@ bool chk_row[9][9];
 bool chk_col[9][9];
 int c=0;
 
-ifstream ifs("detroit.inp");
+ifstream ifs("1.inp");
 ofstream ofs("detroit.out");
 
 bool possible_data(int** arr, int N){
