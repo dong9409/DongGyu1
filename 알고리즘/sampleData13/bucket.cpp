@@ -2,8 +2,8 @@
 
 using namespace std;
 
-ifstream ifs("test.inp");
-ofstream ofs("t.out");
+ifstream ifs("bucket.inp");
+ofstream ofs("bucket.out");
 
 class bucket{
 public:
@@ -88,21 +88,7 @@ bool promising(void){
 	return true;
 }
 
-void back_tracking(int c){
-	for(auto it : v){
-		cout << it;
-	}
-	cout << endl;
-	
-	for(int i=0; i<check.size(); i++){
-		for(int j=0; j<check[i].size(); ++j){
-			cout << check[i][j] << ' ';
-		}
-		cout << endl;
-	}
-	cout << check_visit() << endl;
-	cout << endl;
-	cout << "c: " << c << endl;
+void back_tracking(int now, int c){
 
 		
 	if(promising() == true){
@@ -113,44 +99,32 @@ void back_tracking(int c){
 	if(check_visit() == true)
 		return;
 
-	if(check_visit() == false)
+	if(promising() == false)
 		record();
 		
-	cout <<"min: " << minv << endl;
-	cout << endl;
 	for(int i=0; i<v.size(); ++i){
-		for(int j=0; j<v.size(); ++j){
-			if(i!=j && c<minv){
-				bucket temp1 = v[i];
-				bucket temp2 = v[j];
-				v[i].process(v[j]);
-				
-				back_tracking(c+1);
-				
-				v[i] = temp1;
-				v[j] = temp2;				
-			}
-		}
+		if(i != now && c<minv){
+			bucket temp1 = v[now];
+			bucket temp2 = v[i];
+			v[now].process(v[i]);
+			
+			back_tracking(i, c+1);
+			
+			v[now] = temp1;
+			v[i] = temp2;
+			
+		}			
 	}
 }
-
 	
 
 
 int main(void){
 	init();
-	back_tracking(0);
-//	cout << minv;
-//	
-//	for(int i=0; i<check.size(); i++){
-//		for(int j=0; j<check[i].size(); ++j){
-//			cout << check[i][j] << ' ';
-//		}
-//		cout << endl;
-//	}
+	back_tracking(0,0);
 	if(minv != 200000)
-		cout << minv << endl;
+		ofs << minv << endl;
 	else
-		cout << 0 << endl;
+		ofs << 0 << endl;
 	return 0;
 }

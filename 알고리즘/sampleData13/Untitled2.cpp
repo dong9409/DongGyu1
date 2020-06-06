@@ -2,7 +2,7 @@
 
 using namespace std;
 
-ifstream ifs("test.inp");
+ifstream ifs("1.inp");
 ofstream ofs("t.out");
 
 class bucket{
@@ -67,11 +67,10 @@ void init(void){
 	delete[] arr;
 }
 
-bool check_visit(void){
+bool check_visit(vector<bucket> b){
 	for(int i=0; i<check.size(); i++){
 		for(int j=0; j<check[i].size(); ++j){
-//			cout << j << "water " << v[j].water << ' ' << check[i][j] << endl;
-			if(v[j].water != check[i][j])
+			if(b[j].water != check[i][j])
 				break;
 			if(j == check[i].size()-1)
 				return true;
@@ -88,66 +87,55 @@ bool promising(void){
 	return true;
 }
 
-void back_tracking(int c){
-	for(auto it : v){
+void print(vector<bucket> v){
+	for(auto it : v)
 		cout << it;
-	}
 	cout << endl;
+}
+int c=0;
+
+void BFS(){
+	queue < vector<bucket> > que;
+	vector<bucket> temp = v;
+	que.push(temp);
+
 	
-	for(int i=0; i<check.size(); i++){
-		for(int j=0; j<check[i].size(); ++j){
-			cout << check[i][j] << ' ';
-		}
-		cout << endl;
-	}
-	cout << check_visit() << endl;
-	cout << endl;
-	cout << "c: " << c << endl;
-
+	while(!que.empty()){
+//				
+//		for(int i=0; i<check.size(); i++){
+//			for(int j=0; j<check[i].size(); ++j){
+//				cout << check[i][j] << ' ';
+//			}
+//			cout << endl;
+//		}
 		
-	if(promising() == true){
-		if(c <= minv){
-			minv = c;
-		}
-	}
-	if(check_visit() == true)
-		return;
-
-	if(check_visit() == false)
-		record();
+		vector<bucket> temp1 = que.front();
+		que.pop();
+		++c;
+		cout << c << endl;
+		if(check_visit(temp1) == true)
+			continue;
 		
-	cout <<"min: " << minv << endl;
-	cout << endl;
-	for(int i=0; i<v.size(); ++i){
-		for(int j=0; j<v.size(); ++j){
-			if(i!=j && c<minv){
-				bucket temp1 = v[i];
-				bucket temp2 = v[j];
-				v[i].process(v[j]);
-				
-				back_tracking(c+1);
-				
-				v[i] = temp1;
-				v[j] = temp2;				
+		print(temp1);
+		for(int i=0; i<N; ++i){
+			for(int j=0; j<N; ++j){
+				if(i!=j){
+					v[i].process(v[j]);
+					vector<bucket> temp2 = v;
+					que.push(temp2);
+					record();
+				}
 			}
 		}
 	}
-}
 
+}
 	
 
 
 int main(void){
 	init();
-	back_tracking(0);
-//	cout << minv;
-//	
-//	for(int i=0; i<check.size(); i++){
-//		for(int j=0; j<check[i].size(); ++j){
-//			cout << check[i][j] << ' ';
-//		}
-//		cout << endl;
-//	}
+	BFS();
 	if(minv != 200000)
 		cout << minv << endl;
 	else
