@@ -70,7 +70,6 @@ void init(void){
 bool check_visit(void){
 	for(int i=0; i<check.size(); i++){
 		for(int j=0; j<check[i].size(); ++j){
-//			cout << j << "water " << v[j].water << ' ' << check[i][j] << endl;
 			if(v[j].water != check[i][j])
 				break;
 			if(j == check[i].size()-1)
@@ -89,20 +88,22 @@ bool promising(void){
 }
 
 void back_tracking(int c){
+	
+	ofs << "c: " << c << endl;
+	ofs <<"min: " << minv << endl;
 	for(auto it : v){
-		cout << it;
+		ofs << it;
 	}
-	cout << endl;
+	ofs << endl;
 	
 	for(int i=0; i<check.size(); i++){
 		for(int j=0; j<check[i].size(); ++j){
-			cout << check[i][j] << ' ';
+			ofs << check[i][j] << ' ';
 		}
-		cout << endl;
+		ofs << endl;
 	}
-	cout << check_visit() << endl;
-	cout << endl;
-	cout << "c: " << c << endl;
+	ofs << check_visit() << endl;
+	ofs << endl;
 
 		
 	if(promising() == true){
@@ -116,19 +117,19 @@ void back_tracking(int c){
 	if(check_visit() == false)
 		record();
 		
-	cout <<"min: " << minv << endl;
-	cout << endl;
 	for(int i=0; i<v.size(); ++i){
 		for(int j=0; j<v.size(); ++j){
 			if(i!=j && c<minv){
 				bucket temp1 = v[i];
 				bucket temp2 = v[j];
+				ofs << i << "=>" << j << endl << endl;
 				v[i].process(v[j]);
 				
 				back_tracking(c+1);
 				
 				v[i] = temp1;
-				v[j] = temp2;				
+				v[j] = temp2;	
+//				check.pop_back();			
 			}
 		}
 	}
@@ -148,9 +149,9 @@ int main(void){
 //		}
 //		cout << endl;
 //	}
-	if(minv != 200000)
-		cout << minv << endl;
-	else
-		cout << 0 << endl;
+//	if(minv != 200000)
+//		cout << minv << endl;
+//	else
+//		cout << 0 << endl;
 	return 0;
 }

@@ -2,7 +2,7 @@
 
 using namespace std;
 
-ifstream ifs("test.inp");
+ifstream ifs("10.inp");
 ofstream ofs("t.out");
 
 class bucket{
@@ -34,7 +34,6 @@ public:
 };
 int N;
 int goal[6];
-int minv=200000;
 
 vector<bucket> v;
 vector< vector<int> > check;
@@ -96,33 +95,31 @@ void print_check(){
 	}
 }
 
-void BFS(){
+int BFS(){
 	int level=0;
 	queue < pair<vector<bucket>, int> > que;
 	que.push(make_pair(v, level));
 
 	
 	while(!que.empty()){
-		print_check();
-		ofs << endl;
+//		print_check();
+//		ofs << endl;
 		vector<bucket> temp = que.front().first;
 		level = que.front().second;
-		print(temp);
-		ofs << "C: " << que.front().second << endl << endl;
+//		print(temp);
+//		ofs << "C: " << que.front().second << endl << endl;
 		que.pop();
 		
 		if(check_visit(temp) == true)
 			continue;
 		if(promising(temp) == true){
-			if(level <= minv){
-				minv = level;
-			}
+			return level;
 		}
 		record(temp);
 		
 		for(int i=0; i<N; ++i){
 			for(int j=0; j<N; ++j){
-				if(i!=j){
+				if(i!=j  && temp[i].water!=0 && temp[j].remain()!=0){
 					bucket temp1 = temp[i];
 					bucket temp2 = temp[j];
 					temp[i].process(temp[j]);
@@ -134,17 +131,14 @@ void BFS(){
 			}
 		}
 	}
-
+	return 0;
 }
 	
 
 
 int main(void){
 	init();
-	BFS();
-	if(minv != 200000)
-		cout << minv << endl;
-	else
-		cout << 0 << endl;
+	cout << BFS();
+	
 	return 0;
 }

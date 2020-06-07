@@ -32,6 +32,7 @@ public:
 	}
 	
 };
+
 int N;
 int goal[6];
 int minv=200000;
@@ -40,9 +41,9 @@ vector<bucket> v;
 vector< vector<int> > check;
 
 
-void record(vector<bucket> vv){
+void record(void){
 	vector<int> temp;
-	for(auto it: vv)
+	for(auto it: v)
 		temp.push_back(it.water);
 	check.push_back(temp);
 }
@@ -65,10 +66,11 @@ void init(void){
 	}
 	delete[] arr;
 }
-bool check_visit(vector<bucket> b){
+
+bool check_visit(void){
 	for(int i=0; i<check.size(); i++){
 		for(int j=0; j<check[i].size(); ++j){
-			if(b[j].water != check[i][j])
+			if(v[j].water != check[i][j])
 				break;
 			if(j == check[i].size()-1)
 				return true;
@@ -76,75 +78,80 @@ bool check_visit(vector<bucket> b){
 	}
 	return false;
 }
-bool promising(vector<bucket> v){
+
+bool promising(void){
 	for(int i=0; i<N; ++i){
 		if(v[i].water != goal[i])
 			return false;
 	}
 	return true;
 }
-void print(vector<bucket> v){
-	for(auto it : v)
-		ofs << it;
-}
-void print_check(){
+
+void back_tracking(int c){
+	
+	cout << "c: " << c << endl;
+	cout <<"min: " << minv << endl;
+	for(auto it : v){
+		cout << it;
+	}
+	cout << endl;
+	
 	for(int i=0; i<check.size(); i++){
 		for(int j=0; j<check[i].size(); ++j){
-			ofs << check[i][j] << ' ';
+			cout << check[i][j] << ' ';
 		}
-		ofs << endl;
+		cout << endl;
 	}
-}
+	cout << check_visit() << endl;
+	cout << endl;
 
-void BFS(){
-	int level=0;
-	queue < pair<vector<bucket>, int> > que;
-	que.push(make_pair(v, level));
-
-	
-	while(!que.empty()){
-		print_check();
-		ofs << endl;
-		vector<bucket> temp = que.front().first;
-		level = que.front().second;
-		print(temp);
-		ofs << "C: " << que.front().second << endl << endl;
-		que.pop();
 		
-		if(check_visit(temp) == true)
-			continue;
-		if(promising(temp) == true){
-			if(level <= minv){
-				minv = level;
-			}
+	if(promising() == true){
+		if(c <= minv){
+			minv = c;
 		}
-		record(temp);
+	}
+	if(check_visit() == true)
+		return;
+
+	if(check_visit() == false)
+		record();
 		
-		for(int i=0; i<N; ++i){
-			for(int j=0; j<N; ++j){
-				if(i!=j){
-					bucket temp1 = temp[i];
-					bucket temp2 = temp[j];
-					temp[i].process(temp[j]);
-					que.push(make_pair(temp, level+1));
-					
-					temp[i] = temp1;
-					temp[j] = temp2;
-				}
+	for(int i=0; i<v.size(); ++i){
+		for(int j=0; j<v.size(); ++j){
+			if(i!=j && c<minv){
+				bucket temp1 = v[i];
+				bucket temp2 = v[j];
+				cout << i << "=>" << j << endl << endl;
+				v[i].process(v[j]);
+				
+				back_tracking(c+1);
+				
+				v[i] = temp1;
+				v[j] = temp2;	
+				check.pop_back();			
 			}
 		}
 	}
-
 }
+
 	
 
 
 int main(void){
 	init();
-	BFS();
-	if(minv != 200000)
-		cout << minv << endl;
-	else
-		cout << 0 << endl;
+	back_tracking(0);
+//	cout << minv;
+//	
+//	for(int i=0; i<check.size(); i++){
+//		for(int j=0; j<check[i].size(); ++j){
+//			cout << check[i][j] << ' ';
+//		}
+//		cout << endl;
+//	}
+//	if(minv != 200000)
+//		cout << minv << endl;
+//	else
+//		cout << 0 << endl;
 	return 0;
 }
