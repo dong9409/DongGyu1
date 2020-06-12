@@ -30,7 +30,6 @@ public:
 	void add_edge(int u, int v, int w) 
 	{ 
 	    matrix[u].push_back( make_pair(v, w)); 
-	    matrix[v].push_back( make_pair(u, w)); 
 	  
 	    edge e {u, v, w}; 
 	    this->edges.push_back(e); 
@@ -114,6 +113,6 @@ int main()
 	ifs >> N;
 	marathon g(N);
 	init(N, g); 
-    cout << g.get_shortest_cycle() << endl; 
-    return 0; 
-} 
+    cout << g.get_shortest_cycle() << endl;
+    return 0;
+}
