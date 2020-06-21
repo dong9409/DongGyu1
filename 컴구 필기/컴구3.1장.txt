@@ -1,0 +1,42 @@
+3장
+
+폰노이만 구조
+1. 데이터와 명령이 메모리에 stored 된다.
+2. 메모리는 주소화 되어있다.
+3. 순차적으로 실행한다.
+
+MAR = Memory address register
+메모리 주소를 가지고 있는 레지스터
+
+MBR = Memory buffer register
+메모리와 cpu사이에 데이터가 왔다갔다 할 때 여기에 저장한다.
+
+I/O address register
+어떤 I/O device의 주소를 저장하고 있는 레지스터
+
+I/O buffer register
+cpu와 I/O사이에 데이터가 왔다갔다 할 때 여기에 저장한다.
+
+PC = program counter => 다음번째 명령어의 주소를 저장한다.
+IR = instruction registr => 명령어를 저장하는 레지스터
+
+fetch and execution
+명령어를 가지고와서 실행 시킨다.
+
+Fetch = 가서 가지고 온다.
+
+Fetch Cycle:
+1. 프로세서가 메모리에 해당되는 정보를 줘서 주소값에 해당되는 명령어를 가지고 온다.
+2. PC는 다음 fetch해올 명령어의 주소값을 가지고 있다.
+3. PC는 다음번의 명령어로 Increment한다. 명령어의 크기에 따라서 +1 +2 +4...와 같이 다르게 Increment된다.
+4. IR은 fetch된 instruction을 저장한다.
+5. IR에 들어있는 명령어는 프로세서에 의해 해석되고 실행된다.
+
+Opcode = operator
+
+instruction cycle state diagram
+밑의 5개는 cpu 내부의 동작이고 위의 3개는 외부(메모리)에서 동작함.
+
+watch dog timer 인터럽트
+어떤 시스템이 특정시간동안 멈추면 인터럽트 발생
+hardware failure 인터럽트 우선순위가 가장 높다.

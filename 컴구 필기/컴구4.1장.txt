@@ -1,0 +1,77 @@
+4장.
+
+메모리는 위치에따라 Internal, External메모리로 나뉜다.
+Internal 메모리는 레지스터, 캐시, 메인 메모리가 있고 External 메모리는 하드디스크나 마그네틱 테이프 같은게 있다.
+전송하는 단위는 Word 혹은 Block 단위이다. Word라는 것은 데이터 버스의 width를 일반적으로 말한다.
+접근방법은 순차적으로 접근하는 방식(마그네틱 테잎), Direct access방법(Hard disk), 랜덤(D램 같은것), Associative 연관성 (캐시메모리 같은것, 어떤 데이터인지에 따라서 해당 주소값을 알 수 있는 방법)이 있다.
+
+
+메모리의 특징은 위치, 용량, 전송단위로 나뉜다.
+Internal 메모리는 보통 메인 메모리를 말한다.
+External 메모리는 peripheral storage device를 말한다.
+
+
+Memory Capacity
+Internal 메모리는 바이트나 워드로 말한다
+External 메모리는 바이트로 말한다.
+
+
+Unit of Transfer of Memory
+Internal 메모리에서는 기본적으로 Word의 길이와 같다. 보통 데이터버스의 width와도 같다.
+External 메모리에서는 하드디스크냐, 테이프냐에 따라서 다르다.
+하드디스크는 보통 블럭단위로 구성되는데 보통 워드보다 블럭이 더 크다.
+
+
+Access Methods
+Sequential access 처음부터 시작해서 순서대로 접근해야 접근 가능하다, 예를들어 테이프
+여기서 Access time은 현재 내가 직전에 읽었던 위치에 의존하게 된다.
+Direce acess는 하드디스크다 라고 생각하면 된다. 각각의 블럭은 유일한 주소를 가지고, 접근은 대상 주소 근처로 점프한다. Access time 헤드의 위치에 따라 달라진다.
+Random access는 임의로 접근한다는 뜻, 데이터의 주소값을 이미 알고 있고, 주소값만 주기만 하면 해당되는 데이터를 얻을수 있다.
+Associative는 캐시메모리 같은걸 말한다.
+
+
+Performance를 논할때 사용되는 용어
+Access time = latency
+random access memory 에서는 read와 write를 수행하는데 걸리는 시간을 말한다. 주소값을 넣고 해당 데이터를 얻을때까지 걸리는 시간
+Memory Cycle time이란 access time + 두번째 엑세스가 시작되기 위해 필요한 시간(전기적, 물리적 시간)
+Transfer Rate = Bandwidth란 데이터의 전송률을 말한다
+RAM 에서 Transfer Rate = 1/Cycle time
+Non RAM에서 N비트를 읽고 쓰는데 필요한 시간을 TN이라고 한다.
+TN = Access time + (N/R) 이다. N/R = N비트를 전송하는데 걸리는 시간.
+
+
+Physical Types
+반도체, 자기테이프, 광학적으로 구현되는 경우등 다양한 재료로 구현된다.
+
+
+Volatile=휘발성
+Non Volatile = 비휘발성
+
+
+Memory Hierachy
+맨밑에 자기테이프 부터 맨위의 메인메모리, 레지스터까지 위계구조가 있음.
+얼마나 많은 용량을 사용해야하는지, 속도는 어느정도 되어야 하는지, 얼마나 비싼지 다 생각을 해서 메모리 계층구조를
+설계해야한다.
+
+
+캐시메모리를 설명하기 위해서 Locality of Refence라는 특성을 알아야한다.
+접근의 지역성인데, 프로그램은 최근 사용한 명령이나 데이터 근처의 것들을 주로 접근한다 라는 뜻이다.
+이것은 Temporal locality와 Spatial locality, 시간적, 공간적 지역성으로 나뉜다.
+최근에 사용된 것들이 다음에 또 사용된다라는 뜻과, 이전에 사용된 것들의 근처의 데이터가 또 사용될 경우가 많다라는 뜻이다. 예시코드의 Spatial locality는 a[0]를 쓰면 a[1]이 사용될 가능성이 많다는 것으로 볼수있고 Temporal locality는 sum이 한번 사용 됐는데 두번째에도 sum이 또 쓰였다는 것이다. 이것을 활용해서 캐시가 탄생되었다.
+
+
+Locality of Refence의 예시의 x축은 시간, y축은 메모리의 특정 위치라고 할때, 검은색이 어느 패턴 형태로 몰려있다.
+안쓰는곳은 아예 안쓰고 있다. 한줄로 쭉 쓰인 것은 Temporal locality라고 볼 수 있다. 한번 읽힌거는 또 읽혔기 때문,
+
+
+메인메모리보다 더 빠른 메모리를 써서 계속 접근하는 것을 빠른 메모리에 두면 cpu는 해당되는 데이터를 빠르게 접근할 수 있다. 이게 캐시 메모리이고, 캐시메모리는 작고 빠르다, 대개 L1캐시와 L2캐시가 있고, L1캐시는 cpu안에 있는 경우가 대부분 L2는 CPU 밖에 있는 경우가 대부분이다. L1D ,L1I 이렇게 있으면 데이터와 명령을 각각 저장하는 캐시라고 보면 된다.
+
+
+Level1 캐시만 본다. Hit ratio란 Hit을 할 확률, 데이터가 캐시에 있으면 HIT, 없으면 MISS
+Hit ratio가 클수록 Access time 당연히 떨어지고 Hit ratio가 작을수록 Access time이높아진다.
+
+
+디스크 캐시라는 개념은 하드디스크와 메모리 사이의 캐시와 같은 역할을 하는 것인데 읽어보자.
+
+
+L1 L2 L3중 L1으로 갈수록 용량은 작고 빠르다.

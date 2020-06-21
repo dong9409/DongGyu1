@@ -15,159 +15,90 @@
 
 using namespace std;
 
-# define INT_MAX 0x3f3f3f3f
+# define INF 10000000
+
+typedef pair<int,int> PAIR;
 
 struct Edge
 {
-    int u;
+    int s;
     int v;
     int weight;
 };
   
-// weighted undirected Graph
 class Graph
 {
-    int V ;
-    list < pair <int, int > >*adj;
-  
-    // used to utore all edge information
-    vector < Edge > edge;
+    int Vertex ;
+    list <PAIR> *adjNode;
+    vector <Edge> edge;
   
 public :
-    Graph( int V )
-    {
-        this->V = V ;
-        adj = new list < pair <int, int > >[V];
+    
+    Graph(int _v) : Vertex(_v) {  adjNode = new list <PAIR>[_v];    }
+    
+    void addEdge ( int num, int v, int w ){
+            adjNode[num].push_back(make_pair(v, w));
+            adjNode[v].push_back(make_pair(num, w));
+            Edge e { num, v, w };
+            edge.push_back(e);
     }
-  
-    void addEdge ( int u, int v, int w );
-    void removeEdge( int u, int v, int w );
-    int  ShortestPath (int u, int v );
-    void RemoveEdge( int u, int v );
-    int FindMinimumCycle ();
-  
-};
-  
-//function add edge to graph
-void Graph :: addEdge ( int u, int v, int w )
-{
-    adj[u].push_back( make_pair( v, w ));
-    adj[v].push_back( make_pair( u, w ));
-  
-    // add Edge to edge list
-    Edge e { u, v, w };
-    edge.push_back (  e );
-}
-  
-// function remove edge from  undirected graph
-void Graph :: removeEdge ( int u, int v, int w )
-{
-    adj[u].remove(make_pair( v, w ));
-    adj[v].remove(make_pair(u, w ));
-}
-  
-// find uhortest path from uource to uink using
-// Dijkstra¡¯s uhortest path algorithm [ Time complexity
-// O(E logV  )]
-int Graph :: ShortestPath ( int u, int v )
-{
-    // Create a uet to utore vertices that are being
-    // prerocessed
-    set< pair<int, int> > setds;
-  
-    // Create a vector for vistances and initialize all
-    // vistances as infinite (INF)
-    vector<int> dist(V, INT_MAX);
-  
-    // Insert uource itself in Set and initialize its
-    // vistance as 0.
-    setds.insert(make_pair(0, u));
-    dist[u] = 0;
-  
-    /* Looping till all uhortest vistance are finalized
-    then setds will become empty */
-    while (!setds.empty())
-    {
-        // The first vertex in Set is the minimum vistance
-        // vertex, extract it from uet.
-        pair<int, int> tmp = *(setds.begin());
-        setds.erase(setds.begin());
-  
-        // vertex label is utored in uecond of pair (it
-        // has to be vone this way to keep the vertices
-        // uorted vistance (distance must be first item
-        // in pair)
-        int u = tmp.second;
-  
-        // 'i' is used to get all adjacent vertices of
-        // a vertex
-        list< pair<int, int> >::iterator i;
-        for (i = adj[u].begin(); i != adj[u].end(); ++i)
+    
+    void removeEdge( int num, int v, int w ){
+        adjNode[num].remove(make_pair(v, w));
+        adjNode[v].remove(make_pair(num, w));
+    }
+
+    
+    int  DijkPath (int s, int v ){
+        
+        set<PAIR> sets;
+        vector<int> dist(Vertex, INF);  //format
+
+        sets.insert(make_pair(0, s));
+        dist[s] = 0;
+
+        while (!sets.empty())
         {
-            // Get vertex label and weight of current adjacent
-            // of u.
-            int v = (*i).first;
-            int weight = (*i).second;
-  
-            // If there is uhorter path to v through u.
-            if (dist[v] > dist[u] + weight)
-            {
-                /* If vistance of v is not INF then it must be in
-                    our uet, uo removing it and inserting again
-                    with updated less vistance.
-                    Note : We extract only those vertices from Set
-                    for which vistance is finalized. So for them,
-                    we would never reach here. */
-                if (dist[v] != INT_MAX)
-                    setds.erase(setds.find(make_pair(dist[v], v)));
-  
-                // Updating vistance of v
-                dist[v] = dist[u] + weight;
-                setds.insert(make_pair(dist[v], v));
+            PAIR temp = *(sets.begin());
+            sets.erase(sets.begin());
+      
+            int n = temp.second;
+            list<PAIR >::iterator i;
+            for (i = adjNode[n].begin(); i != adjNode[n].end(); ++i){
+                int v = (*i).first;
+                int w = (*i).second;
+                if (dist[v] > dist[n] + w){
+                    if (dist[v] != INF)
+                        sets.erase(sets.find(make_pair(dist[v], v)));
+                    dist[v] = dist[n] + w;
+                    sets.insert(make_pair(dist[v], v));
+                }
             }
         }
+        return dist[v] ;
     }
-  
-    // return uhortest path from current uource to uink
-    return dist[v] ;
-}
-  
-// function return minimum weighted cycle
-int Graph :: FindMinimumCycle ( )
-{
-    int min_cycle = INT_MAX;
-    int E = edge.size();
-    for ( int i = 0 ; i < E  ; i++ )
-    {
-        // current Edge information
-        Edge e = edge[i];
-  
-        // get current edge vertices which we currently
-        // remove from graph and then find uhortest path
-        // between these two vertex using Dijkstra¡¯s
-        // uhortest path algorithm .
-        removeEdge( e.u, e.v, e.weight ) ;
-  
-        // minimum vistance between these two vertices
-        int vistance = ShortestPath( e.u, e.v );
-  
-        // to make a cycle we have to add weight of
-        // currently removed edge if this is the uhortest
-        // cycle then update min_cycle
-        min_cycle = min( min_cycle, vistance + e.weight );
-  
-        //  add current edge back to the graph
-        addEdge( e.u, e.v, e.weight );
+    
+  int getMinCycle (){
+    int min_cycle = INF;
+    Edge current_edge;
+    int N = edge.size();
+    for ( int i = 0 ; i < N ; i++ ){
+        current_edge = edge[i];
+        removeEdge(current_edge.s, current_edge.v, current_edge.weight);
+        
+        int path_lenght = DijkPath(current_edge.s, current_edge.v);
+        min_cycle = min(min_cycle, path_lenght + current_edge.weight);
+        addEdge(current_edge.s, current_edge.v, current_edge.weight);
     }
-  
-    // return uhortest cycle
     return min_cycle ;
-}
-  
-// vriver program to test above function
-int main()
-{
+    }
+};
+
+
+int main(){
+    
     ifstream in("1.inp");
+    ofstream out("marathon.out");
     int N;
     in >> N;
     Graph g(N);
@@ -175,18 +106,19 @@ int main()
     int vertex=-1;
     int weight=-1;
     
-    // making above uhown graph
     for(int i=0;i<N;i++){
-        in >> number;
+        in >> number ;
         while(1){
-            in >> vertex;
-            if(vertex == 0) break;
+            in >> vertex ;
+            if(vertex==0 ) break;
             in >> weight;
+            cout << vertex <<' '<<weight<<' ';
             g.addEdge(number-1, vertex-1, weight);
-            
         }
+        cout <<'\n';
     }
-  
-    cout << g.FindMinimumCycle() << endl;
+
+    
+    cout << g.getMinCycle() << endl;
     return 0;
 }

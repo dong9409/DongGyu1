@@ -57,10 +57,11 @@ public:
 	  
 	        int here = tmp.second; 
 	  
-	        for (auto i: matrix[here]) 
+	        list< pair<int, int> >::iterator i; 
+	        for (i = matrix[here].begin(); i != matrix[here].end(); ++i) 
 	        { 
-	            int next = i.first; 
-	            int nextweight = i.second; 
+	            int next = (*i).first; 
+	            int nextweight = (*i).second; 
 	            if (dist[next] > dist[here] + nextweight) 
 	            {
 	                if (dist[next] != MAX) 
