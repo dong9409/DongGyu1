@@ -1,0 +1,57 @@
+44p
+메모리는 DRAM이 있고 SRAM이 있다.
+Dram을 어떻게 구성을 하느냐에 따라서 구분 할 수가 있다.
+외부 클럭에 의해서 동기화 되어서 움직이는걸 Synchronous라고 한다.
+SDRAM = Synchronous DRAM
+
+45p
+2 메가 비트 * 8개 bit 출력을 하는 DRAM이 4개 있으므로
+address는 총 14비트를 사용하고 있다. address 12비트짜리는 4K다
+row, column이 각각 4K씩 있고 그게 또 4개가 있으므로 16메가비트가 된다.
+SDRAM은 외부의 클럭에 의해 동기화가 된다는점이 제일 중요하다.
+
+48p
+DDR SDRAM은 double data rate SDRAM이다.
+rising과 falling에서 동시에 동작이 되는 형태이다.
+
+49p
+데이터를 보면 rising과 falling에서 모두 존재한다.
+따라서 한주기에 두번씩 읽는다.
+
+50p
+RAS, CAS신호가 들어오면 데이터를 버스에 싣는다.
+
+51p
+Cache DRAM은 DRAM에다가 SRAM을 추가한 것이다.
+
+53p
+Flash Memory
+
+54p
+플래시 메모리는 NOR와 NAND으로 나눈다.
+테이블을 보자.
+데이터는 NAND가 더 많이 저장할 수 있다.
+데이터를 읽는 속도는 NOR가 훨씬 빠르다.
+쓰는속도는 NAND타입이 더 빠르다. 따라서 ROM BIOS, 펌웨어 같은건 읽는 속도가 더 중요하니까 NOR쓰고
+DATA Storage를 위해서는 NAND를 쓴다.
+Erase Cycle limit = 쓸수있는 한계
+
+플래시 메모리의 구조를 보면 Floating Gate라는게 추가되어있다.
+FG에 전자가 없으면 1, 있으면 0상태로 정의하였다.
+2.5볼트 까지 가해서 쉽게 on 되는것을 state1
+5볼트까지 가해야만 on 되는것을 state2가 된다.
+
+56p
+NOR와 NAND가 어디서 나왔는지 알아보자.
+아랫부분을 먼저 보면 Ground select가 있고, 비트라인 즉 데이터가 있다.
+NAND타입에서는 맨 마지막이 ON이 되기 위해서는 몽땅다 1이 되어야 된다.
+위에서는 하나만 1이라도 바로 ON = 비트라인이 0이되는것이 된다.
+
+57p
+NAND 타입에서 word line4의 값을 읽으려면 word line4를 제외한 모든것에 아주 높은 전압을 걸어야 한다.
+몽땅다 on을 시킨 다음에 word line4에 낮은 전압을 걸어보니 ON이 되었다. 그러면 FG에 전자가 없었다는 뜻이므로 state는 1
+ON 되지 않으면 state는 0
+
+58p
+플래시 메모리는 0과 1말고 다른 정보도 저장할 수 있다. 설계를 어떻게 하냐에 따라서 1비트가아닌 2비트, 3비트도 저장이 가능하다.
+요즘은 셀 하나당 3비트정도는 저장할 수 있도록 나온다.

@@ -1,0 +1,70 @@
+여기서는 여러 인터럽트가 발생 했을때 
+그 인터럽트가 어떤 디바이스에 의해서 발생했는지 확인할 수 있는 방법에 대해 살펴본다.
+
+첫번째 방법은 Different line for each module
+인터럽트 라인을 사용한다. 디바이스가 3개면 3개의 인터럽트 라인이 필요하다는 뜻.
+
+두번째 방식은 Software poll
+소프트웨어 적으로 계속 뭔가를 체크 하겠다는 말.
+인터럽트가 생기면 cpu가 직접 하나하나씩 각 모듈에 대해 인터럽트를 보냈는지 확인한다 => 당연히 느리다.
+
+세번째 방식은 Daisy chain or hardware poll
+BPRN, BPRO가 있다.
+디바이스들은 모두 연결 되어 있고 첫번째 디바이스가 만약 인터럽트를 보냈으면
+BUSY라인에 신호를 보내고 중지한다. 두번째도 마찬가지로 동작한다. 이런 방식으로 인터럽트의 위치를 알 수 있다.
+한번 시그널을 보내면 해당되는 쪽이 나오면 더는 진행이 안된다.
+
+네번째 방식은 Bus Master
+버스 구조상에서 여러 디바이스가 물려 있으면.
+특정디바이스가 인터럽트를 걸면 마스터가 되어 우선순위를 가지게끔 동작시킨다.
+그러면 충돌이 안일어나고 충분히 어떤 디바이스인지 식별 할 수 있다.
+
+
+Direct Memory Access
+모든 메모리 엑세스는 원래 씨피유가 한다.
+하지만 DMA는 IO가 직접 메모리에 쓸 수 있다.
+
+
+DMA 모듈이 필요하다. DMA 모듈은 cpu로 부터 입출력과 관련된 동작을 위임받는데
+cpu가 버스를 사용하지 않을때 사용할 수 있다.
+
+
+Appendix 1: DMA의 세 타입
+Block transfer, Cycle Stealing, Interleaved DMA
+Cycle Stealing
+DMA 컨트롤러가 INHIBIT 신호를 보낸다.
+INHIBIT이 0이 되면 cpu로 들어가는 system clock INHIBIT과 and 되어서 
+클락 자체가 없어져버린다. 그러면 cpu는 알지도 못한 채 살짝 멈춘다.
+그때 이 훔친 사이클로 워드단위로 DMA 한다.
+다른 두 방식은 cpu도 DMA를 인지한다.
+
+
+cpu가 DMA 컨트롤러에게 Read/Write 알아서 해라 라고 하고
+입출력 디바이스가 뭔지를 식별할 주소를 주고
+데이터의 영역에 해당하는 메모리 주소값을 주고
+데이터의 양을 알려준다.(위임한다)
+
+
+Typical DMA Module Diagram
+DMA 모듈을 구성하는 것에는 어떤것들이 있는지 살펴보자
+Data Count = 얼마나 많은 데이터를 DMA 할 것이냐를 정한다, 카운터다
+Data register = 데이터를 저장해놨다가 쓰거나 읽을때 쓴다.
+Address register = I/O 디바이스에 해당되는 것이 뭔지, 메모리의 어떤 주소영역인지 저장한다.
+Control logic = Control signal을 보냄 인터럽트 시그날을 항상 cpu로 간다. 
+어디로 혹은 어디에서 다른 시그널들이 오고 가는지 뒤에서 살펴본다.
+
+
+DMA는 메모리와 관련된 동작이 일어날때 영향을 받는다.
+
+
+DMA  세부적인 동작
+1. Disk controller(입출력 장치)가 DMA 하고싶다는 신호를(DREQ)를 DMA chip 으로 보낸다.
+2. DMA chip은 cpu에게 Data Bus를 내가 써도 되냐고 cpu에게 HRQ를 보낸다
+3. CPU는 써도 된다고 HLDA를 보낸다.
+4. 그러면 DMA 칩은 DMA승인 받았다고 DACK를 Disk controller에게 보낸다.
+5. 데이터를 받아서 쓴다.
+6. 전송이 끝나면 이제 버스 안쓴다고 HRQ를 cpu에 보낸다. 끝.
+
+
+변형된 형태로 Fly-By DMA controller라는 것이 있다.
+이건 디바이스 안에 그냥 DMA칩이 들어있는 것이다. 따라서 데이터가 그냥 DMA 컨트롤러를 통하지도 않는다.
