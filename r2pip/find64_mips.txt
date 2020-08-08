@@ -1,0 +1,368 @@
+address: 0x00407014
+03a0f0253c1c00b4
+addiu s0, t7, -0x5ffd
+sdr zero, 0x1c3c(zero)
+address: 0x0040701c
+279cf370afbc0018
+invalid
+blez zero, -0x10d3c
+address: 0x0040707c
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00407084
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x0040717c
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00407184
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x004071b4
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x004071bc
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x0040730c
+8fc400240c1033b4
+addiu zero, zero, -0x3b71
+sdr s3, 0x100c(at)
+address: 0x00407314
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x0040758c
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00407594
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x0040782c
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00407834
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x004079ac
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x004079b4
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00407c9c
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00407ca4
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408024
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x0040802c
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x0040837c
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00408384
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408554
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x0040855c
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408774
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x0040877c
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408984
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x0040898c
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408a4c
+006020250c10344f
+addiu zero, t1, 0x6000
+invalid
+address: 0x00408a54
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408b44
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00408b4c
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408c64
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00408c6c
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408c94
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00408c9c
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408cc4
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00408ccc
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408cf4
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00408cfc
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408d24
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00408d2c
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408d54
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00408d5c
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408d84
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00408d8c
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408db4
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00408dbc
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408de4
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00408dec
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408e14
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00408e1c
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408e44
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00408e4c
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408e74
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00408e7c
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408ea4
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00408eac
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408efc
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00408f04
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408f54
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00408f5c
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00408fac
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00408fb4
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00409004
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x0040900c
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x0040905c
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00409064
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x004090ac
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x004090b4
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x00409134
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x0040913c
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x0040916c
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00409174
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x004091ac
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x004091b4
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x004091ec
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x004091f4
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x0040922c
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00409234
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x004092bc
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x004092c4
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x004092fc
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00409304
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x0040933c
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00409344
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x0040937c
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00409384
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x0040940c
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00409414
+000000008fdc0018
+nop
+blez zero, -0x8dbc
+address: 0x0040944c
+0040c8250320f809
+addiu t0, t6, 0x4000
+j 0x7e0800c
+address: 0x00409454
+000000008fdc0018
+nop
+blez zero, -0x8dbc

@@ -1,0 +1,7500 @@
+address: 0x120037f00
+03e00025
+invalid
+address: 0x120037f04
+04110001
+invalid
+address: 0x120037f08
+00000000
+invalid
+address: 0x120037f0c
+0380c825
+invalid
+address: 0x120037f10
+3c1c0081
+addis r0, r28, 0x81
+address: 0x120037f14
+279c5f64
+invalid
+address: 0x120037f18
+039fe02d
+invalid
+address: 0x120037f1c
+0000f825
+invalid
+address: 0x120037f20
+df848020
+stfdu f28, -0x7fe0(r4)
+address: 0x120037f24
+dfa50000
+stfdu f29, 0(r5)
+address: 0x120037f28
+67a60008
+oris r6, r29, 8
+address: 0x120037f2c
+2401fff0
+invalid
+address: 0x120037f30
+03a1e824
+invalid
+address: 0x120037f34
+df878028
+stfdu f28, -0x7fd8(r7)
+address: 0x120037f38
+df888030
+stfdu f28, -0x7fd0(r8)
+address: 0x120037f3c
+00404825
+invalid
+address: 0x120037f40
+03a05025
+invalid
+address: 0x120037f44
+df990d28
+stfdu f28, 0xd28(r25)
+address: 0x120037f48
+0320f809
+invalid
+address: 0x120037f4c
+00000000
+invalid
+address: 0x120037f50
+1000ffff
+invalid
+address: 0x120037f54
+00000000
+invalid
+address: 0x120037f58
+00000000
+invalid
+address: 0x120037f5c
+00000000
+invalid
+address: 0x120037f60
+3c030081
+addis r0, r3, 0x81
+address: 0x120037f64
+0079182d
+invalid
+address: 0x120037f68
+64635f10
+oris r3, r3, 0x5f10
+address: 0x120037f6c
+dc648038
+stfdu f3, -0x7fc8(r4)
+address: 0x120037f70
+dc628040
+stfdu f3, -0x7fc0(r2)
+address: 0x120037f74
+64845e78
+oris r4, r4, 0x5e78
+address: 0x120037f78
+10440005
+invalid
+address: 0x120037f7c
+dc790cf0
+stfdu f3, 0xcf0(r25)
+address: 0x120037f80
+13200003
+invalid
+address: 0x120037f84
+00000000
+invalid
+address: 0x120037f88
+03200008
+invalid
+address: 0x120037f8c
+00000000
+invalid
+address: 0x120037f90
+03e00008
+invalid
+address: 0x120037f94
+00000000
+invalid
+address: 0x120037f98
+3c060081
+addis r0, r6, 0x81
+address: 0x120037f9c
+00d9302d
+invalid
+address: 0x120037fa0
+64c65ed8
+oris r6, r6, 0x5ed8
+address: 0x120037fa4
+dcc48038
+stfdu f6, -0x7fc8(r4)
+address: 0x120037fa8
+dcc28040
+stfdu f6, -0x7fc0(r2)
+address: 0x120037fac
+64845e78
+oris r4, r4, 0x5e78
+address: 0x120037fb0
+0044102f
+invalid
+address: 0x120037fb4
+000218fb
+invalid
+address: 0x120037fb8
+00022ffe
+invalid
+address: 0x120037fbc
+00a3282d
+invalid
+address: 0x120037fc0
+0005287b
+invalid
+address: 0x120037fc4
+10a00005
+invalid
+address: 0x120037fc8
+dcd90ca8
+stfdu f6, 0xca8(r25)
+address: 0x120037fcc
+13200003
+invalid
+address: 0x120037fd0
+00000000
+invalid
+address: 0x120037fd4
+03200008
+invalid
+address: 0x120037fd8
+00000000
+invalid
+address: 0x120037fdc
+03e00008
+invalid
+address: 0x120037fe0
+00000000
+invalid
+address: 0x120037fe4
+00000000
+invalid
+address: 0x120037fe8
+67bdffd0
+oris r29, r29, 0xffd0
+address: 0x120037fec
+ffbc0020
+invalid
+address: 0x120037ff0
+3c1c0081
+addis r0, r28, 0x81
+address: 0x120037ff4
+0399e02d
+invalid
+address: 0x120037ff8
+679c5e88
+oris r28, r28, 0x5e88
+address: 0x120037ffc
+ffb30018
+invalid
+address: 0x120038000
+df938048
+stfdu f28, -0x7fb8(r19)
+address: 0x120038004
+ffbf0028
+fsub f29, f31, f0
+address: 0x120038008
+9262f700
+stw r19, -0x900(r2)
+address: 0x12003800c
+ffb20010
+fcpsgn f29, f18, f0
+address: 0x120038010
+ffb10008
+invalid
+address: 0x120038014
+1440001f
+invalid
+address: 0x120038018
+ffb00000
+invalid
+address: 0x12003801c
+df838050
+stfdu f28, -0x7fb0(r3)
+address: 0x120038020
+df918058
+stfdu f28, -0x7fa8(r17)
+address: 0x120038024
+6463ace0
+oris r3, r3, 0xace0
+address: 0x120038028
+df908048
+stfdu f28, -0x7fb8(r16)
+address: 0x12003802c
+0223882f
+invalid
+address: 0x120038030
+de02f708
+stfdu f16, -0x8f8(r2)
+address: 0x120038034
+001188fb
+invalid
+address: 0x120038038
+df848050
+stfdu f28, -0x7fb0(r4)
+address: 0x12003803c
+6631ffff
+oris r17, r17, 0xffff
+address: 0x120038040
+0051182b
+invalid
+address: 0x120038044
+6492ace0
+oris r18, r4, 0xace0
+address: 0x120038048
+1060000d
+invalid
+address: 0x12003804c
+df998060
+stfdu f28, -0x7fa0(r25)
+address: 0x120038050
+64420001
+oris r2, r2, 1
+address: 0x120038054
+00000000
+invalid
+address: 0x120038058
+000218f8
+invalid
+address: 0x12003805c
+0243182d
+invalid
+address: 0x120038060
+dc790000
+stfdu f3, 0(r25)
+address: 0x120038064
+0320f809
+invalid
+address: 0x120038068
+fe02f708
+invalid
+address: 0x12003806c
+de02f708
+stfdu f16, -0x8f8(r2)
+address: 0x120038070
+0051182b
+invalid
+address: 0x120038074
+1460fff8
+invalid
+address: 0x120038078
+64420001
+oris r2, r2, 1
+address: 0x12003807c
+df998060
+stfdu f28, -0x7fa0(r25)
+address: 0x120038080
+67397f60
+oris r25, r25, 0x7f60
+address: 0x120038084
+0411ffb6
+invalid
+address: 0x120038088
+00000000
+invalid
+address: 0x12003808c
+24020001
+invalid
+address: 0x120038090
+a262f700
+lhz r19, -0x900(r2)
+address: 0x120038094
+dfbf0028
+stfdu f29, 0x28(r31)
+address: 0x120038098
+dfbc0020
+stfdu f29, 0x20(r28)
+address: 0x12003809c
+dfb30018
+stfdu f29, 0x18(r19)
+address: 0x1200380a0
+dfb20010
+stfdu f29, 0x10(r18)
+address: 0x1200380a4
+dfb10008
+stfdu f29, 8(r17)
+address: 0x1200380a8
+dfb00000
+stfdu f29, 0(r16)
+address: 0x1200380ac
+03e00008
+invalid
+address: 0x1200380b0
+67bd0030
+oris r29, r29, 0x30
+address: 0x1200380b4
+00000000
+invalid
+address: 0x1200380b8
+3c020081
+addis r0, r2, 0x81
+address: 0x1200380bc
+0059102d
+invalid
+address: 0x1200380c0
+64425db8
+oris r2, r2, 0x5db8
+address: 0x1200380c4
+dc598060
+stfdu f2, -0x7fa0(r25)
+address: 0x1200380c8
+67397f98
+oris r25, r25, 0x7f98
+address: 0x1200380cc
+1000ffb2
+invalid
+address: 0x1200380d0
+00000000
+invalid
+address: 0x1200380d4
+00000000
+invalid
+address: 0x1200380d8
+00000000
+invalid
+address: 0x1200380dc
+00000000
+invalid
+address: 0x1200380e0
+67bdffe0
+oris r29, r29, 0xffe0
+address: 0x1200380e4
+ffbf0018
+invalid
+address: 0x1200380e8
+ffbe0010
+fcpsgn f29, f30, f0
+address: 0x1200380ec
+ffbc0008
+invalid
+address: 0x1200380f0
+ffb00000
+invalid
+address: 0x1200380f4
+03a0f025
+invalid
+address: 0x1200380f8
+3c1c0081
+addis r0, r28, 0x81
+address: 0x1200380fc
+0399e02d
+invalid
+address: 0x120038100
+679c5d90
+oris r28, r28, 0x5d90
+address: 0x120038104
+df828078
+stfdu f28, -0x7f88(r2)
+address: 0x120038108
+8c4287e4
+lbzu r2, -0x781c(r2)
+address: 0x12003810c
+1440002b
+invalid
+address: 0x120038110
+00000000
+invalid
+address: 0x120038114
+24060100
+invalid
+address: 0x120038118
+00002825
+invalid
+address: 0x12003811c
+df828048
+stfdu f28, -0x7fb8(r2)
+address: 0x120038120
+6444f838
+oris r4, r2, 0xf838
+address: 0x120038124
+df820d30
+stfdu f28, 0xd30(r2)
+address: 0x120038128
+0040c825
+invalid
+address: 0x12003812c
+0320f809
+invalid
+address: 0x120038130
+00000000
+invalid
+address: 0x120038134
+00008025
+invalid
+address: 0x120038138
+10000014
+invalid
+address: 0x12003813c
+00000000
+invalid
+address: 0x120038140
+df820c80
+stfdu f28, 0xc80(r2)
+address: 0x120038144
+0040c825
+invalid
+address: 0x120038148
+0320f809
+invalid
+address: 0x12003814c
+00000000
+invalid
+address: 0x120038150
+dc430000
+stfdu f2, 0(r3)
+address: 0x120038154
+02001025
+invalid
+address: 0x120038158
+00021078
+invalid
+address: 0x12003815c
+0062102d
+invalid
+address: 0x120038160
+94420000
+stwu r2, 0(r2)
+address: 0x120038164
+30420800
+addic r2, r2, 0x800
+address: 0x120038168
+10400006
+vcmpequb v2, v0, v0
+address: 0x12003816c
+00000000
+invalid
+address: 0x120038170
+df828048
+stfdu f28, -0x7fb8(r2)
+address: 0x120038174
+6442f838
+oris r2, r2, 0xf838
+address: 0x120038178
+0202102d
+invalid
+address: 0x12003817c
+24030001
+invalid
+address: 0x120038180
+a0430000
+lhz r2, 0(r3)
+address: 0x120038184
+26020001
+invalid
+address: 0x120038188
+00408025
+invalid
+address: 0x12003818c
+2a020100
+cmplwi cr4, r2, 0x100
+address: 0x120038190
+1440ffeb
+invalid
+address: 0x120038194
+00000000
+invalid
+address: 0x120038198
+df828048
+stfdu f28, -0x7fb8(r2)
+address: 0x12003819c
+6442f838
+oris r2, r2, 0xf838
+address: 0x1200381a0
+24030001
+invalid
+address: 0x1200381a4
+a043005f
+lhz r2, 0x5f(r3)
+address: 0x1200381a8
+df828078
+stfdu f28, -0x7f88(r2)
+address: 0x1200381ac
+24030001
+invalid
+address: 0x1200381b0
+ac4387e4
+lhau r2, -0x781c(r3)
+address: 0x1200381b4
+10000002
+vmaxub v0, v0, v0
+address: 0x1200381b8
+00000000
+invalid
+address: 0x1200381bc
+00000000
+invalid
+address: 0x1200381c0
+03c0e825
+invalid
+address: 0x1200381c4
+dfbf0018
+stfdu f29, 0x18(r31)
+address: 0x1200381c8
+dfbe0010
+stfdu f29, 0x10(r30)
+address: 0x1200381cc
+dfbc0008
+stfdu f29, 8(r28)
+address: 0x1200381d0
+dfb00000
+stfdu f29, 0(r16)
+address: 0x1200381d4
+67bd0020
+oris r29, r29, 0x20
+address: 0x1200381d8
+03e00008
+invalid
+address: 0x1200381dc
+00000000
+invalid
+address: 0x1200381e0
+67bdfd40
+oris r29, r29, 0xfd40
+address: 0x1200381e4
+ffbf02b8
+fmsub f29, f31, f10, f0
+address: 0x1200381e8
+ffbe02b0
+invalid
+address: 0x1200381ec
+ffbc02a8
+invalid
+address: 0x1200381f0
+ffb202a0
+invalid
+address: 0x1200381f4
+ffb10298
+invalid
+address: 0x1200381f8
+ffb00290
+invalid
+address: 0x1200381fc
+03a0f025
+invalid
+address: 0x120038200
+3c1c0081
+addis r0, r28, 0x81
+address: 0x120038204
+0399e02d
+invalid
+address: 0x120038208
+679c5c90
+oris r28, r28, 0x5c90
+address: 0x12003820c
+ffc40018
+invalid
+address: 0x120038210
+ffc50010
+fcpsgn f30, f5, f0
+address: 0x120038214
+ffc60008
+invalid
+address: 0x120038218
+ffc70000
+invalid
+address: 0x12003821c
+df820bc8
+stfdu f28, 0xbc8(r2)
+address: 0x120038220
+dc420000
+stfdu f2, 0(r2)
+address: 0x120038224
+ffc20288
+invalid
+address: 0x120038228
+dfc20018
+stfdu f30, 0x18(r2)
+address: 0x12003822c
+ffc200c8
+invalid
+address: 0x120038230
+dfc30018
+stfdu f30, 0x18(r3)
+address: 0x120038234
+dfc20010
+stfdu f30, 0x10(r2)
+address: 0x120038238
+0062102d
+invalid
+address: 0x12003823c
+ffc200f0
+invalid
+address: 0x120038240
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038244
+dc420028
+stfdu f2, 0x28(r2)
+address: 0x120038248
+ffc200f8
+fmsub f30, f2, f3, f0
+address: 0x12003824c
+ffc000d0
+invalid
+address: 0x120038250
+ffc000d8
+invalid
+address: 0x120038254
+ffc000e8
+invalid
+address: 0x120038258
+afc00034
+lhau r30, 0x34(0)
+address: 0x12003825c
+24040500
+invalid
+address: 0x120038260
+df820b58
+stfdu f28, 0xb58(r2)
+address: 0x120038264
+0040c825
+invalid
+address: 0x120038268
+0320f809
+invalid
+address: 0x12003826c
+00000000
+invalid
+address: 0x120038270
+ffc201f8
+fmsub f30, f2, f7, f0
+address: 0x120038274
+dfc201f8
+stfdu f30, 0x1f8(r2)
+address: 0x120038278
+14400004
+invalid
+address: 0x12003827c
+00000000
+invalid
+address: 0x120038280
+2402000c
+invalid
+address: 0x120038284
+100016ff
+invalid
+address: 0x120038288
+00000000
+invalid
+address: 0x12003828c
+24020020
+invalid
+address: 0x120038290
+afc20200
+lhau r30, 0x200(r2)
+address: 0x120038294
+afc00204
+lhau r30, 0x204(0)
+address: 0x120038298
+dfc20000
+stfdu f30, 0(r2)
+address: 0x12003829c
+dfc30008
+stfdu f30, 8(r3)
+address: 0x1200382a0
+fc430018
+invalid
+address: 0x1200382a4
+dfc30000
+stfdu f30, 0(r3)
+address: 0x1200382a8
+90620038
+stw r3, 0x38(r2)
+address: 0x1200382ac
+7c022104
+invalid
+address: 0x1200382b0
+a0620038
+lhz r3, 0x38(r2)
+address: 0x1200382b4
+dfc30000
+stfdu f30, 0(r3)
+address: 0x1200382b8
+90620038
+stw r3, 0x38(r2)
+address: 0x1200382bc
+7c020844
+invalid
+address: 0x1200382c0
+a0620038
+lhz r3, 0x38(r2)
+address: 0x1200382c4
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200382c8
+8c420038
+lbzu r2, 0x38(r2)
+address: 0x1200382cc
+7c420640
+invalid
+address: 0x1200382d0
+304400ff
+addic r2, r4, 0xff
+address: 0x1200382d4
+dfc30000
+stfdu f30, 0(r3)
+address: 0x1200382d8
+90620038
+stw r3, 0x38(r2)
+address: 0x1200382dc
+7c821084
+invalid
+address: 0x1200382e0
+a0620038
+lhz r3, 0x38(r2)
+address: 0x1200382e4
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200382e8
+fc400010
+fcpsgn f2, f0, f0
+address: 0x1200382ec
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200382f0
+fc400030
+fre f2, f0
+address: 0x1200382f4
+df828080
+stfdu f28, -0x7f80(r2)
+address: 0x1200382f8
+644280e0
+oris r2, r2, 0x80e0
+address: 0x1200382fc
+0040c825
+invalid
+address: 0x120038300
+0411ff77
+invalid
+address: 0x120038304
+00000000
+invalid
+address: 0x120038308
+dfc20000
+stfdu f30, 0(r2)
+address: 0x12003830c
+dc420008
+stfdu f2, 8(r2)
+address: 0x120038310
+1440002a
+invalid
+address: 0x120038314
+00000000
+invalid
+address: 0x120038318
+dfc20000
+stfdu f30, 0(r2)
+address: 0x12003831c
+dc420000
+stfdu f2, 0(r2)
+address: 0x120038320
+1040000e
+vpkuhum v2, v0, v0
+address: 0x120038324
+00000000
+invalid
+address: 0x120038328
+dfc20000
+stfdu f30, 0(r2)
+address: 0x12003832c
+dc420000
+stfdu f2, 0(r2)
+address: 0x120038330
+24050020
+invalid
+address: 0x120038334
+00402025
+invalid
+address: 0x120038338
+df820d78
+stfdu f28, 0xd78(r2)
+address: 0x12003833c
+0040c825
+invalid
+address: 0x120038340
+0320f809
+invalid
+address: 0x120038344
+00000000
+invalid
+address: 0x120038348
+00401825
+invalid
+address: 0x12003834c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038350
+fc430000
+invalid
+address: 0x120038354
+10000009
+invalid
+address: 0x120038358
+00000000
+invalid
+address: 0x12003835c
+24040020
+invalid
+address: 0x120038360
+df820b58
+stfdu f28, 0xb58(r2)
+address: 0x120038364
+0040c825
+invalid
+address: 0x120038368
+0320f809
+invalid
+address: 0x12003836c
+00000000
+invalid
+address: 0x120038370
+00401825
+invalid
+address: 0x120038374
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038378
+fc430000
+invalid
+address: 0x12003837c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038380
+dc420000
+stfdu f2, 0(r2)
+address: 0x120038384
+1440000a
+invalid
+address: 0x120038388
+00000000
+invalid
+address: 0x12003838c
+dfc201f8
+stfdu f30, 0x1f8(r2)
+address: 0x120038390
+00402025
+invalid
+address: 0x120038394
+df820cc0
+stfdu f28, 0xcc0(r2)
+address: 0x120038398
+0040c825
+invalid
+address: 0x12003839c
+0320f809
+invalid
+address: 0x1200383a0
+00000000
+invalid
+address: 0x1200383a4
+2402000c
+invalid
+address: 0x1200383a8
+100016b6
+invalid
+address: 0x1200383ac
+00000000
+invalid
+address: 0x1200383b0
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200383b4
+24030020
+invalid
+address: 0x1200383b8
+fc430008
+invalid
+address: 0x1200383bc
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200383c0
+dc500000
+stfdu f2, 0(r16)
+address: 0x1200383c4
+ffd000e0
+invalid
+address: 0x1200383c8
+10001617
+invalid
+address: 0x1200383cc
+00000000
+invalid
+address: 0x1200383d0
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x1200383d4
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x1200383d8
+14620004
+invalid
+address: 0x1200383dc
+00000000
+invalid
+address: 0x1200383e0
+2402000e
+invalid
+address: 0x1200383e4
+100016a7
+vmsumuhs v0, v0, v2, v26
+address: 0x1200383e8
+00000000
+invalid
+address: 0x1200383ec
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x1200383f0
+64430001
+oris r3, r2, 1
+address: 0x1200383f4
+ffc300c8
+invalid
+address: 0x1200383f8
+80420000
+lwz r2, 0(r2)
+address: 0x1200383fc
+305100ff
+addic r2, r17, 0xff
+address: 0x120038400
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x120038404
+10400006
+vcmpequb v2, v0, v0
+address: 0x120038408
+00000000
+invalid
+address: 0x12003840c
+02201825
+invalid
+address: 0x120038410
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x120038414
+0043102d
+invalid
+address: 0x120038418
+80420000
+lwz r2, 0(r2)
+address: 0x12003841c
+305100ff
+addic r2, r17, 0xff
+address: 0x120038420
+02201025
+invalid
+address: 0x120038424
+28430040
+invalid
+address: 0x120038428
+10600020
+vmhaddshs v3, v0, v0, v0
+address: 0x12003842c
+00000000
+invalid
+address: 0x120038430
+2843000a
+invalid
+address: 0x120038434
+10600010
+invalid
+address: 0x120038438
+00000000
+invalid
+address: 0x12003843c
+100014bc
+invalid
+address: 0x120038440
+00000000
+invalid
+address: 0x120038444
+2442ffa5
+invalid
+address: 0x120038448
+2c430022
+invalid
+address: 0x12003844c
+106014b8
+invalid
+address: 0x120038450
+00000000
+invalid
+address: 0x120038454
+7c42f803
+invalid
+address: 0x120038458
+000218f8
+invalid
+address: 0x12003845c
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x120038460
+644250f0
+oris r2, r2, 0x50f0
+address: 0x120038464
+0062102d
+invalid
+address: 0x120038468
+dc420000
+stfdu f2, 0(r2)
+address: 0x12003846c
+005c102d
+invalid
+address: 0x120038470
+00400008
+invalid
+address: 0x120038474
+00000000
+invalid
+address: 0x120038478
+2442fff6
+invalid
+address: 0x12003847c
+2c430036
+invalid
+address: 0x120038480
+106014ab
+vperm v3, v0, v2, v18
+address: 0x120038484
+00000000
+invalid
+address: 0x120038488
+7c42f803
+invalid
+address: 0x12003848c
+000218f8
+invalid
+address: 0x120038490
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x120038494
+64425200
+oris r2, r2, 0x5200
+address: 0x120038498
+0062102d
+invalid
+address: 0x12003849c
+dc420000
+stfdu f2, 0(r2)
+address: 0x1200384a0
+005c102d
+invalid
+address: 0x1200384a4
+00400008
+invalid
+address: 0x1200384a8
+00000000
+invalid
+address: 0x1200384ac
+2843007d
+invalid
+address: 0x1200384b0
+1060149f
+invalid
+address: 0x1200384b4
+00000000
+invalid
+address: 0x1200384b8
+2843005b
+invalid
+address: 0x1200384bc
+1060ffe1
+vmhraddshs v3, v0, v31, v31
+address: 0x1200384c0
+00000000
+invalid
+address: 0x1200384c4
+1000149a
+invalid
+address: 0x1200384c8
+00000000
+invalid
+address: 0x1200384cc
+dfc20018
+stfdu f30, 0x18(r2)
+address: 0x1200384d0
+64430001
+oris r3, r2, 1
+address: 0x1200384d4
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x1200384d8
+10620065
+vmsummbm v3, v2, v0, v1
+address: 0x1200384dc
+00000000
+invalid
+address: 0x1200384e0
+dfc20008
+stfdu f30, 8(r2)
+address: 0x1200384e4
+30420008
+addic r2, r2, 8
+address: 0x1200384e8
+14400061
+invalid
+address: 0x1200384ec
+00000000
+invalid
+address: 0x1200384f0
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x1200384f4
+dfc60008
+stfdu f30, 8(r6)
+address: 0x1200384f8
+00402825
+invalid
+address: 0x1200384fc
+dfc40018
+stfdu f30, 0x18(r4)
+address: 0x120038500
+df828080
+stfdu f28, -0x7f80(r2)
+address: 0x120038504
+6442e1a0
+oris r2, r2, 0xe1a0
+address: 0x120038508
+0040c825
+invalid
+address: 0x12003850c
+04111724
+invalid
+address: 0x120038510
+00000000
+invalid
+address: 0x120038514
+10401449
+invalid
+address: 0x120038518
+00000000
+invalid
+address: 0x12003851c
+10000054
+invalid
+address: 0x120038520
+00000000
+invalid
+address: 0x120038524
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038528
+dc420000
+stfdu f2, 0(r2)
+address: 0x12003852c
+ffc20108
+invalid
+address: 0x120038530
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038534
+dc430008
+stfdu f2, 8(r3)
+address: 0x120038538
+3c020001
+addis r0, r2, 1
+address: 0x12003853c
+14620004
+invalid
+address: 0x120038540
+00000000
+invalid
+address: 0x120038544
+2402000f
+invalid
+address: 0x120038548
+1000164e
+invalid
+address: 0x12003854c
+00000000
+invalid
+address: 0x120038550
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038554
+dc420008
+stfdu f2, 8(r2)
+address: 0x120038558
+00021878
+invalid
+address: 0x12003855c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038560
+fc430008
+invalid
+address: 0x120038564
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038568
+dc430008
+stfdu f2, 8(r3)
+address: 0x12003856c
+3c020001
+addis r0, r2, 1
+address: 0x120038570
+34420001
+addic. r2, r2, 1
+address: 0x120038574
+0062102b
+invalid
+address: 0x120038578
+14400004
+invalid
+address: 0x12003857c
+00000000
+invalid
+address: 0x120038580
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038584
+3c030001
+addis r0, r3, 1
+address: 0x120038588
+fc430008
+invalid
+address: 0x12003858c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038590
+dc430000
+stfdu f2, 0(r3)
+address: 0x120038594
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038598
+dc420008
+stfdu f2, 8(r2)
+address: 0x12003859c
+00402825
+invalid
+address: 0x1200385a0
+00602025
+invalid
+address: 0x1200385a4
+df820d78
+stfdu f28, 0xd78(r2)
+address: 0x1200385a8
+0040c825
+invalid
+address: 0x1200385ac
+0320f809
+invalid
+address: 0x1200385b0
+00000000
+invalid
+address: 0x1200385b4
+00401825
+invalid
+address: 0x1200385b8
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200385bc
+fc430000
+invalid
+address: 0x1200385c0
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200385c4
+dc420000
+stfdu f2, 0(r2)
+address: 0x1200385c8
+14400004
+invalid
+address: 0x1200385cc
+00000000
+invalid
+address: 0x1200385d0
+2402000c
+invalid
+address: 0x1200385d4
+1000162b
+vperm v0, v0, v2, v24
+address: 0x1200385d8
+00000000
+invalid
+address: 0x1200385dc
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200385e0
+dc420000
+stfdu f2, 0(r2)
+address: 0x1200385e4
+dfc30108
+stfdu f30, 0x108(r3)
+address: 0x1200385e8
+10620021
+vmhraddshs v3, v2, v0, v0
+address: 0x1200385ec
+00000000
+invalid
+address: 0x1200385f0
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200385f4
+dc430000
+stfdu f2, 0(r3)
+address: 0x1200385f8
+dfc20108
+stfdu f30, 0x108(r2)
+address: 0x1200385fc
+0062102f
+invalid
+address: 0x120038600
+afc2004c
+lhau r30, 0x4c(r2)
+address: 0x120038604
+8fc2004c
+lbzu r30, 0x4c(r2)
+address: 0x120038608
+0202802d
+invalid
+address: 0x12003860c
+8fc2004c
+lbzu r30, 0x4c(r2)
+address: 0x120038610
+dfc300e0
+stfdu f30, 0xe0(r3)
+address: 0x120038614
+0062102d
+invalid
+address: 0x120038618
+ffc200e0
+invalid
+address: 0x12003861c
+dfc200e8
+stfdu f30, 0xe8(r2)
+address: 0x120038620
+10400005
+invalid
+address: 0x120038624
+00000000
+invalid
+address: 0x120038628
+8fc2004c
+lbzu r30, 0x4c(r2)
+address: 0x12003862c
+dfc300e8
+stfdu f30, 0xe8(r3)
+address: 0x120038630
+0062102d
+invalid
+address: 0x120038634
+ffc200e8
+invalid
+address: 0x120038638
+dfc200d8
+stfdu f30, 0xd8(r2)
+address: 0x12003863c
+10400005
+invalid
+address: 0x120038640
+00000000
+invalid
+address: 0x120038644
+8fc2004c
+lbzu r30, 0x4c(r2)
+address: 0x120038648
+dfc300d8
+stfdu f30, 0xd8(r3)
+address: 0x12003864c
+0062102d
+invalid
+address: 0x120038650
+ffc200d8
+invalid
+address: 0x120038654
+dfc200d0
+stfdu f30, 0xd0(r2)
+address: 0x120038658
+10400005
+invalid
+address: 0x12003865c
+00000000
+invalid
+address: 0x120038660
+8fc2004c
+lbzu r30, 0x4c(r2)
+address: 0x120038664
+dfc300d0
+stfdu f30, 0xd0(r3)
+address: 0x120038668
+0062102d
+invalid
+address: 0x12003866c
+ffc200d0
+invalid
+address: 0x120038670
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038674
+dc420000
+stfdu f2, 0(r2)
+address: 0x120038678
+0202102f
+invalid
+address: 0x12003867c
+64420001
+oris r2, r2, 1
+address: 0x120038680
+00401825
+invalid
+address: 0x120038684
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038688
+dc420008
+stfdu f2, 8(r2)
+address: 0x12003868c
+0043102b
+invalid
+address: 0x120038690
+1440ffa4
+invalid
+address: 0x120038694
+00000000
+invalid
+address: 0x120038698
+02001025
+invalid
+address: 0x12003869c
+64500001
+oris r16, r2, 1
+address: 0x1200386a0
+24030009
+invalid
+address: 0x1200386a4
+a0430000
+lhz r2, 0(r3)
+address: 0x1200386a8
+1000155f
+invalid
+address: 0x1200386ac
+00000000
+invalid
+address: 0x1200386b0
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x1200386b4
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x1200386b8
+10620065
+vmsummbm v3, v2, v0, v1
+address: 0x1200386bc
+00000000
+invalid
+address: 0x1200386c0
+dfc20008
+stfdu f30, 8(r2)
+address: 0x1200386c4
+30420008
+addic r2, r2, 8
+address: 0x1200386c8
+14400061
+invalid
+address: 0x1200386cc
+00000000
+invalid
+address: 0x1200386d0
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x1200386d4
+dfc60008
+stfdu f30, 8(r6)
+address: 0x1200386d8
+dfc500f0
+stfdu f30, 0xf0(r5)
+address: 0x1200386dc
+00402025
+invalid
+address: 0x1200386e0
+df828080
+stfdu f28, -0x7f80(r2)
+address: 0x1200386e4
+6442e28c
+oris r2, r2, 0xe28c
+address: 0x1200386e8
+0040c825
+invalid
+address: 0x1200386ec
+041116e7
+invalid
+address: 0x1200386f0
+00000000
+invalid
+address: 0x1200386f4
+104013d4
+invalid
+address: 0x1200386f8
+00000000
+invalid
+address: 0x1200386fc
+10000054
+invalid
+address: 0x120038700
+00000000
+invalid
+address: 0x120038704
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038708
+dc420000
+stfdu f2, 0(r2)
+address: 0x12003870c
+ffc201d0
+invalid
+address: 0x120038710
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038714
+dc430008
+stfdu f2, 8(r3)
+address: 0x120038718
+3c020001
+addis r0, r2, 1
+address: 0x12003871c
+14620004
+invalid
+address: 0x120038720
+00000000
+invalid
+address: 0x120038724
+2402000f
+invalid
+address: 0x120038728
+100015d6
+invalid
+address: 0x12003872c
+00000000
+invalid
+address: 0x120038730
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038734
+dc420008
+stfdu f2, 8(r2)
+address: 0x120038738
+00021878
+invalid
+address: 0x12003873c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038740
+fc430008
+invalid
+address: 0x120038744
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038748
+dc430008
+stfdu f2, 8(r3)
+address: 0x12003874c
+3c020001
+addis r0, r2, 1
+address: 0x120038750
+34420001
+addic. r2, r2, 1
+address: 0x120038754
+0062102b
+invalid
+address: 0x120038758
+14400004
+invalid
+address: 0x12003875c
+00000000
+invalid
+address: 0x120038760
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038764
+3c030001
+addis r0, r3, 1
+address: 0x120038768
+fc430008
+invalid
+address: 0x12003876c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038770
+dc430000
+stfdu f2, 0(r3)
+address: 0x120038774
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038778
+dc420008
+stfdu f2, 8(r2)
+address: 0x12003877c
+00402825
+invalid
+address: 0x120038780
+00602025
+invalid
+address: 0x120038784
+df820d78
+stfdu f28, 0xd78(r2)
+address: 0x120038788
+0040c825
+invalid
+address: 0x12003878c
+0320f809
+invalid
+address: 0x120038790
+00000000
+invalid
+address: 0x120038794
+00401825
+invalid
+address: 0x120038798
+dfc20000
+stfdu f30, 0(r2)
+address: 0x12003879c
+fc430000
+invalid
+address: 0x1200387a0
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200387a4
+dc420000
+stfdu f2, 0(r2)
+address: 0x1200387a8
+14400004
+invalid
+address: 0x1200387ac
+00000000
+invalid
+address: 0x1200387b0
+2402000c
+invalid
+address: 0x1200387b4
+100015b3
+invalid
+address: 0x1200387b8
+00000000
+invalid
+address: 0x1200387bc
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200387c0
+dc420000
+stfdu f2, 0(r2)
+address: 0x1200387c4
+dfc301d0
+stfdu f30, 0x1d0(r3)
+address: 0x1200387c8
+10620021
+vmhraddshs v3, v2, v0, v0
+address: 0x1200387cc
+00000000
+invalid
+address: 0x1200387d0
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200387d4
+dc430000
+stfdu f2, 0(r3)
+address: 0x1200387d8
+dfc201d0
+stfdu f30, 0x1d0(r2)
+address: 0x1200387dc
+0062102f
+invalid
+address: 0x1200387e0
+afc200b4
+lhau r30, 0xb4(r2)
+address: 0x1200387e4
+8fc200b4
+lbzu r30, 0xb4(r2)
+address: 0x1200387e8
+0202802d
+invalid
+address: 0x1200387ec
+8fc200b4
+lbzu r30, 0xb4(r2)
+address: 0x1200387f0
+dfc300e0
+stfdu f30, 0xe0(r3)
+address: 0x1200387f4
+0062102d
+invalid
+address: 0x1200387f8
+ffc200e0
+invalid
+address: 0x1200387fc
+dfc200e8
+stfdu f30, 0xe8(r2)
+address: 0x120038800
+10400005
+invalid
+address: 0x120038804
+00000000
+invalid
+address: 0x120038808
+8fc200b4
+lbzu r30, 0xb4(r2)
+address: 0x12003880c
+dfc300e8
+stfdu f30, 0xe8(r3)
+address: 0x120038810
+0062102d
+invalid
+address: 0x120038814
+ffc200e8
+invalid
+address: 0x120038818
+dfc200d8
+stfdu f30, 0xd8(r2)
+address: 0x12003881c
+10400005
+invalid
+address: 0x120038820
+00000000
+invalid
+address: 0x120038824
+8fc200b4
+lbzu r30, 0xb4(r2)
+address: 0x120038828
+dfc300d8
+stfdu f30, 0xd8(r3)
+address: 0x12003882c
+0062102d
+invalid
+address: 0x120038830
+ffc200d8
+invalid
+address: 0x120038834
+dfc200d0
+stfdu f30, 0xd0(r2)
+address: 0x120038838
+10400005
+invalid
+address: 0x12003883c
+00000000
+invalid
+address: 0x120038840
+8fc200b4
+lbzu r30, 0xb4(r2)
+address: 0x120038844
+dfc300d0
+stfdu f30, 0xd0(r3)
+address: 0x120038848
+0062102d
+invalid
+address: 0x12003884c
+ffc200d0
+invalid
+address: 0x120038850
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038854
+dc420000
+stfdu f2, 0(r2)
+address: 0x120038858
+0202102f
+invalid
+address: 0x12003885c
+64420001
+oris r2, r2, 1
+address: 0x120038860
+00401825
+invalid
+address: 0x120038864
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038868
+dc420008
+stfdu f2, 8(r2)
+address: 0x12003886c
+0043102b
+invalid
+address: 0x120038870
+1440ffa4
+invalid
+address: 0x120038874
+00000000
+invalid
+address: 0x120038878
+02001025
+invalid
+address: 0x12003887c
+64500001
+oris r16, r2, 1
+address: 0x120038880
+2403000a
+invalid
+address: 0x120038884
+a0430000
+lhz r2, 0(r3)
+address: 0x120038888
+100014e7
+vmsumuhs v0, v0, v2, v19
+address: 0x12003888c
+00000000
+invalid
+address: 0x120038890
+dfc20008
+stfdu f30, 8(r2)
+address: 0x120038894
+30420002
+addic r2, r2, 2
+address: 0x120038898
+1440136e
+invalid
+address: 0x12003889c
+00000000
+invalid
+address: 0x1200388a0
+dfc20008
+stfdu f30, 8(r2)
+address: 0x1200388a4
+30420400
+addic r2, r2, 0x400
+address: 0x1200388a8
+1440136a
+invalid
+address: 0x1200388ac
+00000000
+invalid
+address: 0x1200388b0
+00000000
+invalid
+address: 0x1200388b4
+10000002
+vmaxub v0, v0, v0
+address: 0x1200388b8
+00000000
+invalid
+address: 0x1200388bc
+00000000
+invalid
+address: 0x1200388c0
+dfc200d8
+stfdu f30, 0xd8(r2)
+address: 0x1200388c4
+14400012
+invalid
+address: 0x1200388c8
+00000000
+invalid
+address: 0x1200388cc
+dfc20008
+stfdu f30, 8(r2)
+address: 0x1200388d0
+30420020
+addic r2, r2, 0x20
+address: 0x1200388d4
+1040000a
+vaddfp v2, v0, v0
+address: 0x1200388d8
+00000000
+invalid
+address: 0x1200388dc
+dfc201f8
+stfdu f30, 0x1f8(r2)
+address: 0x1200388e0
+00402025
+invalid
+address: 0x1200388e4
+df820cc0
+stfdu f28, 0xcc0(r2)
+address: 0x1200388e8
+0040c825
+invalid
+address: 0x1200388ec
+0320f809
+invalid
+address: 0x1200388f0
+00000000
+invalid
+address: 0x1200388f4
+2402000d
+invalid
+address: 0x1200388f8
+10001562
+vmladduhm v0, v0, v2, v21
+address: 0x1200388fc
+00000000
+invalid
+address: 0x120038900
+dfc20008
+stfdu f30, 8(r2)
+address: 0x120038904
+30420010
+addic r2, r2, 0x10
+address: 0x120038908
+10401355
+invalid
+address: 0x12003890c
+00000000
+invalid
+address: 0x120038910
+a3c00024
+lhz r30, 0x24(0)
+address: 0x120038914
+a3c00025
+lhz r30, 0x25(0)
+address: 0x120038918
+a3c00026
+lhz r30, 0x26(0)
+address: 0x12003891c
+3a22002b
+addi r17, r2, 0x2b
+address: 0x120038920
+0002102b
+invalid
+address: 0x120038924
+304200ff
+addic r2, r2, 0xff
+address: 0x120038928
+7c021420
+invalid
+address: 0x12003892c
+93c30025
+stw r30, 0x25(r3)
+address: 0x120038930
+00621025
+invalid
+address: 0x120038934
+a3c20025
+lhz r30, 0x25(r2)
+address: 0x120038938
+3a22003f
+addi r17, r2, 0x3f
+address: 0x12003893c
+0002102b
+invalid
+address: 0x120038940
+304200ff
+addic r2, r2, 0xff
+address: 0x120038944
+7c021420
+invalid
+address: 0x120038948
+93c30026
+stw r30, 0x26(r3)
+address: 0x12003894c
+00621025
+invalid
+address: 0x120038950
+a3c20026
+lhz r30, 0x26(r2)
+address: 0x120038954
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120038958
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x12003895c
+10620063
+invalid
+address: 0x120038960
+00000000
+invalid
+address: 0x120038964
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120038968
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x12003896c
+14620004
+invalid
+address: 0x120038970
+00000000
+invalid
+address: 0x120038974
+2402000e
+invalid
+address: 0x120038978
+10001542
+vavgsh v0, v0, v2
+address: 0x12003897c
+00000000
+invalid
+address: 0x120038980
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120038984
+64430001
+oris r3, r2, 1
+address: 0x120038988
+ffc300c8
+invalid
+address: 0x12003898c
+80420000
+lwz r2, 0(r2)
+address: 0x120038990
+305100ff
+addic r2, r17, 0xff
+address: 0x120038994
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x120038998
+10400006
+vcmpequb v2, v0, v0
+address: 0x12003899c
+00000000
+invalid
+address: 0x1200389a0
+02201825
+invalid
+address: 0x1200389a4
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x1200389a8
+0043102d
+invalid
+address: 0x1200389ac
+80420000
+lwz r2, 0(r2)
+address: 0x1200389b0
+305100ff
+addic r2, r17, 0xff
+address: 0x1200389b4
+2402002a
+invalid
+address: 0x1200389b8
+1222ffd8
+invalid
+address: 0x1200389bc
+00000000
+invalid
+address: 0x1200389c0
+dfc20008
+stfdu f30, 8(r2)
+address: 0x1200389c4
+30420002
+addic r2, r2, 2
+address: 0x1200389c8
+14400007
+invalid
+address: 0x1200389cc
+00000000
+invalid
+address: 0x1200389d0
+2402002b
+invalid
+address: 0x1200389d4
+12220042
+vmaxuh v17, v2, v0
+address: 0x1200389d8
+00000000
+invalid
+address: 0x1200389dc
+2402003f
+invalid
+address: 0x1200389e0
+1222003f
+invalid
+address: 0x1200389e4
+00000000
+invalid
+address: 0x1200389e8
+dfc20008
+stfdu f30, 8(r2)
+address: 0x1200389ec
+30420002
+addic r2, r2, 2
+address: 0x1200389f0
+10400036
+invalid
+address: 0x1200389f4
+00000000
+invalid
+address: 0x1200389f8
+2402005c
+invalid
+address: 0x1200389fc
+16220033
+invalid
+address: 0x120038a00
+00000000
+invalid
+address: 0x120038a04
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120038a08
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x120038a0c
+1462000a
+invalid
+address: 0x120038a10
+00000000
+invalid
+address: 0x120038a14
+dfc201f8
+stfdu f30, 0x1f8(r2)
+address: 0x120038a18
+00402025
+invalid
+address: 0x120038a1c
+df820cc0
+stfdu f28, 0xcc0(r2)
+address: 0x120038a20
+0040c825
+invalid
+address: 0x120038a24
+0320f809
+invalid
+address: 0x120038a28
+00000000
+invalid
+address: 0x120038a2c
+24020005
+invalid
+address: 0x120038a30
+10001514
+invalid
+address: 0x120038a34
+00000000
+invalid
+address: 0x120038a38
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120038a3c
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x120038a40
+14620004
+invalid
+address: 0x120038a44
+00000000
+invalid
+address: 0x120038a48
+2402000e
+invalid
+address: 0x120038a4c
+1000150d
+invalid
+address: 0x120038a50
+00000000
+invalid
+address: 0x120038a54
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120038a58
+64430001
+oris r3, r2, 1
+address: 0x120038a5c
+ffc300c8
+invalid
+address: 0x120038a60
+80420000
+lwz r2, 0(r2)
+address: 0x120038a64
+305200ff
+addic r2, r18, 0xff
+address: 0x120038a68
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x120038a6c
+10400006
+vcmpequb v2, v0, v0
+address: 0x120038a70
+00000000
+invalid
+address: 0x120038a74
+02401825
+invalid
+address: 0x120038a78
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x120038a7c
+0043102d
+invalid
+address: 0x120038a80
+80420000
+lwz r2, 0(r2)
+address: 0x120038a84
+305200ff
+addic r2, r18, 0xff
+address: 0x120038a88
+2402002b
+invalid
+address: 0x120038a8c
+1242000c
+vmrghb v18, v2, v0
+address: 0x120038a90
+00000000
+invalid
+address: 0x120038a94
+2402003f
+invalid
+address: 0x120038a98
+12420009
+invalid
+address: 0x120038a9c
+00000000
+invalid
+address: 0x120038aa0
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120038aa4
+6442ffff
+oris r2, r2, 0xffff
+address: 0x120038aa8
+ffc200c8
+invalid
+address: 0x120038aac
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120038ab0
+6442ffff
+oris r2, r2, 0xffff
+address: 0x120038ab4
+ffc200c8
+invalid
+address: 0x120038ab8
+1000000d
+invalid
+address: 0x120038abc
+00000000
+invalid
+address: 0x120038ac0
+02408825
+invalid
+address: 0x120038ac4
+10000007
+invalid
+address: 0x120038ac8
+00000000
+invalid
+address: 0x120038acc
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120038ad0
+6442ffff
+oris r2, r2, 0xffff
+address: 0x120038ad4
+ffc200c8
+invalid
+address: 0x120038ad8
+10000005
+invalid
+address: 0x120038adc
+00000000
+invalid
+address: 0x120038ae0
+00000000
+invalid
+address: 0x120038ae4
+1000ff8d
+invalid
+address: 0x120038ae8
+00000000
+invalid
+address: 0x120038aec
+00000000
+invalid
+address: 0x120038af0
+dfc200d8
+stfdu f30, 0xd8(r2)
+address: 0x120038af4
+14400003
+invalid
+address: 0x120038af8
+00000000
+invalid
+address: 0x120038afc
+1000144a
+vminfp v0, v0, v2
+address: 0x120038b00
+00000000
+invalid
+address: 0x120038b04
+83c20026
+lwz r30, 0x26(r2)
+address: 0x120038b08
+10400119
+invalid
+address: 0x120038b0c
+00000000
+invalid
+address: 0x120038b10
+10000054
+invalid
+address: 0x120038b14
+00000000
+invalid
+address: 0x120038b18
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038b1c
+dc420000
+stfdu f2, 0(r2)
+address: 0x120038b20
+ffc20198
+invalid
+address: 0x120038b24
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038b28
+dc430008
+stfdu f2, 8(r3)
+address: 0x120038b2c
+3c020001
+addis r0, r2, 1
+address: 0x120038b30
+14620004
+invalid
+address: 0x120038b34
+00000000
+invalid
+address: 0x120038b38
+2402000f
+invalid
+address: 0x120038b3c
+100014d1
+invalid
+address: 0x120038b40
+00000000
+invalid
+address: 0x120038b44
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038b48
+dc420008
+stfdu f2, 8(r2)
+address: 0x120038b4c
+00021878
+invalid
+address: 0x120038b50
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038b54
+fc430008
+invalid
+address: 0x120038b58
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038b5c
+dc430008
+stfdu f2, 8(r3)
+address: 0x120038b60
+3c020001
+addis r0, r2, 1
+address: 0x120038b64
+34420001
+addic. r2, r2, 1
+address: 0x120038b68
+0062102b
+invalid
+address: 0x120038b6c
+14400004
+invalid
+address: 0x120038b70
+00000000
+invalid
+address: 0x120038b74
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038b78
+3c030001
+addis r0, r3, 1
+address: 0x120038b7c
+fc430008
+invalid
+address: 0x120038b80
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038b84
+dc430000
+stfdu f2, 0(r3)
+address: 0x120038b88
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038b8c
+dc420008
+stfdu f2, 8(r2)
+address: 0x120038b90
+00402825
+invalid
+address: 0x120038b94
+00602025
+invalid
+address: 0x120038b98
+df820d78
+stfdu f28, 0xd78(r2)
+address: 0x120038b9c
+0040c825
+invalid
+address: 0x120038ba0
+0320f809
+invalid
+address: 0x120038ba4
+00000000
+invalid
+address: 0x120038ba8
+00401825
+invalid
+address: 0x120038bac
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038bb0
+fc430000
+invalid
+address: 0x120038bb4
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038bb8
+dc420000
+stfdu f2, 0(r2)
+address: 0x120038bbc
+14400004
+invalid
+address: 0x120038bc0
+00000000
+invalid
+address: 0x120038bc4
+2402000c
+invalid
+address: 0x120038bc8
+100014ae
+vmaddfp v0, v0, v18, v2
+address: 0x120038bcc
+00000000
+invalid
+address: 0x120038bd0
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038bd4
+dc420000
+stfdu f2, 0(r2)
+address: 0x120038bd8
+dfc30198
+stfdu f30, 0x198(r3)
+address: 0x120038bdc
+10620021
+vmhraddshs v3, v2, v0, v0
+address: 0x120038be0
+00000000
+invalid
+address: 0x120038be4
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038be8
+dc430000
+stfdu f2, 0(r3)
+address: 0x120038bec
+dfc20198
+stfdu f30, 0x198(r2)
+address: 0x120038bf0
+0062102f
+invalid
+address: 0x120038bf4
+afc20098
+lhau r30, 0x98(r2)
+address: 0x120038bf8
+8fc20098
+lbzu r30, 0x98(r2)
+address: 0x120038bfc
+0202802d
+invalid
+address: 0x120038c00
+8fc20098
+lbzu r30, 0x98(r2)
+address: 0x120038c04
+dfc300e0
+stfdu f30, 0xe0(r3)
+address: 0x120038c08
+0062102d
+invalid
+address: 0x120038c0c
+ffc200e0
+invalid
+address: 0x120038c10
+dfc200e8
+stfdu f30, 0xe8(r2)
+address: 0x120038c14
+10400005
+invalid
+address: 0x120038c18
+00000000
+invalid
+address: 0x120038c1c
+8fc20098
+lbzu r30, 0x98(r2)
+address: 0x120038c20
+dfc300e8
+stfdu f30, 0xe8(r3)
+address: 0x120038c24
+0062102d
+invalid
+address: 0x120038c28
+ffc200e8
+invalid
+address: 0x120038c2c
+dfc200d8
+stfdu f30, 0xd8(r2)
+address: 0x120038c30
+10400005
+invalid
+address: 0x120038c34
+00000000
+invalid
+address: 0x120038c38
+8fc20098
+lbzu r30, 0x98(r2)
+address: 0x120038c3c
+dfc300d8
+stfdu f30, 0xd8(r3)
+address: 0x120038c40
+0062102d
+invalid
+address: 0x120038c44
+ffc200d8
+invalid
+address: 0x120038c48
+dfc200d0
+stfdu f30, 0xd0(r2)
+address: 0x120038c4c
+10400005
+invalid
+address: 0x120038c50
+00000000
+invalid
+address: 0x120038c54
+8fc20098
+lbzu r30, 0x98(r2)
+address: 0x120038c58
+dfc300d0
+stfdu f30, 0xd0(r3)
+address: 0x120038c5c
+0062102d
+invalid
+address: 0x120038c60
+ffc200d0
+invalid
+address: 0x120038c64
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038c68
+dc420000
+stfdu f2, 0(r2)
+address: 0x120038c6c
+0202102f
+invalid
+address: 0x120038c70
+64420003
+oris r2, r2, 3
+address: 0x120038c74
+00401825
+invalid
+address: 0x120038c78
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038c7c
+dc420008
+stfdu f2, 8(r2)
+address: 0x120038c80
+0043102b
+invalid
+address: 0x120038c84
+1440ffa4
+invalid
+address: 0x120038c88
+00000000
+invalid
+address: 0x120038c8c
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x120038c90
+1040000b
+invalid
+address: 0x120038c94
+00000000
+invalid
+address: 0x120038c98
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120038c9c
+6442fffe
+oris r2, r2, 0xfffe
+address: 0x120038ca0
+80420000
+lwz r2, 0(r2)
+address: 0x120038ca4
+304200ff
+addic r2, r2, 0xff
+address: 0x120038ca8
+00401825
+invalid
+address: 0x120038cac
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x120038cb0
+0043102d
+invalid
+address: 0x120038cb4
+80420000
+lwz r2, 0(r2)
+address: 0x120038cb8
+10000004
+vrlb v0, v0, v0
+address: 0x120038cbc
+00000000
+invalid
+address: 0x120038cc0
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120038cc4
+6442fffe
+oris r2, r2, 0xfffe
+address: 0x120038cc8
+80420000
+lwz r2, 0(r2)
+address: 0x120038ccc
+dfc300f8
+stfdu f30, 0xf8(r3)
+address: 0x120038cd0
+10600006
+vcmpequb v3, v0, v0
+address: 0x120038cd4
+00000000
+invalid
+address: 0x120038cd8
+dfc300f8
+stfdu f30, 0xf8(r3)
+address: 0x120038cdc
+6463002e
+oris r3, r3, 0x2e
+address: 0x120038ce0
+80630000
+lwz r3, 0(r3)
+address: 0x120038ce4
+10000002
+vmaxub v0, v0, v0
+address: 0x120038ce8
+00000000
+invalid
+address: 0x120038cec
+2403002e
+invalid
+address: 0x120038cf0
+14430039
+invalid
+address: 0x120038cf4
+00000000
+invalid
+address: 0x120038cf8
+83c20025
+lwz r30, 0x25(r2)
+address: 0x120038cfc
+10400036
+invalid
+address: 0x120038d00
+00000000
+invalid
+address: 0x120038d04
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120038d08
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x120038d0c
+0043102b
+invalid
+address: 0x120038d10
+10400031
+invalid
+address: 0x120038d14
+00000000
+invalid
+address: 0x120038d18
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x120038d1c
+1040000a
+vaddfp v2, v0, v0
+address: 0x120038d20
+00000000
+invalid
+address: 0x120038d24
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120038d28
+80420000
+lwz r2, 0(r2)
+address: 0x120038d2c
+304200ff
+addic r2, r2, 0xff
+address: 0x120038d30
+00401825
+invalid
+address: 0x120038d34
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x120038d38
+0043102d
+invalid
+address: 0x120038d3c
+80420000
+lwz r2, 0(r2)
+address: 0x120038d40
+10000003
+invalid
+address: 0x120038d44
+00000000
+invalid
+address: 0x120038d48
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120038d4c
+80420000
+lwz r2, 0(r2)
+address: 0x120038d50
+dfc300f8
+stfdu f30, 0xf8(r3)
+address: 0x120038d54
+10600006
+vcmpequb v3, v0, v0
+address: 0x120038d58
+00000000
+invalid
+address: 0x120038d5c
+dfc300f8
+stfdu f30, 0xf8(r3)
+address: 0x120038d60
+6463000a
+oris r3, r3, 0xa
+address: 0x120038d64
+80630000
+lwz r3, 0(r3)
+address: 0x120038d68
+10000002
+vmaxub v0, v0, v0
+address: 0x120038d6c
+00000000
+invalid
+address: 0x120038d70
+2403000a
+invalid
+address: 0x120038d74
+14430018
+invalid
+address: 0x120038d78
+00000000
+invalid
+address: 0x120038d7c
+dfc20008
+stfdu f30, 8(r2)
+address: 0x120038d80
+30420040
+addic r2, r2, 0x40
+address: 0x120038d84
+14400014
+invalid
+address: 0x120038d88
+00000000
+invalid
+address: 0x120038d8c
+dfc200d8
+stfdu f30, 0xd8(r2)
+address: 0x120038d90
+0050102f
+invalid
+address: 0x120038d94
+00021000
+invalid
+address: 0x120038d98
+2442fffd
+invalid
+address: 0x120038d9c
+00401825
+invalid
+address: 0x120038da0
+00600013
+invalid
+address: 0x120038da4
+00001012
+invalid
+address: 0x120038da8
+00403025
+invalid
+address: 0x120038dac
+02002825
+invalid
+address: 0x120038db0
+2404000d
+invalid
+address: 0x120038db4
+df828080
+stfdu f28, -0x7f80(r2)
+address: 0x120038db8
+6442ded8
+oris r2, r2, 0xded8
+address: 0x120038dbc
+0040c825
+invalid
+address: 0x120038dc0
+04111445
+invalid
+address: 0x120038dc4
+00000000
+invalid
+address: 0x120038dc8
+24020001
+invalid
+address: 0x120038dcc
+a3c20024
+lhz r30, 0x24(r2)
+address: 0x120038dd0
+10000011
+invalid
+address: 0x120038dd4
+00000000
+invalid
+address: 0x120038dd8
+dfc200d8
+stfdu f30, 0xd8(r2)
+address: 0x120038ddc
+6442fffd
+oris r2, r2, 0xfffd
+address: 0x120038de0
+0050102f
+invalid
+address: 0x120038de4
+00021000
+invalid
+address: 0x120038de8
+2442fffd
+invalid
+address: 0x120038dec
+00401825
+invalid
+address: 0x120038df0
+00600013
+invalid
+address: 0x120038df4
+00001012
+invalid
+address: 0x120038df8
+00403025
+invalid
+address: 0x120038dfc
+02002825
+invalid
+address: 0x120038e00
+24040012
+invalid
+address: 0x120038e04
+df828080
+stfdu f28, -0x7f80(r2)
+address: 0x120038e08
+6442ded8
+oris r2, r2, 0xded8
+address: 0x120038e0c
+0040c825
+invalid
+address: 0x120038e10
+04111431
+invalid
+address: 0x120038e14
+00000000
+invalid
+address: 0x120038e18
+66100003
+oris r16, r16, 3
+address: 0x120038e1c
+10000054
+invalid
+address: 0x120038e20
+00000000
+invalid
+address: 0x120038e24
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038e28
+dc420000
+stfdu f2, 0(r2)
+address: 0x120038e2c
+ffc201a8
+invalid
+address: 0x120038e30
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038e34
+dc430008
+stfdu f2, 8(r3)
+address: 0x120038e38
+3c020001
+addis r0, r2, 1
+address: 0x120038e3c
+14620004
+invalid
+address: 0x120038e40
+00000000
+invalid
+address: 0x120038e44
+2402000f
+invalid
+address: 0x120038e48
+1000140e
+invalid
+address: 0x120038e4c
+00000000
+invalid
+address: 0x120038e50
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038e54
+dc420008
+stfdu f2, 8(r2)
+address: 0x120038e58
+00021878
+invalid
+address: 0x120038e5c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038e60
+fc430008
+invalid
+address: 0x120038e64
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038e68
+dc430008
+stfdu f2, 8(r3)
+address: 0x120038e6c
+3c020001
+addis r0, r2, 1
+address: 0x120038e70
+34420001
+addic. r2, r2, 1
+address: 0x120038e74
+0062102b
+invalid
+address: 0x120038e78
+14400004
+invalid
+address: 0x120038e7c
+00000000
+invalid
+address: 0x120038e80
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038e84
+3c030001
+addis r0, r3, 1
+address: 0x120038e88
+fc430008
+invalid
+address: 0x120038e8c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038e90
+dc430000
+stfdu f2, 0(r3)
+address: 0x120038e94
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038e98
+dc420008
+stfdu f2, 8(r2)
+address: 0x120038e9c
+00402825
+invalid
+address: 0x120038ea0
+00602025
+invalid
+address: 0x120038ea4
+df820d78
+stfdu f28, 0xd78(r2)
+address: 0x120038ea8
+0040c825
+invalid
+address: 0x120038eac
+0320f809
+invalid
+address: 0x120038eb0
+00000000
+invalid
+address: 0x120038eb4
+00401825
+invalid
+address: 0x120038eb8
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038ebc
+fc430000
+invalid
+address: 0x120038ec0
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038ec4
+dc420000
+stfdu f2, 0(r2)
+address: 0x120038ec8
+14400004
+invalid
+address: 0x120038ecc
+00000000
+invalid
+address: 0x120038ed0
+2402000c
+invalid
+address: 0x120038ed4
+100013eb
+vperm v0, v0, v2, v15
+address: 0x120038ed8
+00000000
+invalid
+address: 0x120038edc
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038ee0
+dc420000
+stfdu f2, 0(r2)
+address: 0x120038ee4
+dfc301a8
+stfdu f30, 0x1a8(r3)
+address: 0x120038ee8
+10620021
+vmhraddshs v3, v2, v0, v0
+address: 0x120038eec
+00000000
+invalid
+address: 0x120038ef0
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038ef4
+dc430000
+stfdu f2, 0(r3)
+address: 0x120038ef8
+dfc201a8
+stfdu f30, 0x1a8(r2)
+address: 0x120038efc
+0062102f
+invalid
+address: 0x120038f00
+afc200a0
+lhau r30, 0xa0(r2)
+address: 0x120038f04
+8fc200a0
+lbzu r30, 0xa0(r2)
+address: 0x120038f08
+0202802d
+invalid
+address: 0x120038f0c
+8fc200a0
+lbzu r30, 0xa0(r2)
+address: 0x120038f10
+dfc300e0
+stfdu f30, 0xe0(r3)
+address: 0x120038f14
+0062102d
+invalid
+address: 0x120038f18
+ffc200e0
+invalid
+address: 0x120038f1c
+dfc200e8
+stfdu f30, 0xe8(r2)
+address: 0x120038f20
+10400005
+invalid
+address: 0x120038f24
+00000000
+invalid
+address: 0x120038f28
+8fc200a0
+lbzu r30, 0xa0(r2)
+address: 0x120038f2c
+dfc300e8
+stfdu f30, 0xe8(r3)
+address: 0x120038f30
+0062102d
+invalid
+address: 0x120038f34
+ffc200e8
+invalid
+address: 0x120038f38
+dfc200d8
+stfdu f30, 0xd8(r2)
+address: 0x120038f3c
+10400005
+invalid
+address: 0x120038f40
+00000000
+invalid
+address: 0x120038f44
+8fc200a0
+lbzu r30, 0xa0(r2)
+address: 0x120038f48
+dfc300d8
+stfdu f30, 0xd8(r3)
+address: 0x120038f4c
+0062102d
+invalid
+address: 0x120038f50
+ffc200d8
+invalid
+address: 0x120038f54
+dfc200d0
+stfdu f30, 0xd0(r2)
+address: 0x120038f58
+10400005
+invalid
+address: 0x120038f5c
+00000000
+invalid
+address: 0x120038f60
+8fc200a0
+lbzu r30, 0xa0(r2)
+address: 0x120038f64
+dfc300d0
+stfdu f30, 0xd0(r3)
+address: 0x120038f68
+0062102d
+invalid
+address: 0x120038f6c
+ffc200d0
+invalid
+address: 0x120038f70
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038f74
+dc420000
+stfdu f2, 0(r2)
+address: 0x120038f78
+0202102f
+invalid
+address: 0x120038f7c
+64420003
+oris r2, r2, 3
+address: 0x120038f80
+00401825
+invalid
+address: 0x120038f84
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120038f88
+dc420008
+stfdu f2, 8(r2)
+address: 0x120038f8c
+0043102b
+invalid
+address: 0x120038f90
+1440ffa4
+invalid
+address: 0x120038f94
+00000000
+invalid
+address: 0x120038f98
+83c20024
+lwz r30, 0x24(r2)
+address: 0x120038f9c
+10400004
+vrlb v2, v0, v0
+address: 0x120038fa0
+00000000
+invalid
+address: 0x120038fa4
+24020010
+invalid
+address: 0x120038fa8
+10000002
+vmaxub v0, v0, v0
+address: 0x120038fac
+00000000
+invalid
+address: 0x120038fb0
+2402000f
+invalid
+address: 0x120038fb4
+66040003
+oris r4, r16, 3
+address: 0x120038fb8
+dfc300d8
+stfdu f30, 0xd8(r3)
+address: 0x120038fbc
+0083182f
+invalid
+address: 0x120038fc0
+00031800
+invalid
+address: 0x120038fc4
+2463fffd
+invalid
+address: 0x120038fc8
+00602025
+invalid
+address: 0x120038fcc
+00800013
+invalid
+address: 0x120038fd0
+00001812
+invalid
+address: 0x120038fd4
+02003825
+invalid
+address: 0x120038fd8
+00603025
+invalid
+address: 0x120038fdc
+dfc500d8
+stfdu f30, 0xd8(r5)
+address: 0x120038fe0
+00402025
+invalid
+address: 0x120038fe4
+df828080
+stfdu f28, -0x7f80(r2)
+address: 0x120038fe8
+6442e010
+oris r2, r2, 0xe010
+address: 0x120038fec
+0040c825
+invalid
+address: 0x120038ff0
+04111407
+invalid
+address: 0x120038ff4
+00000000
+invalid
+address: 0x120038ff8
+ffc000d0
+invalid
+address: 0x120038ffc
+66100003
+oris r16, r16, 3
+address: 0x120039000
+83c20025
+lwz r30, 0x25(r2)
+address: 0x120039004
+14401308
+invalid
+address: 0x120039008
+00000000
+invalid
+address: 0x12003900c
+10000054
+invalid
+address: 0x120039010
+00000000
+invalid
+address: 0x120039014
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039018
+dc420000
+stfdu f2, 0(r2)
+address: 0x12003901c
+ffc201a0
+invalid
+address: 0x120039020
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039024
+dc430008
+stfdu f2, 8(r3)
+address: 0x120039028
+3c020001
+addis r0, r2, 1
+address: 0x12003902c
+14620004
+invalid
+address: 0x120039030
+00000000
+invalid
+address: 0x120039034
+2402000f
+invalid
+address: 0x120039038
+10001392
+invalid
+address: 0x12003903c
+00000000
+invalid
+address: 0x120039040
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039044
+dc420008
+stfdu f2, 8(r2)
+address: 0x120039048
+00021878
+invalid
+address: 0x12003904c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039050
+fc430008
+invalid
+address: 0x120039054
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039058
+dc430008
+stfdu f2, 8(r3)
+address: 0x12003905c
+3c020001
+addis r0, r2, 1
+address: 0x120039060
+34420001
+addic. r2, r2, 1
+address: 0x120039064
+0062102b
+invalid
+address: 0x120039068
+14400004
+invalid
+address: 0x12003906c
+00000000
+invalid
+address: 0x120039070
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039074
+3c030001
+addis r0, r3, 1
+address: 0x120039078
+fc430008
+invalid
+address: 0x12003907c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039080
+dc430000
+stfdu f2, 0(r3)
+address: 0x120039084
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039088
+dc420008
+stfdu f2, 8(r2)
+address: 0x12003908c
+00402825
+invalid
+address: 0x120039090
+00602025
+invalid
+address: 0x120039094
+df820d78
+stfdu f28, 0xd78(r2)
+address: 0x120039098
+0040c825
+invalid
+address: 0x12003909c
+0320f809
+invalid
+address: 0x1200390a0
+00000000
+invalid
+address: 0x1200390a4
+00401825
+invalid
+address: 0x1200390a8
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200390ac
+fc430000
+invalid
+address: 0x1200390b0
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200390b4
+dc420000
+stfdu f2, 0(r2)
+address: 0x1200390b8
+14400004
+invalid
+address: 0x1200390bc
+00000000
+invalid
+address: 0x1200390c0
+2402000c
+invalid
+address: 0x1200390c4
+1000136f
+vnmsubfp v0, v0, v13, v2
+address: 0x1200390c8
+00000000
+invalid
+address: 0x1200390cc
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200390d0
+dc420000
+stfdu f2, 0(r2)
+address: 0x1200390d4
+dfc301a0
+stfdu f30, 0x1a0(r3)
+address: 0x1200390d8
+10620021
+vmhraddshs v3, v2, v0, v0
+address: 0x1200390dc
+00000000
+invalid
+address: 0x1200390e0
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200390e4
+dc430000
+stfdu f2, 0(r3)
+address: 0x1200390e8
+dfc201a0
+stfdu f30, 0x1a0(r2)
+address: 0x1200390ec
+0062102f
+invalid
+address: 0x1200390f0
+afc2009c
+lhau r30, 0x9c(r2)
+address: 0x1200390f4
+8fc2009c
+lbzu r30, 0x9c(r2)
+address: 0x1200390f8
+0202802d
+invalid
+address: 0x1200390fc
+8fc2009c
+lbzu r30, 0x9c(r2)
+address: 0x120039100
+dfc300e0
+stfdu f30, 0xe0(r3)
+address: 0x120039104
+0062102d
+invalid
+address: 0x120039108
+ffc200e0
+invalid
+address: 0x12003910c
+dfc200e8
+stfdu f30, 0xe8(r2)
+address: 0x120039110
+10400005
+invalid
+address: 0x120039114
+00000000
+invalid
+address: 0x120039118
+8fc2009c
+lbzu r30, 0x9c(r2)
+address: 0x12003911c
+dfc300e8
+stfdu f30, 0xe8(r3)
+address: 0x120039120
+0062102d
+invalid
+address: 0x120039124
+ffc200e8
+invalid
+address: 0x120039128
+dfc200d8
+stfdu f30, 0xd8(r2)
+address: 0x12003912c
+10400005
+invalid
+address: 0x120039130
+00000000
+invalid
+address: 0x120039134
+8fc2009c
+lbzu r30, 0x9c(r2)
+address: 0x120039138
+dfc300d8
+stfdu f30, 0xd8(r3)
+address: 0x12003913c
+0062102d
+invalid
+address: 0x120039140
+ffc200d8
+invalid
+address: 0x120039144
+dfc200d0
+stfdu f30, 0xd0(r2)
+address: 0x120039148
+10400005
+invalid
+address: 0x12003914c
+00000000
+invalid
+address: 0x120039150
+8fc2009c
+lbzu r30, 0x9c(r2)
+address: 0x120039154
+dfc300d0
+stfdu f30, 0xd0(r3)
+address: 0x120039158
+0062102d
+invalid
+address: 0x12003915c
+ffc200d0
+invalid
+address: 0x120039160
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039164
+dc420000
+stfdu f2, 0(r2)
+address: 0x120039168
+0202102f
+invalid
+address: 0x12003916c
+64420003
+oris r2, r2, 3
+address: 0x120039170
+00401825
+invalid
+address: 0x120039174
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039178
+dc420008
+stfdu f2, 8(r2)
+address: 0x12003917c
+0043102b
+invalid
+address: 0x120039180
+1440ffa4
+invalid
+address: 0x120039184
+00000000
+invalid
+address: 0x120039188
+02003825
+invalid
+address: 0x12003918c
+24060003
+invalid
+address: 0x120039190
+dfc500d8
+stfdu f30, 0xd8(r5)
+address: 0x120039194
+24040013
+invalid
+address: 0x120039198
+df828080
+stfdu f28, -0x7f80(r2)
+address: 0x12003919c
+6442e010
+oris r2, r2, 0xe010
+address: 0x1200391a0
+0040c825
+invalid
+address: 0x1200391a4
+0411139a
+invalid
+address: 0x1200391a8
+00000000
+invalid
+address: 0x1200391ac
+66100003
+oris r16, r16, 3
+address: 0x1200391b0
+1000129d
+invalid
+address: 0x1200391b4
+00000000
+invalid
+address: 0x1200391b8
+ffd000d8
+invalid
+address: 0x1200391bc
+10000054
+invalid
+address: 0x1200391c0
+00000000
+invalid
+address: 0x1200391c4
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200391c8
+dc420000
+stfdu f2, 0(r2)
+address: 0x1200391cc
+ffc20190
+invalid
+address: 0x1200391d0
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200391d4
+dc430008
+stfdu f2, 8(r3)
+address: 0x1200391d8
+3c020001
+addis r0, r2, 1
+address: 0x1200391dc
+14620004
+invalid
+address: 0x1200391e0
+00000000
+invalid
+address: 0x1200391e4
+2402000f
+invalid
+address: 0x1200391e8
+10001326
+vmsumuhm v0, v0, v2, v12
+address: 0x1200391ec
+00000000
+invalid
+address: 0x1200391f0
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200391f4
+dc420008
+stfdu f2, 8(r2)
+address: 0x1200391f8
+00021878
+invalid
+address: 0x1200391fc
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039200
+fc430008
+invalid
+address: 0x120039204
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039208
+dc430008
+stfdu f2, 8(r3)
+address: 0x12003920c
+3c020001
+addis r0, r2, 1
+address: 0x120039210
+34420001
+addic. r2, r2, 1
+address: 0x120039214
+0062102b
+invalid
+address: 0x120039218
+14400004
+invalid
+address: 0x12003921c
+00000000
+invalid
+address: 0x120039220
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039224
+3c030001
+addis r0, r3, 1
+address: 0x120039228
+fc430008
+invalid
+address: 0x12003922c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039230
+dc430000
+stfdu f2, 0(r3)
+address: 0x120039234
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039238
+dc420008
+stfdu f2, 8(r2)
+address: 0x12003923c
+00402825
+invalid
+address: 0x120039240
+00602025
+invalid
+address: 0x120039244
+df820d78
+stfdu f28, 0xd78(r2)
+address: 0x120039248
+0040c825
+invalid
+address: 0x12003924c
+0320f809
+invalid
+address: 0x120039250
+00000000
+invalid
+address: 0x120039254
+00401825
+invalid
+address: 0x120039258
+dfc20000
+stfdu f30, 0(r2)
+address: 0x12003925c
+fc430000
+invalid
+address: 0x120039260
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039264
+dc420000
+stfdu f2, 0(r2)
+address: 0x120039268
+14400004
+invalid
+address: 0x12003926c
+00000000
+invalid
+address: 0x120039270
+2402000c
+invalid
+address: 0x120039274
+10001303
+invalid
+address: 0x120039278
+00000000
+invalid
+address: 0x12003927c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039280
+dc420000
+stfdu f2, 0(r2)
+address: 0x120039284
+dfc30190
+stfdu f30, 0x190(r3)
+address: 0x120039288
+10620021
+vmhraddshs v3, v2, v0, v0
+address: 0x12003928c
+00000000
+invalid
+address: 0x120039290
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039294
+dc430000
+stfdu f2, 0(r3)
+address: 0x120039298
+dfc20190
+stfdu f30, 0x190(r2)
+address: 0x12003929c
+0062102f
+invalid
+address: 0x1200392a0
+afc20094
+lhau r30, 0x94(r2)
+address: 0x1200392a4
+8fc20094
+lbzu r30, 0x94(r2)
+address: 0x1200392a8
+0202802d
+invalid
+address: 0x1200392ac
+8fc20094
+lbzu r30, 0x94(r2)
+address: 0x1200392b0
+dfc300e0
+stfdu f30, 0xe0(r3)
+address: 0x1200392b4
+0062102d
+invalid
+address: 0x1200392b8
+ffc200e0
+invalid
+address: 0x1200392bc
+dfc200e8
+stfdu f30, 0xe8(r2)
+address: 0x1200392c0
+10400005
+invalid
+address: 0x1200392c4
+00000000
+invalid
+address: 0x1200392c8
+8fc20094
+lbzu r30, 0x94(r2)
+address: 0x1200392cc
+dfc300e8
+stfdu f30, 0xe8(r3)
+address: 0x1200392d0
+0062102d
+invalid
+address: 0x1200392d4
+ffc200e8
+invalid
+address: 0x1200392d8
+dfc200d8
+stfdu f30, 0xd8(r2)
+address: 0x1200392dc
+10400005
+invalid
+address: 0x1200392e0
+00000000
+invalid
+address: 0x1200392e4
+8fc20094
+lbzu r30, 0x94(r2)
+address: 0x1200392e8
+dfc300d8
+stfdu f30, 0xd8(r3)
+address: 0x1200392ec
+0062102d
+invalid
+address: 0x1200392f0
+ffc200d8
+invalid
+address: 0x1200392f4
+dfc200d0
+stfdu f30, 0xd0(r2)
+address: 0x1200392f8
+10400005
+invalid
+address: 0x1200392fc
+00000000
+invalid
+address: 0x120039300
+8fc20094
+lbzu r30, 0x94(r2)
+address: 0x120039304
+dfc300d0
+stfdu f30, 0xd0(r3)
+address: 0x120039308
+0062102d
+invalid
+address: 0x12003930c
+ffc200d0
+invalid
+address: 0x120039310
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039314
+dc420000
+stfdu f2, 0(r2)
+address: 0x120039318
+0202102f
+invalid
+address: 0x12003931c
+64420001
+oris r2, r2, 1
+address: 0x120039320
+00401825
+invalid
+address: 0x120039324
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039328
+dc420008
+stfdu f2, 8(r2)
+address: 0x12003932c
+0043102b
+invalid
+address: 0x120039330
+1440ffa4
+invalid
+address: 0x120039334
+00000000
+invalid
+address: 0x120039338
+02001025
+invalid
+address: 0x12003933c
+64500001
+oris r16, r2, 1
+address: 0x120039340
+24030003
+invalid
+address: 0x120039344
+a0430000
+lhz r2, 0(r3)
+address: 0x120039348
+10001237
+invalid
+address: 0x12003934c
+00000000
+invalid
+address: 0x120039350
+a3c00027
+lhz r30, 0x27(0)
+address: 0x120039354
+2402ffff
+invalid
+address: 0x120039358
+afc20038
+lhau r30, 0x38(r2)
+address: 0x12003935c
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039360
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x120039364
+1462005d
+invalid
+address: 0x120039368
+00000000
+invalid
+address: 0x12003936c
+dfc201f8
+stfdu f30, 0x1f8(r2)
+address: 0x120039370
+00402025
+invalid
+address: 0x120039374
+df820cc0
+stfdu f28, 0xcc0(r2)
+address: 0x120039378
+0040c825
+invalid
+address: 0x12003937c
+0320f809
+invalid
+address: 0x120039380
+00000000
+invalid
+address: 0x120039384
+24020007
+invalid
+address: 0x120039388
+100012be
+invalid
+address: 0x12003938c
+00000000
+invalid
+address: 0x120039390
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039394
+dc420000
+stfdu f2, 0(r2)
+address: 0x120039398
+ffc20188
+invalid
+address: 0x12003939c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200393a0
+dc430008
+stfdu f2, 8(r3)
+address: 0x1200393a4
+3c020001
+addis r0, r2, 1
+address: 0x1200393a8
+14620004
+invalid
+address: 0x1200393ac
+00000000
+invalid
+address: 0x1200393b0
+2402000f
+invalid
+address: 0x1200393b4
+100012b3
+invalid
+address: 0x1200393b8
+00000000
+invalid
+address: 0x1200393bc
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200393c0
+dc420008
+stfdu f2, 8(r2)
+address: 0x1200393c4
+00021878
+invalid
+address: 0x1200393c8
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200393cc
+fc430008
+invalid
+address: 0x1200393d0
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200393d4
+dc430008
+stfdu f2, 8(r3)
+address: 0x1200393d8
+3c020001
+addis r0, r2, 1
+address: 0x1200393dc
+34420001
+addic. r2, r2, 1
+address: 0x1200393e0
+0062102b
+invalid
+address: 0x1200393e4
+14400004
+invalid
+address: 0x1200393e8
+00000000
+invalid
+address: 0x1200393ec
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200393f0
+3c030001
+addis r0, r3, 1
+address: 0x1200393f4
+fc430008
+invalid
+address: 0x1200393f8
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200393fc
+dc430000
+stfdu f2, 0(r3)
+address: 0x120039400
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039404
+dc420008
+stfdu f2, 8(r2)
+address: 0x120039408
+00402825
+invalid
+address: 0x12003940c
+00602025
+invalid
+address: 0x120039410
+df820d78
+stfdu f28, 0xd78(r2)
+address: 0x120039414
+0040c825
+invalid
+address: 0x120039418
+0320f809
+invalid
+address: 0x12003941c
+00000000
+invalid
+address: 0x120039420
+00401825
+invalid
+address: 0x120039424
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039428
+fc430000
+invalid
+address: 0x12003942c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039430
+dc420000
+stfdu f2, 0(r2)
+address: 0x120039434
+14400004
+invalid
+address: 0x120039438
+00000000
+invalid
+address: 0x12003943c
+2402000c
+invalid
+address: 0x120039440
+10001290
+invalid
+address: 0x120039444
+00000000
+invalid
+address: 0x120039448
+dfc20000
+stfdu f30, 0(r2)
+address: 0x12003944c
+dc420000
+stfdu f2, 0(r2)
+address: 0x120039450
+dfc30188
+stfdu f30, 0x188(r3)
+address: 0x120039454
+10620021
+vmhraddshs v3, v2, v0, v0
+address: 0x120039458
+00000000
+invalid
+address: 0x12003945c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039460
+dc430000
+stfdu f2, 0(r3)
+address: 0x120039464
+dfc20188
+stfdu f30, 0x188(r2)
+address: 0x120039468
+0062102f
+invalid
+address: 0x12003946c
+afc20090
+lhau r30, 0x90(r2)
+address: 0x120039470
+8fc20090
+lbzu r30, 0x90(r2)
+address: 0x120039474
+0202802d
+invalid
+address: 0x120039478
+8fc20090
+lbzu r30, 0x90(r2)
+address: 0x12003947c
+dfc300e0
+stfdu f30, 0xe0(r3)
+address: 0x120039480
+0062102d
+invalid
+address: 0x120039484
+ffc200e0
+invalid
+address: 0x120039488
+dfc200e8
+stfdu f30, 0xe8(r2)
+address: 0x12003948c
+10400005
+invalid
+address: 0x120039490
+00000000
+invalid
+address: 0x120039494
+8fc20090
+lbzu r30, 0x90(r2)
+address: 0x120039498
+dfc300e8
+stfdu f30, 0xe8(r3)
+address: 0x12003949c
+0062102d
+invalid
+address: 0x1200394a0
+ffc200e8
+invalid
+address: 0x1200394a4
+dfc200d8
+stfdu f30, 0xd8(r2)
+address: 0x1200394a8
+10400005
+invalid
+address: 0x1200394ac
+00000000
+invalid
+address: 0x1200394b0
+8fc20090
+lbzu r30, 0x90(r2)
+address: 0x1200394b4
+dfc300d8
+stfdu f30, 0xd8(r3)
+address: 0x1200394b8
+0062102d
+invalid
+address: 0x1200394bc
+ffc200d8
+invalid
+address: 0x1200394c0
+dfc200d0
+stfdu f30, 0xd0(r2)
+address: 0x1200394c4
+10400005
+invalid
+address: 0x1200394c8
+00000000
+invalid
+address: 0x1200394cc
+8fc20090
+lbzu r30, 0x90(r2)
+address: 0x1200394d0
+dfc300d0
+stfdu f30, 0xd0(r3)
+address: 0x1200394d4
+0062102d
+invalid
+address: 0x1200394d8
+ffc200d0
+invalid
+address: 0x1200394dc
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200394e0
+dc420000
+stfdu f2, 0(r2)
+address: 0x1200394e4
+0202102f
+invalid
+address: 0x1200394e8
+64420022
+oris r2, r2, 0x22
+address: 0x1200394ec
+00401825
+invalid
+address: 0x1200394f0
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200394f4
+dc420008
+stfdu f2, 8(r2)
+address: 0x1200394f8
+0043102b
+invalid
+address: 0x1200394fc
+1440ffa4
+invalid
+address: 0x120039500
+00000000
+invalid
+address: 0x120039504
+ffd000d8
+invalid
+address: 0x120039508
+10000054
+invalid
+address: 0x12003950c
+00000000
+invalid
+address: 0x120039510
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039514
+dc420000
+stfdu f2, 0(r2)
+address: 0x120039518
+ffc20180
+invalid
+address: 0x12003951c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039520
+dc430008
+stfdu f2, 8(r3)
+address: 0x120039524
+3c020001
+addis r0, r2, 1
+address: 0x120039528
+14620004
+invalid
+address: 0x12003952c
+00000000
+invalid
+address: 0x120039530
+2402000f
+invalid
+address: 0x120039534
+10001253
+invalid
+address: 0x120039538
+00000000
+invalid
+address: 0x12003953c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039540
+dc420008
+stfdu f2, 8(r2)
+address: 0x120039544
+00021878
+invalid
+address: 0x120039548
+dfc20000
+stfdu f30, 0(r2)
+address: 0x12003954c
+fc430008
+invalid
+address: 0x120039550
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039554
+dc430008
+stfdu f2, 8(r3)
+address: 0x120039558
+3c020001
+addis r0, r2, 1
+address: 0x12003955c
+34420001
+addic. r2, r2, 1
+address: 0x120039560
+0062102b
+invalid
+address: 0x120039564
+14400004
+invalid
+address: 0x120039568
+00000000
+invalid
+address: 0x12003956c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039570
+3c030001
+addis r0, r3, 1
+address: 0x120039574
+fc430008
+invalid
+address: 0x120039578
+dfc20000
+stfdu f30, 0(r2)
+address: 0x12003957c
+dc430000
+stfdu f2, 0(r3)
+address: 0x120039580
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039584
+dc420008
+stfdu f2, 8(r2)
+address: 0x120039588
+00402825
+invalid
+address: 0x12003958c
+00602025
+invalid
+address: 0x120039590
+df820d78
+stfdu f28, 0xd78(r2)
+address: 0x120039594
+0040c825
+invalid
+address: 0x120039598
+0320f809
+invalid
+address: 0x12003959c
+00000000
+invalid
+address: 0x1200395a0
+00401825
+invalid
+address: 0x1200395a4
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200395a8
+fc430000
+invalid
+address: 0x1200395ac
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200395b0
+dc420000
+stfdu f2, 0(r2)
+address: 0x1200395b4
+14400004
+invalid
+address: 0x1200395b8
+00000000
+invalid
+address: 0x1200395bc
+2402000c
+invalid
+address: 0x1200395c0
+10001230
+invalid
+address: 0x1200395c4
+00000000
+invalid
+address: 0x1200395c8
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200395cc
+dc420000
+stfdu f2, 0(r2)
+address: 0x1200395d0
+dfc30180
+stfdu f30, 0x180(r3)
+address: 0x1200395d4
+10620021
+vmhraddshs v3, v2, v0, v0
+address: 0x1200395d8
+00000000
+invalid
+address: 0x1200395dc
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200395e0
+dc430000
+stfdu f2, 0(r3)
+address: 0x1200395e4
+dfc20180
+stfdu f30, 0x180(r2)
+address: 0x1200395e8
+0062102f
+invalid
+address: 0x1200395ec
+afc2008c
+lhau r30, 0x8c(r2)
+address: 0x1200395f0
+8fc2008c
+lbzu r30, 0x8c(r2)
+address: 0x1200395f4
+0202802d
+invalid
+address: 0x1200395f8
+8fc2008c
+lbzu r30, 0x8c(r2)
+address: 0x1200395fc
+dfc300e0
+stfdu f30, 0xe0(r3)
+address: 0x120039600
+0062102d
+invalid
+address: 0x120039604
+ffc200e0
+invalid
+address: 0x120039608
+dfc200e8
+stfdu f30, 0xe8(r2)
+address: 0x12003960c
+10400005
+invalid
+address: 0x120039610
+00000000
+invalid
+address: 0x120039614
+8fc2008c
+lbzu r30, 0x8c(r2)
+address: 0x120039618
+dfc300e8
+stfdu f30, 0xe8(r3)
+address: 0x12003961c
+0062102d
+invalid
+address: 0x120039620
+ffc200e8
+invalid
+address: 0x120039624
+dfc200d8
+stfdu f30, 0xd8(r2)
+address: 0x120039628
+10400005
+invalid
+address: 0x12003962c
+00000000
+invalid
+address: 0x120039630
+8fc2008c
+lbzu r30, 0x8c(r2)
+address: 0x120039634
+dfc300d8
+stfdu f30, 0xd8(r3)
+address: 0x120039638
+0062102d
+invalid
+address: 0x12003963c
+ffc200d8
+invalid
+address: 0x120039640
+dfc200d0
+stfdu f30, 0xd0(r2)
+address: 0x120039644
+10400005
+invalid
+address: 0x120039648
+00000000
+invalid
+address: 0x12003964c
+8fc2008c
+lbzu r30, 0x8c(r2)
+address: 0x120039650
+dfc300d0
+stfdu f30, 0xd0(r3)
+address: 0x120039654
+0062102d
+invalid
+address: 0x120039658
+ffc200d0
+invalid
+address: 0x12003965c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039660
+dc420000
+stfdu f2, 0(r2)
+address: 0x120039664
+0202102f
+invalid
+address: 0x120039668
+64420001
+oris r2, r2, 1
+address: 0x12003966c
+00401825
+invalid
+address: 0x120039670
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039674
+dc420008
+stfdu f2, 8(r2)
+address: 0x120039678
+0043102b
+invalid
+address: 0x12003967c
+1440ffa4
+invalid
+address: 0x120039680
+00000000
+invalid
+address: 0x120039684
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039688
+80430000
+lwz r2, 0(r3)
+address: 0x12003968c
+2402005e
+invalid
+address: 0x120039690
+14620004
+invalid
+address: 0x120039694
+00000000
+invalid
+address: 0x120039698
+24020005
+invalid
+address: 0x12003969c
+10000002
+vmaxub v0, v0, v0
+address: 0x1200396a0
+00000000
+invalid
+address: 0x1200396a4
+24020004
+invalid
+address: 0x1200396a8
+02001825
+invalid
+address: 0x1200396ac
+64700001
+oris r16, r3, 1
+address: 0x1200396b0
+a0620000
+lhz r3, 0(r2)
+address: 0x1200396b4
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x1200396b8
+80430000
+lwz r2, 0(r3)
+address: 0x1200396bc
+2402005e
+invalid
+address: 0x1200396c0
+14620004
+invalid
+address: 0x1200396c4
+00000000
+invalid
+address: 0x1200396c8
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x1200396cc
+64420001
+oris r2, r2, 1
+address: 0x1200396d0
+ffc200c8
+invalid
+address: 0x1200396d4
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x1200396d8
+ffc20170
+invalid
+address: 0x1200396dc
+10000054
+invalid
+address: 0x1200396e0
+00000000
+invalid
+address: 0x1200396e4
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200396e8
+dc420000
+stfdu f2, 0(r2)
+address: 0x1200396ec
+ffc20178
+fmsub f30, f2, f5, f0
+address: 0x1200396f0
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200396f4
+dc430008
+stfdu f2, 8(r3)
+address: 0x1200396f8
+3c020001
+addis r0, r2, 1
+address: 0x1200396fc
+14620004
+invalid
+address: 0x120039700
+00000000
+invalid
+address: 0x120039704
+2402000f
+invalid
+address: 0x120039708
+100011de
+invalid
+address: 0x12003970c
+00000000
+invalid
+address: 0x120039710
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039714
+dc420008
+stfdu f2, 8(r2)
+address: 0x120039718
+00021878
+invalid
+address: 0x12003971c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039720
+fc430008
+invalid
+address: 0x120039724
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039728
+dc430008
+stfdu f2, 8(r3)
+address: 0x12003972c
+3c020001
+addis r0, r2, 1
+address: 0x120039730
+34420001
+addic. r2, r2, 1
+address: 0x120039734
+0062102b
+invalid
+address: 0x120039738
+14400004
+invalid
+address: 0x12003973c
+00000000
+invalid
+address: 0x120039740
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039744
+3c030001
+addis r0, r3, 1
+address: 0x120039748
+fc430008
+invalid
+address: 0x12003974c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039750
+dc430000
+stfdu f2, 0(r3)
+address: 0x120039754
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039758
+dc420008
+stfdu f2, 8(r2)
+address: 0x12003975c
+00402825
+invalid
+address: 0x120039760
+00602025
+invalid
+address: 0x120039764
+df820d78
+stfdu f28, 0xd78(r2)
+address: 0x120039768
+0040c825
+invalid
+address: 0x12003976c
+0320f809
+invalid
+address: 0x120039770
+00000000
+invalid
+address: 0x120039774
+00401825
+invalid
+address: 0x120039778
+dfc20000
+stfdu f30, 0(r2)
+address: 0x12003977c
+fc430000
+invalid
+address: 0x120039780
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039784
+dc420000
+stfdu f2, 0(r2)
+address: 0x120039788
+14400004
+invalid
+address: 0x12003978c
+00000000
+invalid
+address: 0x120039790
+2402000c
+invalid
+address: 0x120039794
+100011bb
+invalid
+address: 0x120039798
+00000000
+invalid
+address: 0x12003979c
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200397a0
+dc420000
+stfdu f2, 0(r2)
+address: 0x1200397a4
+dfc30178
+stfdu f30, 0x178(r3)
+address: 0x1200397a8
+10620021
+vmhraddshs v3, v2, v0, v0
+address: 0x1200397ac
+00000000
+invalid
+address: 0x1200397b0
+dfc20000
+stfdu f30, 0(r2)
+address: 0x1200397b4
+dc430000
+stfdu f2, 0(r3)
+address: 0x1200397b8
+dfc20178
+stfdu f30, 0x178(r2)
+address: 0x1200397bc
+0062102f
+invalid
+address: 0x1200397c0
+afc20088
+lhau r30, 0x88(r2)
+address: 0x1200397c4
+8fc20088
+lbzu r30, 0x88(r2)
+address: 0x1200397c8
+0202802d
+invalid
+address: 0x1200397cc
+8fc20088
+lbzu r30, 0x88(r2)
+address: 0x1200397d0
+dfc300e0
+stfdu f30, 0xe0(r3)
+address: 0x1200397d4
+0062102d
+invalid
+address: 0x1200397d8
+ffc200e0
+invalid
+address: 0x1200397dc
+dfc200e8
+stfdu f30, 0xe8(r2)
+address: 0x1200397e0
+10400005
+invalid
+address: 0x1200397e4
+00000000
+invalid
+address: 0x1200397e8
+8fc20088
+lbzu r30, 0x88(r2)
+address: 0x1200397ec
+dfc300e8
+stfdu f30, 0xe8(r3)
+address: 0x1200397f0
+0062102d
+invalid
+address: 0x1200397f4
+ffc200e8
+invalid
+address: 0x1200397f8
+dfc200d8
+stfdu f30, 0xd8(r2)
+address: 0x1200397fc
+10400005
+invalid
+address: 0x120039800
+00000000
+invalid
+address: 0x120039804
+8fc20088
+lbzu r30, 0x88(r2)
+address: 0x120039808
+dfc300d8
+stfdu f30, 0xd8(r3)
+address: 0x12003980c
+0062102d
+invalid
+address: 0x120039810
+ffc200d8
+invalid
+address: 0x120039814
+dfc200d0
+stfdu f30, 0xd0(r2)
+address: 0x120039818
+10400005
+invalid
+address: 0x12003981c
+00000000
+invalid
+address: 0x120039820
+8fc20088
+lbzu r30, 0x88(r2)
+address: 0x120039824
+dfc300d0
+stfdu f30, 0xd0(r3)
+address: 0x120039828
+0062102d
+invalid
+address: 0x12003982c
+ffc200d0
+invalid
+address: 0x120039830
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039834
+dc420000
+stfdu f2, 0(r2)
+address: 0x120039838
+0202102f
+invalid
+address: 0x12003983c
+64420001
+oris r2, r2, 1
+address: 0x120039840
+00401825
+invalid
+address: 0x120039844
+dfc20000
+stfdu f30, 0(r2)
+address: 0x120039848
+dc420008
+stfdu f2, 8(r2)
+address: 0x12003984c
+0043102b
+invalid
+address: 0x120039850
+1440ffa4
+invalid
+address: 0x120039854
+00000000
+invalid
+address: 0x120039858
+02001025
+invalid
+address: 0x12003985c
+64500001
+oris r16, r2, 1
+address: 0x120039860
+24030020
+invalid
+address: 0x120039864
+a0430000
+lhz r2, 0(r3)
+address: 0x120039868
+24060020
+invalid
+address: 0x12003986c
+00002825
+invalid
+address: 0x120039870
+02002025
+invalid
+address: 0x120039874
+df820d30
+stfdu f28, 0xd30(r2)
+address: 0x120039878
+0040c825
+invalid
+address: 0x12003987c
+0320f809
+invalid
+address: 0x120039880
+00000000
+invalid
+address: 0x120039884
+6602fffe
+oris r2, r16, 0xfffe
+address: 0x120039888
+90430000
+stw r2, 0(r3)
+address: 0x12003988c
+24020005
+invalid
+address: 0x120039890
+1462000b
+invalid
+address: 0x120039894
+00000000
+invalid
+address: 0x120039898
+dfc20008
+stfdu f30, 8(r2)
+address: 0x12003989c
+30420100
+addic r2, r2, 0x100
+address: 0x1200398a0
+10400007
+invalid
+address: 0x1200398a4
+00000000
+invalid
+address: 0x1200398a8
+66020001
+oris r2, r16, 1
+address: 0x1200398ac
+90430000
+stw r2, 0(r3)
+address: 0x1200398b0
+66020001
+oris r2, r16, 1
+address: 0x1200398b4
+34630004
+addic. r3, r3, 4
+address: 0x1200398b8
+306300ff
+addic r3, r3, 0xff
+address: 0x1200398bc
+a0430000
+lhz r2, 0(r3)
+address: 0x1200398c0
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x1200398c4
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x1200398c8
+1462000a
+invalid
+address: 0x1200398cc
+00000000
+invalid
+address: 0x1200398d0
+dfc201f8
+stfdu f30, 0x1f8(r2)
+address: 0x1200398d4
+00402025
+invalid
+address: 0x1200398d8
+df820cc0
+stfdu f28, 0xcc0(r2)
+address: 0x1200398dc
+0040c825
+invalid
+address: 0x1200398e0
+0320f809
+invalid
+address: 0x1200398e4
+00000000
+invalid
+address: 0x1200398e8
+24020007
+invalid
+address: 0x1200398ec
+10001165
+vmsummbm v0, v0, v2, v5
+address: 0x1200398f0
+00000000
+invalid
+address: 0x1200398f4
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x1200398f8
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x1200398fc
+14620004
+invalid
+address: 0x120039900
+00000000
+invalid
+address: 0x120039904
+2402000e
+invalid
+address: 0x120039908
+1000115e
+invalid
+address: 0x12003990c
+00000000
+invalid
+address: 0x120039910
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039914
+64430001
+oris r3, r2, 1
+address: 0x120039918
+ffc300c8
+invalid
+address: 0x12003991c
+80420000
+lwz r2, 0(r2)
+address: 0x120039920
+305100ff
+addic r2, r17, 0xff
+address: 0x120039924
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x120039928
+10400006
+vcmpequb v2, v0, v0
+address: 0x12003992c
+00000000
+invalid
+address: 0x120039930
+02201825
+invalid
+address: 0x120039934
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x120039938
+0043102d
+invalid
+address: 0x12003993c
+80420000
+lwz r2, 0(r2)
+address: 0x120039940
+305100ff
+addic r2, r17, 0xff
+address: 0x120039944
+dfc20008
+stfdu f30, 8(r2)
+address: 0x120039948
+30420001
+addic r2, r2, 1
+address: 0x12003994c
+1040003b
+invalid
+address: 0x120039950
+00000000
+invalid
+address: 0x120039954
+2402005c
+invalid
+address: 0x120039958
+16220038
+invalid
+address: 0x12003995c
+00000000
+invalid
+address: 0x120039960
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039964
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x120039968
+1462000a
+invalid
+address: 0x12003996c
+00000000
+invalid
+address: 0x120039970
+dfc201f8
+stfdu f30, 0x1f8(r2)
+address: 0x120039974
+00402025
+invalid
+address: 0x120039978
+df820cc0
+stfdu f28, 0xcc0(r2)
+address: 0x12003997c
+0040c825
+invalid
+address: 0x120039980
+0320f809
+invalid
+address: 0x120039984
+00000000
+invalid
+address: 0x120039988
+24020005
+invalid
+address: 0x12003998c
+1000113d
+invalid
+address: 0x120039990
+00000000
+invalid
+address: 0x120039994
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039998
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x12003999c
+14620004
+invalid
+address: 0x1200399a0
+00000000
+invalid
+address: 0x1200399a4
+2402000e
+invalid
+address: 0x1200399a8
+10001136
+invalid
+address: 0x1200399ac
+00000000
+invalid
+address: 0x1200399b0
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x1200399b4
+64430001
+oris r3, r2, 1
+address: 0x1200399b8
+ffc300c8
+invalid
+address: 0x1200399bc
+80420000
+lwz r2, 0(r2)
+address: 0x1200399c0
+305200ff
+addic r2, r18, 0xff
+address: 0x1200399c4
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x1200399c8
+10400006
+vcmpequb v2, v0, v0
+address: 0x1200399cc
+00000000
+invalid
+address: 0x1200399d0
+02401825
+invalid
+address: 0x1200399d4
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x1200399d8
+0043102d
+invalid
+address: 0x1200399dc
+80420000
+lwz r2, 0(r2)
+address: 0x1200399e0
+305200ff
+addic r2, r18, 0xff
+address: 0x1200399e4
+02401025
+invalid
+address: 0x1200399e8
+000210c2
+invalid
+address: 0x1200399ec
+304400ff
+addic r2, r4, 0xff
+address: 0x1200399f0
+00801025
+invalid
+address: 0x1200399f4
+0202102d
+invalid
+address: 0x1200399f8
+90420000
+stw r2, 0(r2)
+address: 0x1200399fc
+7c021c20
+invalid
+address: 0x120039a00
+02401025
+invalid
+address: 0x120039a04
+30420007
+addic r2, r2, 7
+address: 0x120039a08
+00022800
+invalid
+address: 0x120039a0c
+24020001
+invalid
+address: 0x120039a10
+00a21004
+invalid
+address: 0x120039a14
+7c021420
+invalid
+address: 0x120039a18
+00621025
+invalid
+address: 0x120039a1c
+7c021c20
+invalid
+address: 0x120039a20
+00801025
+invalid
+address: 0x120039a24
+0202102d
+invalid
+address: 0x120039a28
+306300ff
+addic r3, r3, 0xff
+address: 0x120039a2c
+a0430000
+lhz r2, 0(r3)
+address: 0x120039a30
+afd20038
+lhau r30, 0x38(r18)
+address: 0x120039a34
+10000520
+vmhaddshs v0, v0, v0, v20
+address: 0x120039a38
+00000000
+invalid
+address: 0x120039a3c
+2402005d
+invalid
+address: 0x120039a40
+16220006
+invalid
+address: 0x120039a44
+00000000
+invalid
+address: 0x120039a48
+dfc20170
+stfdu f30, 0x170(r2)
+address: 0x120039a4c
+64430001
+oris r3, r2, 1
+address: 0x120039a50
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039a54
+1462051a
+invalid
+address: 0x120039a58
+00000000
+invalid
+address: 0x120039a5c
+83c20027
+lwz r30, 0x27(r2)
+address: 0x120039a60
+10400012
+invalid
+address: 0x120039a64
+00000000
+invalid
+address: 0x120039a68
+2402002d
+invalid
+address: 0x120039a6c
+1622000f
+invalid
+address: 0x120039a70
+00000000
+invalid
+address: 0x120039a74
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039a78
+80430000
+lwz r2, 0(r3)
+address: 0x120039a7c
+2402005d
+invalid
+address: 0x120039a80
+1062000a
+vaddfp v3, v2, v0
+address: 0x120039a84
+00000000
+invalid
+address: 0x120039a88
+dfc201f8
+stfdu f30, 0x1f8(r2)
+address: 0x120039a8c
+00402025
+invalid
+address: 0x120039a90
+df820cc0
+stfdu f28, 0xcc0(r2)
+address: 0x120039a94
+0040c825
+invalid
+address: 0x120039a98
+0320f809
+invalid
+address: 0x120039a9c
+00000000
+invalid
+address: 0x120039aa0
+2402000b
+invalid
+address: 0x120039aa4
+100010f7
+invalid
+address: 0x120039aa8
+00000000
+invalid
+address: 0x120039aac
+2402002d
+invalid
+address: 0x120039ab0
+16220042
+invalid
+address: 0x120039ab4
+00000000
+invalid
+address: 0x120039ab8
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039abc
+6442fffe
+oris r2, r2, 0xfffe
+address: 0x120039ac0
+dfc30018
+stfdu f30, 0x18(r3)
+address: 0x120039ac4
+0043102b
+invalid
+address: 0x120039ac8
+14400007
+invalid
+address: 0x120039acc
+00000000
+invalid
+address: 0x120039ad0
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039ad4
+6442fffe
+oris r2, r2, 0xfffe
+address: 0x120039ad8
+80430000
+lwz r2, 0(r3)
+address: 0x120039adc
+2402005b
+invalid
+address: 0x120039ae0
+10620036
+invalid
+address: 0x120039ae4
+00000000
+invalid
+address: 0x120039ae8
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039aec
+6442fffd
+oris r2, r2, 0xfffd
+address: 0x120039af0
+dfc30018
+stfdu f30, 0x18(r3)
+address: 0x120039af4
+0043102b
+invalid
+address: 0x120039af8
+1440000d
+invalid
+address: 0x120039afc
+00000000
+invalid
+address: 0x120039b00
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039b04
+6442fffd
+oris r2, r2, 0xfffd
+address: 0x120039b08
+80430000
+lwz r2, 0(r3)
+address: 0x120039b0c
+2402005b
+invalid
+address: 0x120039b10
+14620007
+invalid
+address: 0x120039b14
+00000000
+invalid
+address: 0x120039b18
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039b1c
+6442fffe
+oris r2, r2, 0xfffe
+address: 0x120039b20
+80430000
+lwz r2, 0(r3)
+address: 0x120039b24
+2402005e
+invalid
+address: 0x120039b28
+10620024
+vmsumubm v3, v2, v0, v0
+address: 0x120039b2c
+00000000
+invalid
+address: 0x120039b30
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039b34
+80430000
+lwz r2, 0(r3)
+address: 0x120039b38
+2402005d
+invalid
+address: 0x120039b3c
+1062001f
+invalid
+address: 0x120039b40
+00000000
+invalid
+address: 0x120039b44
+67c300c8
+oris r3, r30, 0xc8
+address: 0x120039b48
+8fc20038
+lbzu r30, 0x38(r2)
+address: 0x120039b4c
+02004825
+invalid
+address: 0x120039b50
+dfc80008
+stfdu f30, 8(r8)
+address: 0x120039b54
+dfc700f8
+stfdu f30, 0xf8(r7)
+address: 0x120039b58
+dfc600f0
+stfdu f30, 0xf0(r6)
+address: 0x120039b5c
+00602825
+invalid
+address: 0x120039b60
+00402025
+invalid
+address: 0x120039b64
+df828080
+stfdu f28, -0x7f80(r2)
+address: 0x120039b68
+6442e40c
+oris r2, r2, 0xe40c
+address: 0x120039b6c
+0040c825
+invalid
+address: 0x120039b70
+04111226
+invalid
+address: 0x120039b74
+00000000
+invalid
+address: 0x120039b78
+afc20080
+lhau r30, 0x80(r2)
+address: 0x120039b7c
+8fc20080
+lbzu r30, 0x80(r2)
+address: 0x120039b80
+1040000a
+vaddfp v2, v0, v0
+address: 0x120039b84
+00000000
+invalid
+address: 0x120039b88
+dfc201f8
+stfdu f30, 0x1f8(r2)
+address: 0x120039b8c
+00402025
+invalid
+address: 0x120039b90
+df820cc0
+stfdu f28, 0xcc0(r2)
+address: 0x120039b94
+0040c825
+invalid
+address: 0x120039b98
+0320f809
+invalid
+address: 0x120039b9c
+00000000
+invalid
+address: 0x120039ba0
+8fc20080
+lbzu r30, 0x80(r2)
+address: 0x120039ba4
+100010b7
+invalid
+address: 0x120039ba8
+00000000
+invalid
+address: 0x120039bac
+2402ffff
+invalid
+address: 0x120039bb0
+afc20038
+lhau r30, 0x38(r2)
+address: 0x120039bb4
+100004c0
+vsubudm v0, v0, v0
+address: 0x120039bb8
+00000000
+invalid
+address: 0x120039bbc
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039bc0
+80430000
+lwz r2, 0(r3)
+address: 0x120039bc4
+2402002d
+invalid
+address: 0x120039bc8
+14620039
+invalid
+address: 0x120039bcc
+00000000
+invalid
+address: 0x120039bd0
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039bd4
+64420001
+oris r2, r2, 1
+address: 0x120039bd8
+80430000
+lwz r2, 0(r3)
+address: 0x120039bdc
+2402005d
+invalid
+address: 0x120039be0
+10620033
+invalid
+address: 0x120039be4
+00000000
+invalid
+address: 0x120039be8
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039bec
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x120039bf0
+14620004
+invalid
+address: 0x120039bf4
+00000000
+invalid
+address: 0x120039bf8
+2402000e
+invalid
+address: 0x120039bfc
+100010a1
+vmhraddshs v0, v0, v2, v2
+address: 0x120039c00
+00000000
+invalid
+address: 0x120039c04
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039c08
+64430001
+oris r3, r2, 1
+address: 0x120039c0c
+ffc300c8
+invalid
+address: 0x120039c10
+80420000
+lwz r2, 0(r2)
+address: 0x120039c14
+305200ff
+addic r2, r18, 0xff
+address: 0x120039c18
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x120039c1c
+10400006
+vcmpequb v2, v0, v0
+address: 0x120039c20
+00000000
+invalid
+address: 0x120039c24
+02401825
+invalid
+address: 0x120039c28
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x120039c2c
+0043102d
+invalid
+address: 0x120039c30
+80420000
+lwz r2, 0(r2)
+address: 0x120039c34
+305200ff
+addic r2, r18, 0xff
+address: 0x120039c38
+02201025
+invalid
+address: 0x120039c3c
+67c300c8
+oris r3, r30, 0xc8
+address: 0x120039c40
+02004825
+invalid
+address: 0x120039c44
+dfc80008
+stfdu f30, 8(r8)
+address: 0x120039c48
+dfc700f8
+stfdu f30, 0xf8(r7)
+address: 0x120039c4c
+dfc600f0
+stfdu f30, 0xf0(r6)
+address: 0x120039c50
+00602825
+invalid
+address: 0x120039c54
+00402025
+invalid
+address: 0x120039c58
+df828080
+stfdu f28, -0x7f80(r2)
+address: 0x120039c5c
+6442e40c
+oris r2, r2, 0xe40c
+address: 0x120039c60
+0040c825
+invalid
+address: 0x120039c64
+041111e9
+invalid
+address: 0x120039c68
+00000000
+invalid
+address: 0x120039c6c
+afc20084
+lhau r30, 0x84(r2)
+address: 0x120039c70
+8fc20084
+lbzu r30, 0x84(r2)
+address: 0x120039c74
+1040000a
+vaddfp v2, v0, v0
+address: 0x120039c78
+00000000
+invalid
+address: 0x120039c7c
+dfc201f8
+stfdu f30, 0x1f8(r2)
+address: 0x120039c80
+00402025
+invalid
+address: 0x120039c84
+df820cc0
+stfdu f28, 0xcc0(r2)
+address: 0x120039c88
+0040c825
+invalid
+address: 0x120039c8c
+0320f809
+invalid
+address: 0x120039c90
+00000000
+invalid
+address: 0x120039c94
+8fc20084
+lbzu r30, 0x84(r2)
+address: 0x120039c98
+1000107a
+invalid
+address: 0x120039c9c
+00000000
+invalid
+address: 0x120039ca0
+2402ffff
+invalid
+address: 0x120039ca4
+afc20038
+lhau r30, 0x38(r2)
+address: 0x120039ca8
+10000483
+invalid
+address: 0x120039cac
+00000000
+invalid
+address: 0x120039cb0
+dfc20008
+stfdu f30, 8(r2)
+address: 0x120039cb4
+30420004
+addic r2, r2, 4
+address: 0x120039cb8
+104002e4
+vmsumubm v2, v0, v0, v11
+address: 0x120039cbc
+00000000
+invalid
+address: 0x120039cc0
+2402005b
+invalid
+address: 0x120039cc4
+162202e1
+invalid
+address: 0x120039cc8
+00000000
+invalid
+address: 0x120039ccc
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039cd0
+80430000
+lwz r2, 0(r3)
+address: 0x120039cd4
+2402003a
+invalid
+address: 0x120039cd8
+146202dc
+invalid
+address: 0x120039cdc
+00000000
+invalid
+address: 0x120039ce0
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039ce4
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x120039ce8
+14620004
+invalid
+address: 0x120039cec
+00000000
+invalid
+address: 0x120039cf0
+2402000e
+invalid
+address: 0x120039cf4
+10001063
+invalid
+address: 0x120039cf8
+00000000
+invalid
+address: 0x120039cfc
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039d00
+64430001
+oris r3, r2, 1
+address: 0x120039d04
+ffc300c8
+invalid
+address: 0x120039d08
+80420000
+lwz r2, 0(r2)
+address: 0x120039d0c
+305100ff
+addic r2, r17, 0xff
+address: 0x120039d10
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x120039d14
+10400006
+vcmpequb v2, v0, v0
+address: 0x120039d18
+00000000
+invalid
+address: 0x120039d1c
+02201825
+invalid
+address: 0x120039d20
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x120039d24
+0043102d
+invalid
+address: 0x120039d28
+80420000
+lwz r2, 0(r2)
+address: 0x120039d2c
+305100ff
+addic r2, r17, 0xff
+address: 0x120039d30
+00009025
+invalid
+address: 0x120039d34
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039d38
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x120039d3c
+1462000a
+invalid
+address: 0x120039d40
+00000000
+invalid
+address: 0x120039d44
+dfc201f8
+stfdu f30, 0x1f8(r2)
+address: 0x120039d48
+00402025
+invalid
+address: 0x120039d4c
+df820cc0
+stfdu f28, 0xcc0(r2)
+address: 0x120039d50
+0040c825
+invalid
+address: 0x120039d54
+0320f809
+invalid
+address: 0x120039d58
+00000000
+invalid
+address: 0x120039d5c
+24020007
+invalid
+address: 0x120039d60
+10001048
+vmulouh v0, v0, v2
+address: 0x120039d64
+00000000
+invalid
+address: 0x120039d68
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039d6c
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x120039d70
+14620004
+invalid
+address: 0x120039d74
+00000000
+invalid
+address: 0x120039d78
+2402000e
+invalid
+address: 0x120039d7c
+10001041
+invalid
+address: 0x120039d80
+00000000
+invalid
+address: 0x120039d84
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039d88
+64430001
+oris r3, r2, 1
+address: 0x120039d8c
+ffc300c8
+invalid
+address: 0x120039d90
+80420000
+lwz r2, 0(r2)
+address: 0x120039d94
+305100ff
+addic r2, r17, 0xff
+address: 0x120039d98
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x120039d9c
+10400006
+vcmpequb v2, v0, v0
+address: 0x120039da0
+00000000
+invalid
+address: 0x120039da4
+02201825
+invalid
+address: 0x120039da8
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x120039dac
+0043102d
+invalid
+address: 0x120039db0
+80420000
+lwz r2, 0(r2)
+address: 0x120039db4
+305100ff
+addic r2, r17, 0xff
+address: 0x120039db8
+2402003a
+invalid
+address: 0x120039dbc
+16220006
+invalid
+address: 0x120039dc0
+00000000
+invalid
+address: 0x120039dc4
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039dc8
+80430000
+lwz r2, 0(r3)
+address: 0x120039dcc
+2402005d
+invalid
+address: 0x120039dd0
+10620016
+invalid
+address: 0x120039dd4
+00000000
+invalid
+address: 0x120039dd8
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039ddc
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x120039de0
+10620012
+invalid
+address: 0x120039de4
+00000000
+invalid
+address: 0x120039de8
+2e420006
+invalid
+address: 0x120039dec
+1040000c
+vmrghb v2, v0, v0
+address: 0x120039df0
+00000000
+invalid
+address: 0x120039df4
+02401025
+invalid
+address: 0x120039df8
+24430001
+invalid
+address: 0x120039dfc
+307200ff
+addic r3, r18, 0xff
+address: 0x120039e00
+00400013
+invalid
+address: 0x120039e04
+7c111420
+invalid
+address: 0x120039e08
+67c30290
+oris r3, r30, 0x290
+address: 0x120039e0c
+00002012
+invalid
+address: 0x120039e10
+0064182d
+invalid
+address: 0x120039e14
+a062ff78
+lhz r3, -0x88(r2)
+address: 0x120039e18
+1000ffd3
+invalid
+address: 0x120039e1c
+00000000
+invalid
+address: 0x120039e20
+a3c00208
+lhz r30, 0x208(0)
+address: 0x120039e24
+1000ffd0
+invalid
+address: 0x120039e28
+00000000
+invalid
+address: 0x120039e2c
+02401025
+invalid
+address: 0x120039e30
+67c30290
+oris r3, r30, 0x290
+address: 0x120039e34
+0062102d
+invalid
+address: 0x120039e38
+a040ff78
+lhz r2, -0x88(0)
+address: 0x120039e3c
+2402003a
+invalid
+address: 0x120039e40
+16220264
+invalid
+address: 0x120039e44
+00000000
+invalid
+address: 0x120039e48
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x120039e4c
+80430000
+lwz r2, 0(r3)
+address: 0x120039e50
+2402005d
+invalid
+address: 0x120039e54
+1462025f
+invalid
+address: 0x120039e58
+00000000
+invalid
+address: 0x120039e5c
+67c30208
+oris r3, r30, 0x208
+address: 0x120039e60
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x120039e64
+64455090
+oris r5, r2, 0x5090
+address: 0x120039e68
+00602025
+invalid
+address: 0x120039e6c
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x120039e70
+0040c825
+invalid
+address: 0x120039e74
+0320f809
+invalid
+address: 0x120039e78
+00000000
+invalid
+address: 0x120039e7c
+2c420001
+invalid
+address: 0x120039e80
+304200ff
+addic r2, r2, 0xff
+address: 0x120039e84
+a3c20028
+lhz r30, 0x28(r2)
+address: 0x120039e88
+67c30208
+oris r3, r30, 0x208
+address: 0x120039e8c
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x120039e90
+64455098
+oris r5, r2, 0x5098
+address: 0x120039e94
+00602025
+invalid
+address: 0x120039e98
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x120039e9c
+0040c825
+invalid
+address: 0x120039ea0
+0320f809
+invalid
+address: 0x120039ea4
+00000000
+invalid
+address: 0x120039ea8
+2c420001
+invalid
+address: 0x120039eac
+304200ff
+addic r2, r2, 0xff
+address: 0x120039eb0
+a3c20029
+lhz r30, 0x29(r2)
+address: 0x120039eb4
+67c30208
+oris r3, r30, 0x208
+address: 0x120039eb8
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x120039ebc
+644550a0
+oris r5, r2, 0x50a0
+address: 0x120039ec0
+00602025
+invalid
+address: 0x120039ec4
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x120039ec8
+0040c825
+invalid
+address: 0x120039ecc
+0320f809
+invalid
+address: 0x120039ed0
+00000000
+invalid
+address: 0x120039ed4
+2c420001
+invalid
+address: 0x120039ed8
+304200ff
+addic r2, r2, 0xff
+address: 0x120039edc
+a3c2002a
+lhz r30, 0x2a(r2)
+address: 0x120039ee0
+67c30208
+oris r3, r30, 0x208
+address: 0x120039ee4
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x120039ee8
+644550a8
+oris r5, r2, 0x50a8
+address: 0x120039eec
+00602025
+invalid
+address: 0x120039ef0
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x120039ef4
+0040c825
+invalid
+address: 0x120039ef8
+0320f809
+invalid
+address: 0x120039efc
+00000000
+invalid
+address: 0x120039f00
+2c420001
+invalid
+address: 0x120039f04
+304200ff
+addic r2, r2, 0xff
+address: 0x120039f08
+a3c2002b
+lhz r30, 0x2b(r2)
+address: 0x120039f0c
+67c30208
+oris r3, r30, 0x208
+address: 0x120039f10
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x120039f14
+644550b0
+oris r5, r2, 0x50b0
+address: 0x120039f18
+00602025
+invalid
+address: 0x120039f1c
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x120039f20
+0040c825
+invalid
+address: 0x120039f24
+0320f809
+invalid
+address: 0x120039f28
+00000000
+invalid
+address: 0x120039f2c
+2c420001
+invalid
+address: 0x120039f30
+304200ff
+addic r2, r2, 0xff
+address: 0x120039f34
+a3c2002c
+lhz r30, 0x2c(r2)
+address: 0x120039f38
+67c30208
+oris r3, r30, 0x208
+address: 0x120039f3c
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x120039f40
+644550b8
+oris r5, r2, 0x50b8
+address: 0x120039f44
+00602025
+invalid
+address: 0x120039f48
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x120039f4c
+0040c825
+invalid
+address: 0x120039f50
+0320f809
+invalid
+address: 0x120039f54
+00000000
+invalid
+address: 0x120039f58
+2c420001
+invalid
+address: 0x120039f5c
+304200ff
+addic r2, r2, 0xff
+address: 0x120039f60
+a3c2002d
+lhz r30, 0x2d(r2)
+address: 0x120039f64
+67c30208
+oris r3, r30, 0x208
+address: 0x120039f68
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x120039f6c
+644550c0
+oris r5, r2, 0x50c0
+address: 0x120039f70
+00602025
+invalid
+address: 0x120039f74
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x120039f78
+0040c825
+invalid
+address: 0x120039f7c
+0320f809
+invalid
+address: 0x120039f80
+00000000
+invalid
+address: 0x120039f84
+2c420001
+invalid
+address: 0x120039f88
+304200ff
+addic r2, r2, 0xff
+address: 0x120039f8c
+a3c2002e
+lhz r30, 0x2e(r2)
+address: 0x120039f90
+67c30208
+oris r3, r30, 0x208
+address: 0x120039f94
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x120039f98
+644550c8
+oris r5, r2, 0x50c8
+address: 0x120039f9c
+00602025
+invalid
+address: 0x120039fa0
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x120039fa4
+0040c825
+invalid
+address: 0x120039fa8
+0320f809
+invalid
+address: 0x120039fac
+00000000
+invalid
+address: 0x120039fb0
+2c420001
+invalid
+address: 0x120039fb4
+304200ff
+addic r2, r2, 0xff
+address: 0x120039fb8
+a3c2002f
+lhz r30, 0x2f(r2)
+address: 0x120039fbc
+67c30208
+oris r3, r30, 0x208
+address: 0x120039fc0
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x120039fc4
+644550d0
+oris r5, r2, 0x50d0
+address: 0x120039fc8
+00602025
+invalid
+address: 0x120039fcc
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x120039fd0
+0040c825
+invalid
+address: 0x120039fd4
+0320f809
+invalid
+address: 0x120039fd8
+00000000
+invalid
+address: 0x120039fdc
+2c420001
+invalid
+address: 0x120039fe0
+304200ff
+addic r2, r2, 0xff
+address: 0x120039fe4
+a3c20030
+lhz r30, 0x30(r2)
+address: 0x120039fe8
+67c30208
+oris r3, r30, 0x208
+address: 0x120039fec
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x120039ff0
+644550d8
+oris r5, r2, 0x50d8
+address: 0x120039ff4
+00602025
+invalid
+address: 0x120039ff8
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x120039ffc
+0040c825
+invalid
+address: 0x12003a000
+0320f809
+invalid
+address: 0x12003a004
+00000000
+invalid
+address: 0x12003a008
+2c420001
+invalid
+address: 0x12003a00c
+304200ff
+addic r2, r2, 0xff
+address: 0x12003a010
+a3c20031
+lhz r30, 0x31(r2)
+address: 0x12003a014
+67c30208
+oris r3, r30, 0x208
+address: 0x12003a018
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x12003a01c
+644550e0
+oris r5, r2, 0x50e0
+address: 0x12003a020
+00602025
+invalid
+address: 0x12003a024
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x12003a028
+0040c825
+invalid
+address: 0x12003a02c
+0320f809
+invalid
+address: 0x12003a030
+00000000
+invalid
+address: 0x12003a034
+2c420001
+invalid
+address: 0x12003a038
+304200ff
+addic r2, r2, 0xff
+address: 0x12003a03c
+a3c20032
+lhz r30, 0x32(r2)
+address: 0x12003a040
+67c30208
+oris r3, r30, 0x208
+address: 0x12003a044
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x12003a048
+644550e8
+oris r5, r2, 0x50e8
+address: 0x12003a04c
+00602025
+invalid
+address: 0x12003a050
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x12003a054
+0040c825
+invalid
+address: 0x12003a058
+0320f809
+invalid
+address: 0x12003a05c
+00000000
+invalid
+address: 0x12003a060
+2c420001
+invalid
+address: 0x12003a064
+304200ff
+addic r2, r2, 0xff
+address: 0x12003a068
+a3c20033
+lhz r30, 0x33(r2)
+address: 0x12003a06c
+67c30208
+oris r3, r30, 0x208
+address: 0x12003a070
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x12003a074
+64455098
+oris r5, r2, 0x5098
+address: 0x12003a078
+00602025
+invalid
+address: 0x12003a07c
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x12003a080
+0040c825
+invalid
+address: 0x12003a084
+0320f809
+invalid
+address: 0x12003a088
+00000000
+invalid
+address: 0x12003a08c
+10400078
+invalid
+address: 0x12003a090
+00000000
+invalid
+address: 0x12003a094
+67c30208
+oris r3, r30, 0x208
+address: 0x12003a098
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x12003a09c
+644550e0
+oris r5, r2, 0x50e0
+address: 0x12003a0a0
+00602025
+invalid
+address: 0x12003a0a4
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x12003a0a8
+0040c825
+invalid
+address: 0x12003a0ac
+0320f809
+invalid
+address: 0x12003a0b0
+00000000
+invalid
+address: 0x12003a0b4
+1040006e
+vmaddfp v2, v0, v1, v0
+address: 0x12003a0b8
+00000000
+invalid
+address: 0x12003a0bc
+67c30208
+oris r3, r30, 0x208
+address: 0x12003a0c0
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x12003a0c4
+644550c0
+oris r5, r2, 0x50c0
+address: 0x12003a0c8
+00602025
+invalid
+address: 0x12003a0cc
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x12003a0d0
+0040c825
+invalid
+address: 0x12003a0d4
+0320f809
+invalid
+address: 0x12003a0d8
+00000000
+invalid
+address: 0x12003a0dc
+10400064
+vmsumubm v2, v0, v0, v1
+address: 0x12003a0e0
+00000000
+invalid
+address: 0x12003a0e4
+67c30208
+oris r3, r30, 0x208
+address: 0x12003a0e8
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x12003a0ec
+644550b0
+oris r5, r2, 0x50b0
+address: 0x12003a0f0
+00602025
+invalid
+address: 0x12003a0f4
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x12003a0f8
+0040c825
+invalid
+address: 0x12003a0fc
+0320f809
+invalid
+address: 0x12003a100
+00000000
+invalid
+address: 0x12003a104
+1040005a
+invalid
+address: 0x12003a108
+00000000
+invalid
+address: 0x12003a10c
+67c30208
+oris r3, r30, 0x208
+address: 0x12003a110
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x12003a114
+64455090
+oris r5, r2, 0x5090
+address: 0x12003a118
+00602025
+invalid
+address: 0x12003a11c
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x12003a120
+0040c825
+invalid
+address: 0x12003a124
+0320f809
+invalid
+address: 0x12003a128
+00000000
+invalid
+address: 0x12003a12c
+10400050
+invalid
+address: 0x12003a130
+00000000
+invalid
+address: 0x12003a134
+67c30208
+oris r3, r30, 0x208
+address: 0x12003a138
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x12003a13c
+644550e8
+oris r5, r2, 0x50e8
+address: 0x12003a140
+00602025
+invalid
+address: 0x12003a144
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x12003a148
+0040c825
+invalid
+address: 0x12003a14c
+0320f809
+invalid
+address: 0x12003a150
+00000000
+invalid
+address: 0x12003a154
+10400046
+vcmpequh v2, v0, v0
+address: 0x12003a158
+00000000
+invalid
+address: 0x12003a15c
+67c30208
+oris r3, r30, 0x208
+address: 0x12003a160
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x12003a164
+644550d8
+oris r5, r2, 0x50d8
+address: 0x12003a168
+00602025
+invalid
+address: 0x12003a16c
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x12003a170
+0040c825
+invalid
+address: 0x12003a174
+0320f809
+invalid
+address: 0x12003a178
+00000000
+invalid
+address: 0x12003a17c
+1040003c
+invalid
+address: 0x12003a180
+00000000
+invalid
+address: 0x12003a184
+67c30208
+oris r3, r30, 0x208
+address: 0x12003a188
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x12003a18c
+644550c8
+oris r5, r2, 0x50c8
+address: 0x12003a190
+00602025
+invalid
+address: 0x12003a194
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x12003a198
+0040c825
+invalid
+address: 0x12003a19c
+0320f809
+invalid
+address: 0x12003a1a0
+00000000
+invalid
+address: 0x12003a1a4
+10400032
+invalid
+address: 0x12003a1a8
+00000000
+invalid
+address: 0x12003a1ac
+67c30208
+oris r3, r30, 0x208
+address: 0x12003a1b0
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x12003a1b4
+644550d0
+oris r5, r2, 0x50d0
+address: 0x12003a1b8
+00602025
+invalid
+address: 0x12003a1bc
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x12003a1c0
+0040c825
+invalid
+address: 0x12003a1c4
+0320f809
+invalid
+address: 0x12003a1c8
+00000000
+invalid
+address: 0x12003a1cc
+10400028
+vmsumshm v2, v0, v0, v0
+address: 0x12003a1d0
+00000000
+invalid
+address: 0x12003a1d4
+67c30208
+oris r3, r30, 0x208
+address: 0x12003a1d8
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x12003a1dc
+644550b8
+oris r5, r2, 0x50b8
+address: 0x12003a1e0
+00602025
+invalid
+address: 0x12003a1e4
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x12003a1e8
+0040c825
+invalid
+address: 0x12003a1ec
+0320f809
+invalid
+address: 0x12003a1f0
+00000000
+invalid
+address: 0x12003a1f4
+1040001e
+invalid
+address: 0x12003a1f8
+00000000
+invalid
+address: 0x12003a1fc
+67c30208
+oris r3, r30, 0x208
+address: 0x12003a200
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x12003a204
+644550a8
+oris r5, r2, 0x50a8
+address: 0x12003a208
+00602025
+invalid
+address: 0x12003a20c
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x12003a210
+0040c825
+invalid
+address: 0x12003a214
+0320f809
+invalid
+address: 0x12003a218
+00000000
+invalid
+address: 0x12003a21c
+10400014
+invalid
+address: 0x12003a220
+00000000
+invalid
+address: 0x12003a224
+67c30208
+oris r3, r30, 0x208
+address: 0x12003a228
+df828088
+stfdu f28, -0x7f78(r2)
+address: 0x12003a22c
+644550a0
+oris r5, r2, 0x50a0
+address: 0x12003a230
+00602025
+invalid
+address: 0x12003a234
+df820a40
+stfdu f28, 0xa40(r2)
+address: 0x12003a238
+0040c825
+invalid
+address: 0x12003a23c
+0320f809
+invalid
+address: 0x12003a240
+00000000
+invalid
+address: 0x12003a244
+1040000a
+vaddfp v2, v0, v0
+address: 0x12003a248
+00000000
+invalid
+address: 0x12003a24c
+dfc201f8
+stfdu f30, 0x1f8(r2)
+address: 0x12003a250
+00402025
+invalid
+address: 0x12003a254
+df820cc0
+stfdu f28, 0xcc0(r2)
+address: 0x12003a258
+0040c825
+invalid
+address: 0x12003a25c
+0320f809
+invalid
+address: 0x12003a260
+00000000
+invalid
+address: 0x12003a264
+24020004
+invalid
+address: 0x12003a268
+10000f06
+vcmpgtsb. v0, v0, v1
+address: 0x12003a26c
+00000000
+invalid
+address: 0x12003a270
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x12003a274
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x12003a278
+14620004
+invalid
+address: 0x12003a27c
+00000000
+invalid
+address: 0x12003a280
+2402000e
+invalid
+address: 0x12003a284
+10000eff
+invalid
+address: 0x12003a288
+00000000
+invalid
+address: 0x12003a28c
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x12003a290
+64430001
+oris r3, r2, 1
+address: 0x12003a294
+ffc300c8
+invalid
+address: 0x12003a298
+80420000
+lwz r2, 0(r2)
+address: 0x12003a29c
+305100ff
+addic r2, r17, 0xff
+address: 0x12003a2a0
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x12003a2a4
+10400006
+vcmpequb v2, v0, v0
+address: 0x12003a2a8
+00000000
+invalid
+address: 0x12003a2ac
+02201825
+invalid
+address: 0x12003a2b0
+dfc200f8
+stfdu f30, 0xf8(r2)
+address: 0x12003a2b4
+0043102d
+invalid
+address: 0x12003a2b8
+80420000
+lwz r2, 0(r2)
+address: 0x12003a2bc
+305100ff
+addic r2, r17, 0xff
+address: 0x12003a2c0
+dfc200c8
+stfdu f30, 0xc8(r2)
+address: 0x12003a2c4
+dfc300f0
+stfdu f30, 0xf0(r3)
+address: 0x12003a2c8
+1462000a
+invalid
+address: 0x12003a2cc
+00000000
+invalid
+address: 0x12003a2d0
+dfc201f8
+stfdu f30, 0x1f8(r2)
+address: 0x12003a2d4
+00402025
+invalid
+address: 0x12003a2d8
+df820cc0
+stfdu f28, 0xcc0(r2)
+address: 0x12003a2dc
+0040c825
+invalid
+address: 0x12003a2e0
+0320f809
+invalid
+address: 0x12003a2e4
+00000000
+invalid
+address: 0x12003a2e8
+24020007
+invalid
+address: 0x12003a2ec
+10000ee5
+vmsummbm v0, v0, v1, v27
+address: 0x12003a2f0
+00000000
+invalid
+address: 0x12003a2f4
+afc0003c
+lhau r30, 0x3c(0)
+address: 0x12003a2f8
+1000012d
+invalid
+address: 0x12003a2fc
+00000000
+invalid
+address: 0x12003a300
+83c20028
+lwz r30, 0x28(r2)
+address: 0x12003a304
+1040000d
+invalid
+address: 0x12003a308
+00000000
+invalid
+address: 0x12003a30c
+df820c80
+stfdu f28, 0xc80(r2)
+address: 0x12003a310
+0040c825
+invalid
+address: 0x12003a314
+0320f809
+invalid
+address: 0x12003a318
+00000000
+invalid
+address: 0x12003a31c
+dc430000
+stfdu f2, 0(r3)
+address: 0x12003a320
+8fc2003c
+lbzu r30, 0x3c(r2)
+address: 0x12003a324
+00021078
+invalid
+address: 0x12003a328
+0062102d
+invalid
+address: 0x12003a32c
+94420000
+stwu r2, 0(r2)
+address: 0x12003a330
+30420800
+addic r2, r2, 0x800
+address: 0x12003a334
+1440002e
+invalid
+address: 0x12003a338
+00000000
+invalid
+address: 0x12003a33c
+83c20029
+lwz r30, 0x29(r2)
+address: 0x12003a340
+1040000d
+invalid
+address: 0x12003a344
+00000000
+invalid
+address: 0x12003a348
+df820c80
+stfdu f28, 0xc80(r2)
+address: 0x12003a34c
+0040c825
+invalid
+address: 0x12003a350
+0320f809
+invalid
+address: 0x12003a354
+00000000
+invalid
+address: 0x12003a358
+dc430000
+stfdu f2, 0(r3)
+address: 0x12003a35c
+8fc2003c
+lbzu r30, 0x3c(r2)
+address: 0x12003a360
+00021078
+invalid
+address: 0x12003a364
+0062102d
+invalid
+address: 0x12003a368
+94420000
+stwu r2, 0(r2)
+address: 0x12003a36c
+30420004
+addic r2, r2, 4
+address: 0x12003a370
+1440001f
+invalid
+address: 0x12003a374
+00000000
+invalid
+address: 0x12003a378
+83c2002a
+lwz r30, 0x2a(r2)
+address: 0x12003a37c
+1040000d
+invalid
+address: 0x12003a380
+00000000
+invalid
+address: 0x12003a384
+df820c80
+stfdu f28, 0xc80(r2)
+address: 0x12003a388
+0040c825
+invalid
+address: 0x12003a38c
+0320f809
+invalid
+address: 0x12003a390
+00000000
+invalid
+address: 0x12003a394
+dc430000
+stfdu f2, 0(r3)
+address: 0x12003a398
+8fc2003c
+lbzu r30, 0x3c(r2)
+address: 0x12003a39c
+00021078
+invalid
+address: 0x12003a3a0
+0062102d
+invalid
+address: 0x12003a3a4
+94420000
+stwu r2, 0(r2)
+address: 0x12003a3a8
+30420100
+addic r2, r2, 0x100
+address: 0x12003a3ac
+14400010
+invalid
+address: 0x12003a3b0
+00000000
+invalid
+address: 0x12003a3b4
+83c2002b
+lwz r30, 0x2b(r2)
+address: 0x12003a3b8
+10400022
+vmladduhm v2, v0, v0, v0
+address: 0x12003a3bc
+00000000
+invalid
+address: 0x12003a3c0
+df820c80
+stfdu f28, 0xc80(r2)
+address: 0x12003a3c4
+0040c825
+invalid
+address: 0x12003a3c8
+0320f809
+invalid
+address: 0x12003a3cc
+00000000
+invalid
+address: 0x12003a3d0
+dc430000
+stfdu f2, 0(r3)
+address: 0x12003a3d4
+8fc2003c
+lbzu r30, 0x3c(r2)
+address: 0x12003a3d8
+00021078
+invalid
+address: 0x12003a3dc
+0062102d
+invalid
+address: 0x12003a3e0
+94420000
+stwu r2, 0(r2)
+address: 0x12003a3e4
+30420200
+addic r2, r2, 0x200
+address: 0x12003a3e8
+10400016
+invalid
+address: 0x12003a3ec
+00000000
+invalid
+address: 0x12003a3f0
+8fc2003c
+lbzu r30, 0x3c(r2)
+address: 0x12003a3f4
+304200ff
+addic r2, r2, 0xff
+address: 0x12003a3f8
+000210c2
+invalid
+address: 0x12003a3fc
+304400ff
+addic r2, r4, 0xff
+address: 0x12003a400
+00801025
+invalid
+address: 0x12003a404
+0202102d
+invalid
+address: 0x12003a408
+90420000
+stw r2, 0(r2)
+address: 0x12003a40c
+7c021c20
+invalid
+address: 0x12003a410
+8fc2003c
+lbzu r30, 0x3c(r2)
+address: 0x12003a414
+304200ff
+addic r2, r2, 0xff
+address: 0x12003a418
+30420007
+addic r2, r2, 7
+address: 0x12003a41c
+00022800
+invalid
+address: 0x12003a420
+24020001
+invalid
+address: 0x12003a424
+00a21004
+invalid
+address: 0x12003a428
+7c021420
+invalid
+address: 0x12003a42c
+00621025
+invalid
+address: 0x12003a430
+7c021c20
+invalid
+address: 0x12003a434
+00801025
+invalid
+address: 0x12003a438
+0202102d
+invalid
+address: 0x12003a43c
+306300ff
+addic r3, r3, 0xff
+address: 0x12003a440
+a0430000
+lhz r2, 0(r3)
+address: 0x12003a444
+83c2002c
+lwz r30, 0x2c(r2)
+address: 0x12003a448
+1040000d
+invalid
+address: 0x12003a44c
+00000000
+invalid
+address: 0x12003a450
+df820c80
+stfdu f28, 0xc80(r2)
+address: 0x12003a454
+0040c825
+invalid
+address: 0x12003a458
+0320f809
+invalid
+address: 0x12003a45c
+00000000
+invalid
+address: 0x12003a460
+dc430000
+stfdu f2, 0(r3)
+address: 0x12003a464
+8fc2003c
+lbzu r30, 0x3c(r2)
+address: 0x12003a468
+00021078
+invalid
+address: 0x12003a46c
+0062102d
+invalid
+address: 0x12003a470
+94420000
+stwu r2, 0(r2)
+address: 0x12003a474
+30420008
+addic r2, r2, 8
+address: 0x12003a478
+1440002e
+invalid
+address: 0x12003a47c
+00000000
+invalid
+address: 0x12003a480
+83c2002d
+lwz r30, 0x2d(r2)
+address: 0x12003a484
+1040000d
+invalid
+address: 0x12003a488
+00000000
+invalid
+address: 0x12003a48c
+df820c80
+stfdu f28, 0xc80(r2)
+address: 0x12003a490
+0040c825
+invalid
+address: 0x12003a494
+0320f809
+invalid
+address: 0x12003a498
+00000000
+invalid
+address: 0x12003a49c
+dc430000
+stfdu f2, 0(r3)
+address: 0x12003a4a0
+8fc2003c
+lbzu r30, 0x3c(r2)
+address: 0x12003a4a4
+00021078
+invalid
+address: 0x12003a4a8
+0062102d
+invalid
+address: 0x12003a4ac
+94420000
+stwu r2, 0(r2)
+address: 0x12003a4b0
+30420080
+addic r2, r2, 0x80
+address: 0x12003a4b4
+1440001f
+invalid
+address: 0x12003a4b8
+00000000
+invalid
+address: 0x12003a4bc
+83c2002e
+lwz r30, 0x2e(r2)
+address: 0x12003a4c0
+1040000d
+invalid
+address: 0x12003a4c4
+00000000
+invalid
+address: 0x12003a4c8
+df820c80
+stfdu f28, 0xc80(r2)
+address: 0x12003a4cc
+0040c825
+invalid
+address: 0x12003a4d0
+0320f809
+invalid
+address: 0x12003a4d4
+00000000
+invalid
+address: 0x12003a4d8
+dc430000
+stfdu f2, 0(r3)
+address: 0x12003a4dc
+8fc2003c
+lbzu r30, 0x3c(r2)
+address: 0x12003a4e0
+00021078
+invalid
+address: 0x12003a4e4
+0062102d
+invalid
+address: 0x12003a4e8
+94420000
+stwu r2, 0(r2)
+address: 0x12003a4ec
+30420002
+addic r2, r2, 2
+address: 0x12003a4f0
+14400010
+invalid
+address: 0x12003a4f4
+00000000
+invalid
+address: 0x12003a4f8
+83c2002f
+lwz r30, 0x2f(r2)
+address: 0x12003a4fc
+10400022
+vmladduhm v2, v0, v0, v0
+address: 0x12003a500
+00000000
+invalid
+address: 0x12003a504
+df820c80
+stfdu f28, 0xc80(r2)
+address: 0x12003a508
+0040c825
+invalid
+address: 0x12003a50c
+0320f809
+invalid
+address: 0x12003a510
+00000000
+invalid
+address: 0x12003a514
+dc430000
+stfdu f2, 0(r3)
+address: 0x12003a518
+8fc2003c
+lbzu r30, 0x3c(r2)
+address: 0x12003a51c
+00021078
+invalid
+address: 0x12003a520
+0062102d
+invalid
+address: 0x12003a524
+94420000
+stwu r2, 0(r2)
+address: 0x12003a528
+30420040
+addic r2, r2, 0x40
+address: 0x12003a52c
+10400016
+invalid
+address: 0x12003a530
+00000000
+invalid
+address: 0x12003a534
+8fc2003c
+lbzu r30, 0x3c(r2)
+address: 0x12003a538
+304200ff
+addic r2, r2, 0xff
+address: 0x12003a53c
+000210c2
+invalid
+address: 0x12003a540
+304400ff
+addic r2, r4, 0xff
+address: 0x12003a544
+00801025
+invalid
+address: 0x12003a548
+0202102d
+invalid
+address: 0x12003a54c
+90420000
+stw r2, 0(r2)
+address: 0x12003a550
+7c021c20
+invalid
+address: 0x12003a554
+8fc2003c
+lbzu r30, 0x3c(r2)
+address: 0x12003a558
+304200ff
+addic r2, r2, 0xff
+address: 0x12003a55c
+30420007
+addic r2, r2, 7
+address: 0x12003a560
+00022800
+invalid
+address: 0x12003a564
+24020001
+invalid
+address: 0x12003a568
+00a21004
+invalid
+address: 0x12003a56c
+7c021420
+invalid
+address: 0x12003a570
+00621025
+invalid
+address: 0x12003a574
+7c021c20
+invalid
+address: 0x12003a578
+00801025
+invalid
+address: 0x12003a57c
+0202102d
+invalid
+address: 0x12003a580
+306300ff
+addic r3, r3, 0xff
+address: 0x12003a584
+a0430000
+lhz r2, 0(r3)
+address: 0x12003a588
+83c20030
+lwz r30, 0x30(r2)
+address: 0x12003a58c
+1040000d
+invalid
+address: 0x12003a590
+00000000
+invalid
+address: 0x12003a594
+df820c80
+stfdu f28, 0xc80(r2)
+address: 0x12003a598
+0040c825
+invalid
+address: 0x12003a59c
+0320f809
+invalid
+address: 0x12003a5a0
+00000000
+invalid
+address: 0x12003a5a4
+dc430000
+stfdu f2, 0(r3)
+address: 0x12003a5a8
+8fc2003c
+lbzu r30, 0x3c(r2)
+address: 0x12003a5ac
+00021078
+invalid
+address: 0x12003a5b0
+0062102d
+invalid
+address: 0x12003a5b4
+94420000
+stwu r2, 0(r2)
+address: 0x12003a5b8
+30420400
+addic r2, r2, 0x400
+address: 0x12003a5bc
+1440002e
+invalid
+address: 0x12003a5c0
+00000000
+invalid
+address: 0x12003a5c4
+83c20031
+lwz r30, 0x31(r2)
+address: 0x12003a5c8
+1040000d
+invalid
+address: 0x12003a5cc
+00000000
+invalid
+address: 0x12003a5d0
+df820c80
+stfdu f28, 0xc80(r2)
+address: 0x12003a5d4
+0040c825
+invalid
+address: 0x12003a5d8
+0320f809
+invalid
+address: 0x12003a5dc
+00000000
+invalid
+address: 0x12003a5e0
+dc430000
+stfdu f2, 0(r3)
+address: 0x12003a5e4
+8fc2003c
+lbzu r30, 0x3c(r2)
+address: 0x12003a5e8
+00021078
+invalid
+address: 0x12003a5ec
+0062102d
+invalid
+address: 0x12003a5f0
+94420000
+stwu r2, 0(r2)
+address: 0x12003a5f4
+30420020
+addic r2, r2, 0x20
+address: 0x12003a5f8
+1440001f
+invalid
+address: 0x12003a5fc
+00000000
+invalid
+address: 0x12003a600
+83c20032
+lwz r30, 0x32(r2)
+address: 0x12003a604
+1040000d
+invalid
+address: 0x12003a608
+00000000
+invalid
+address: 0x12003a60c
+df820c80
+stfdu f28, 0xc80(r2)

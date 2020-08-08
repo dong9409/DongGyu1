@@ -1,0 +1,36 @@
+address: 0x0001399e
+001a9830
+addslo r1, r8, r0, lsl 20
+address: 0x000139a2
+4be23c1a
+bne 0xf38934
+address: 0x000139c6
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x000139ca
+4be2741a
+bne 0x1d38934
+address: 0x000139ee
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x000139f2
+4be2701a
+bne 0x1c38934
+address: 0x00013a16
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013a1a
+4be29c1a
+bne 0xfe738934
+address: 0x00013a3e
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013a42
+4be2e01a
+bne 0xff838934
+address: 0x00013a66
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013a6a
+4be2f01a
+bne 0xffc38934

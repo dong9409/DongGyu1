@@ -1,0 +1,7497 @@
+address: 0x00011e52
+a0e300e0
+and lr, r0, r0, lsr 7
+address: 0x00011e56
+a0e30410
+andne lr, r4, r0, lsr 7
+address: 0x00011e5a
+9de40d20
+mulhs sp, sp, r4
+address: 0x00011e5e
+a0e10420
+andhs lr, r4, r0, lsr 3
+address: 0x00011e62
+2de50400
+andeq lr, r4, sp, lsr 10
+address: 0x00011e66
+2de510c0
+andsgt lr, r0, sp, lsr 10
+address: 0x00011e6a
+9fe504c0
+mulgt r4, pc, r5
+address: 0x00011e6e
+2de50c00
+andeq lr, ip, sp, lsr 10
+address: 0x00011e72
+9fe50c30
+mullo ip, pc, r5
+address: 0x00011e76
+9fe5a6fe
+mcr2 p5, 5, lr, c6, c15, 4
+address: 0x00011e7a
+ffeb90fe
+invalid
+address: 0x00011e7e
+ffebe8a3
+invalid
+address: 0x00011e82
+5900d40e
+mrceq p0, 6, r0, c4, c9, 2
+address: 0x00011e86
+590088a3
+orrge r0, r8, 0x59
+address: 0x00011e8a
+59001430
+andslo r0, r4, sb, asr r0
+address: 0x00011e8e
+9fe51420
+mulshs r4, pc, r5
+address: 0x00011e92
+9fe50330
+mullo r3, pc, r5
+address: 0x00011e96
+8fe00220
+andhs lr, r2, pc, lsl 1
+address: 0x00011e9a
+93e70000
+muleq r0, r3, r7
+address: 0x00011e9e
+52e31eff
+invalid
+address: 0x00011ea2
+2f01aafe
+cdp2 p1, 0xa, c0, c10, c15, 1
+address: 0x00011ea6
+ffea64d1
+strdle lr, pc, [r4, -0xaf]!
+address: 0x00011eaa
+6000fc01
+invalid
+address: 0x00011eae
+00001800
+andseq r0, r8, r0
+address: 0x00011eb2
+9fe51830
+mulslo r8, pc, r5
+address: 0x00011eb6
+9fe50000
+muleq r0, pc, r5
+address: 0x00011eba
+53e11eff
+invalid
+address: 0x00011ebe
+2f011030
+andslo r0, r0, pc, lsr 2
+address: 0x00011ec2
+9fe50000
+muleq r0, pc, r5
+address: 0x00011ec6
+53e31eff
+invalid
+address: 0x00011eca
+2f0113ff
+invalid
+address: 0x00011ece
+2fe15405
+ldrbeq lr, [r4, -0x12f]
+address: 0x00011ed2
+62005405
+ldrbeq r0, [r4, -0x62]
+address: 0x00011ed6
+62000000
+andeq r0, r0, r2, rrx
+address: 0x00011eda
+00002400
+eoreq r0, r4, r0
+address: 0x00011ede
+9fe52410
+mlane r4, pc, r5, lr
+address: 0x00011ee2
+9fe50030
+mullo r0, pc, r5
+address: 0x00011ee6
+41e0a31f
+svcne 0xa3e041
+address: 0x00011eea
+a0e14311
+smlaltbne lr, r3, r0, r1
+address: 0x00011eee
+81e0c110
+sbcne lr, r1, r1, lsl 1
+address: 0x00011ef2
+b0e11eff
+invalid
+address: 0x00011ef6
+2f011030
+andslo r0, r0, pc, lsr 2
+address: 0x00011efa
+9fe50000
+muleq r0, pc, r5
+address: 0x00011efe
+53e31eff
+invalid
+address: 0x00011f02
+2f0113ff
+invalid
+address: 0x00011f06
+2fe15405
+ldrbeq lr, [r4, -0x12f]
+address: 0x00011f0a
+62005405
+ldrbeq r0, [r4, -0x62]
+address: 0x00011f0e
+62000000
+andeq r0, r0, r2, rrx
+address: 0x00011f12
+00001040
+andsmi r0, r0, r0
+address: 0x00011f16
+2de91840
+andsmi lr, r8, sp, lsr 18
+address: 0x00011f1a
+9fe50030
+mullo r0, pc, r5
+address: 0x00011f1e
+d4e50000
+ldrdeq lr, pc, [r0], -r4
+address: 0x00011f22
+53e31080
+andshi lr, r0, r3, asr r3
+address: 0x00011f26
+bd18e0ff
+invalid
+address: 0x00011f2a
+ffeb0130
+strdlo lr, pc, [r1], -pc
+address: 0x00011f2e
+a0e30030
+andlo lr, r0, r0, lsr 7
+address: 0x00011f32
+c4e51080
+andshi lr, r0, r4, asr 11
+address: 0x00011f36
+bde86405
+strbeq lr, [r4, -0x8bd]!
+address: 0x00011f3a
+6200e6ff
+invalid
+address: 0x00011f3e
+ffea3048
+ldmdami r0!, {r0, r1, r2, r3, r4, r5, r6, r7, sb, fp, sp, lr, pc}
+address: 0x00011f42
+2de90cb0
+andlt lr, ip, sp, lsr 18
+address: 0x00011f46
+8de28430
+addlo lr, r4, sp, lsl 5
+address: 0x00011f4a
+9fe50030
+mullo r0, pc, r5
+address: 0x00011f4e
+93e50000
+muleq r0, r3, r5
+address: 0x00011f52
+53e31c00
+andseq lr, ip, r3, asr r3
+address: 0x00011f56
+001a012c
+invalid
+address: 0x00011f5a
+a0e30010
+andne lr, r0, r0, lsr 7
+address: 0x00011f5e
+a0e37000
+rsbseq lr, r0, r0, lsr 7
+address: 0x00011f62
+9fe59efe
+mrc2 p5, 4, lr, c14, c15, 4
+address: 0x00011f66
+ffeb0040
+strdmi lr, pc, [r0], -pc
+address: 0x00011f6a
+a0e30d00
+andeq lr, sp, r0, lsr 7
+address: 0x00011f6e
+00ea3aff
+invalid
+address: 0x00011f72
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00011f76
+a0e10020
+andhs lr, r0, r0, lsr 3
+address: 0x00011f7a
+93e50430
+mullo r4, r3, r5
+address: 0x00011f7e
+a0e18330
+addlo lr, r3, r0, lsr 3
+address: 0x00011f82
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00011f86
+82e0b030
+adcslo lr, r0, r2, lsl 1
+address: 0x00011f8a
+d3e10830
+ldrdlo lr, pc, [r8], -r3
+address: 0x00011f8e
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00011f92
+53e30200
+andeq lr, r2, r3, asr r3
+address: 0x00011f96
+000a3830
+eorslo r0, r8, r0, lsl 20
+address: 0x00011f9a
+9fe50120
+mulhs r1, pc, r5
+address: 0x00011f9e
+a0e30420
+andhs lr, r4, r0, lsr 7
+address: 0x00011fa2
+c3e70140
+andmi lr, r1, r3, asr 15
+address: 0x00011fa6
+84e2ff00
+rscseq lr, pc, r4, lsl 5
+address: 0x00011faa
+54e3efff
+invalid
+address: 0x00011fae
+ffda2030
+invalid
+address: 0x00011fb2
+9fe50120
+mulhs r1, pc, r5
+address: 0x00011fb6
+a0e35f20
+subshs lr, pc, r0, lsr 7
+address: 0x00011fba
+c3e51030
+andslo lr, r0, r3, asr 11
+address: 0x00011fbe
+9fe50120
+mulhs r1, pc, r5
+address: 0x00011fc2
+a0e30020
+andhs lr, r0, r0, lsr 7
+address: 0x00011fc6
+83e53088
+ldmdahi r0!, {r0, r1, r7, r8, sl, sp, lr, pc}
+address: 0x00011fca
+bde80000
+strheq lr, [r0], -sp
+address: 0x00011fce
+a0e13088
+ldmdahi r0!, {r5, r7, r8, sp, lr, pc}
+address: 0x00011fd2
+bde80c8c
+invalid
+address: 0x00011fd6
+69004c06
+strbeq r0, [ip], -sb, rrx
+address: 0x00011fda
+62007048
+ldmdami r0!, {r1, r5, r6} ^
+address: 0x00011fde
+2de910b0
+andslt lr, r0, sp, lsr 18
+address: 0x00011fe2
+8de27bdf
+svcle 0x7be28d
+address: 0x00011fe6
+4de2e801
+invalid
+address: 0x00011fea
+0be5ec11
+invalid
+address: 0x00011fee
+0be5f021
+mvnshs lr, fp, lsl 10
+address: 0x00011ff2
+0be5f431
+invalid
+address: 0x00011ff6
+0be55c3f
+svclo 0x5ce50b
+address: 0x00011ffa
+9fe50030
+mullo r0, pc, r5
+address: 0x00011ffe
+93e51830
+mulslo r8, r3, r5
+address: 0x00012002
+0be50030
+andlo lr, r0, fp, lsl 10
+address: 0x00012006
+a0e3e831
+invalid
+address: 0x0001200a
+1be5d031
+bicslo lr, r0, fp, lsl r5
+address: 0x0001200e
+0be5e821
+invalid
+address: 0x00012012
+1be5ec31
+invalid
+address: 0x00012016
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x0001201a
+82e0a831
+invalid
+address: 0x0001201e
+0be5f431
+invalid
+address: 0x00012022
+1be51430
+andslo lr, r4, fp, lsl r5
+address: 0x00012026
+93e5a431
+invalid
+address: 0x0001202a
+0be50030
+andlo lr, r0, fp, lsl 10
+address: 0x0001202e
+a0e3cc31
+biclo lr, ip, r0, lsr 7
+address: 0x00012032
+0be50030
+andlo lr, r0, fp, lsl 10
+address: 0x00012036
+a0e3c831
+biclo lr, r8, r0, lsr 7
+address: 0x0001203a
+0be50030
+andlo lr, r0, fp, lsl 10
+address: 0x0001203e
+a0e3c031
+biclo lr, r0, r0, lsr 7
+address: 0x00012042
+0be50030
+andlo lr, r0, fp, lsl 10
+address: 0x00012046
+a0e3bc31
+invalid
+address: 0x0001204a
+0be50a0d
+stceq p5, c14, [sl, -0x2c]
+address: 0x0001204e
+a0e30bff
+invalid
+address: 0x00012052
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00012056
+a0e1a430
+adclo lr, r4, r0, lsr 3
+address: 0x0001205a
+0be5a430
+adclo lr, r4, fp, lsl 10
+address: 0x0001205e
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012062
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x00012066
+001a0c30
+andlo r1, ip, r0, lsl 20
+address: 0x0001206a
+a0e36314
+strbtne lr, [r3], -0x3a0
+address: 0x0001206e
+00ea2030
+eorlo lr, r0, r0, lsl 20
+address: 0x00012072
+a0e3a030
+adclo lr, r0, r0, lsr 7
+address: 0x00012076
+0be50030
+andlo lr, r0, fp, lsl 10
+address: 0x0001207a
+a0e39c30
+addslo lr, ip, r0, lsr 7
+address: 0x0001207e
+0be5f431
+invalid
+address: 0x00012082
+1be5f021
+mvnshs lr, fp, lsl r5
+address: 0x00012086
+1be50c20
+andhs lr, ip, fp, lsl r5
+address: 0x0001208a
+83e5f421
+invalid
+address: 0x0001208e
+1be51c30
+andslo lr, ip, fp, lsl r5
+address: 0x00012092
+d2e50830
+ldrdlo lr, pc, [r8], -r2
+address: 0x00012096
+c3e31c30
+andslo lr, ip, r3, asr 7
+address: 0x0001209a
+c2e5f421
+invalid
+address: 0x0001209e
+1be51c30
+andslo lr, ip, fp, lsl r5
+address: 0x000120a2
+d2e54030
+ldrdlo lr, pc, [r0], -0x52
+address: 0x000120a6
+c3e31c30
+andslo lr, ip, r3, asr 7
+address: 0x000120aa
+c2e5f431
+invalid
+address: 0x000120ae
+1be51c30
+andslo lr, ip, fp, lsl r5
+address: 0x000120b2
+d3e52333
+invalid
+address: 0x000120b6
+a0e10130
+andlo lr, r1, r0, lsr 3
+address: 0x000120ba
+03e2ff30
+rscslo lr, pc, r3, lsl 4
+address: 0x000120be
+03e2f411
+invalid
+address: 0x000120c2
+1be51c20
+andshs lr, ip, fp, lsl r5
+address: 0x000120c6
+d1e50130
+ldrdlo lr, pc, [r1], -r1
+address: 0x000120ca
+03e22020
+eorhs lr, r0, r3, lsl 4
+address: 0x000120ce
+c2e38332
+addlo lr, r3, 0x8000003
+address: 0x000120d2
+a0e10230
+andlo lr, r2, r0, lsr 3
+address: 0x000120d6
+83e10320
+andhs lr, r3, r3, lsl 3
+address: 0x000120da
+a0e11c20
+andshs lr, ip, r0, lsr 3
+address: 0x000120de
+c1e5f431
+invalid
+address: 0x000120e2
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x000120e6
+a0e30820
+andhs lr, r8, r0, lsr 7
+address: 0x000120ea
+83e5f431
+invalid
+address: 0x000120ee
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x000120f2
+a0e31820
+andshs lr, r8, r0, lsr 7
+address: 0x000120f6
+83e590ff
+invalid
+address: 0x000120fa
+ffebf431
+ldrshlo lr, [r4, 0xbf]!
+address: 0x000120fe
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012102
+93e50000
+muleq r0, r3, r5
+address: 0x00012106
+53e31e00
+andseq lr, lr, r3, asr r3
+address: 0x0001210a
+001af431
+invalid
+address: 0x0001210e
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00012112
+93e50000
+muleq r0, r3, r5
+address: 0x00012116
+53e30800
+andeq lr, r8, r3, asr r3
+address: 0x0001211a
+000af431
+invalid
+address: 0x0001211e
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00012122
+93e52010
+mlane r0, r3, r5, lr
+address: 0x00012126
+a0e30300
+andeq lr, r3, r0, lsr 7
+address: 0x0001212a
+a0e11fff
+invalid
+address: 0x0001212e
+ffeb0020
+strdhs lr, pc, [r0], -pc
+address: 0x00012132
+a0e1f431
+invalid
+address: 0x00012136
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x0001213a
+83e50500
+andeq lr, r5, r3, lsl 11
+address: 0x0001213e
+00ea2000
+eoreq lr, r0, r0, lsl 20
+address: 0x00012142
+a0e3cefe
+cdp2 p3, 0xc, c14, c14, c0, 5
+address: 0x00012146
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x0001214a
+a0e10320
+andhs lr, r3, r0, lsr 3
+address: 0x0001214e
+a0e1f431
+invalid
+address: 0x00012152
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x00012156
+83e5f431
+invalid
+address: 0x0001215a
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x0001215e
+93e50000
+muleq r0, r3, r5
+address: 0x00012162
+53e30400
+andeq lr, r4, r3, asr r3
+address: 0x00012166
+001aa430
+adclo r1, r4, r0, lsl 20
+address: 0x0001216a
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x0001216e
+a0e13cfe
+cdp2 p1, 3, c14, c12, c0, 5
+address: 0x00012172
+ffeb0c30
+strdlo lr, pc, [ip], -pc
+address: 0x00012176
+a0e32014
+strtne lr, [r0], -0x3a0
+address: 0x0001217a
+00eaf431
+invalid
+address: 0x0001217e
+1be52020
+eorhs lr, r0, fp, lsl r5
+address: 0x00012182
+a0e30420
+andhs lr, r4, r0, lsr 7
+address: 0x00012186
+83e5f431
+invalid
+address: 0x0001218a
+1be50040
+andmi lr, r0, fp, lsl r5
+address: 0x0001218e
+93e5c441
+invalid
+address: 0x00012192
+0be59d13
+orrsne lr, sp, 0x2c00000
+address: 0x00012196
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x0001219a
+1be5a821
+invalid
+address: 0x0001219e
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000121a2
+52e10100
+andeq lr, r1, r2, asr r1
+address: 0x000121a6
+001a0e30
+andlo r1, lr, r0, lsl 20
+address: 0x000121aa
+a0e31314
+ldrne lr, [r3], -0x3a0
+address: 0x000121ae
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x000121b2
+1be50120
+andhs lr, r1, fp, lsl r5
+address: 0x000121b6
+83e2d021
+bicshs lr, r0, r3, lsl 5
+address: 0x000121ba
+0be50050
+andpl lr, r0, fp, lsl 10
+address: 0x000121be
+d3e5a431
+ldrdlo lr, pc, [r4, r3]!
+address: 0x000121c2
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x000121c6
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x000121ca
+000a0520
+andhs r0, r5, r0, lsl 20
+address: 0x000121ce
+a0e1a431
+invalid
+address: 0x000121d2
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x000121d6
+83e00050
+andpl lr, r0, r3, lsl 1
+address: 0x000121da
+d3e50530
+ldrdlo lr, pc, [r5], -r3
+address: 0x000121de
+a0e13f00
+eorseq lr, pc, r0, lsr 3
+address: 0x000121e2
+53e36200
+rsbeq lr, r2, r3, asr r3
+address: 0x000121e6
+00ca0a00
+andeq ip, sl, r0, lsl 20
+address: 0x000121ea
+53e32600
+eoreq lr, r6, r3, asr r3
+address: 0x000121ee
+00aa6c12
+rsbne sl, ip, 0, 20
+address: 0x000121f2
+00ea5b30
+subslo lr, fp, r0, lsl 20
+address: 0x000121f6
+43e22100
+eoreq lr, r1, r3, asr 4
+address: 0x000121fa
+53e303f1
+invalid
+address: 0x000121fe
+9f976812
+rsbne sb, r8, 0x27c0000
+address: 0x00012202
+00ea5c30
+subslo lr, ip, r0, lsl 20
+address: 0x00012206
+0100d448
+ldmmi r4, {r0} ^
+address: 0x0001220a
+0100a86b
+blvs 0xfea0000c
+address: 0x0001220e
+01008823
+orrhs r0, r8, 1
+address: 0x00012212
+0100a86b
+blvs 0xfea0000c
+address: 0x00012216
+0100a86b
+blvs 0xfea0000c
+address: 0x0001221a
+0100a86b
+blvs 0xfea0000c
+address: 0x0001221e
+0100a86b
+blvs 0xfea0000c
+address: 0x00012222
+0100a86b
+blvs 0xfea0000c
+address: 0x00012226
+0100a86b
+blvs 0xfea0000c
+address: 0x0001222a
+0100a86b
+blvs 0xfea0000c
+address: 0x0001222e
+0100a86b
+blvs 0xfea0000c
+address: 0x00012232
+0100a86b
+blvs 0xfea0000c
+address: 0x00012236
+0100a86b
+blvs 0xfea0000c
+address: 0x0001223a
+0100a86b
+blvs 0xfea0000c
+address: 0x0001223e
+0100a86b
+blvs 0xfea0000c
+address: 0x00012242
+0100a86b
+blvs 0xfea0000c
+address: 0x00012246
+0100a86b
+blvs 0xfea0000c
+address: 0x0001224a
+0100a86b
+blvs 0xfea0000c
+address: 0x0001224e
+0100a86b
+blvs 0xfea0000c
+address: 0x00012252
+0100a86b
+blvs 0xfea0000c
+address: 0x00012256
+0100a86b
+blvs 0xfea0000c
+address: 0x0001225a
+0100a86b
+blvs 0xfea0000c
+address: 0x0001225e
+0100a86b
+blvs 0xfea0000c
+address: 0x00012262
+0100a86b
+blvs 0xfea0000c
+address: 0x00012266
+0100a86b
+blvs 0xfea0000c
+address: 0x0001226a
+0100a86b
+blvs 0xfea0000c
+address: 0x0001226e
+0100a86b
+blvs 0xfea0000c
+address: 0x00012272
+0100a86b
+blvs 0xfea0000c
+address: 0x00012276
+0100a86b
+blvs 0xfea0000c
+address: 0x0001227a
+0100a86b
+blvs 0xfea0000c
+address: 0x0001227e
+0100a86b
+blvs 0xfea0000c
+address: 0x00012282
+0100b048
+ldmmi r0!, {r0}
+address: 0x00012286
+01009c48
+ldmmi ip, {r0}
+address: 0x0001228a
+01000a30
+andlo r0, sl, r1
+address: 0x0001228e
+43e23500
+eorseq lr, r5, r3, asr 4
+address: 0x00012292
+53e303f1
+invalid
+address: 0x00012296
+9f974212
+subne sb, r2, 0x27c0000
+address: 0x0001229a
+00ea8848
+stmmi r8, {sb, fp, sp, lr, pc}
+address: 0x0001229e
+0100a86b
+blvs 0xfea0000c
+address: 0x000122a2
+0100a86b
+blvs 0xfea0000c
+address: 0x000122a6
+0100a86b
+blvs 0xfea0000c
+address: 0x000122aa
+0100a86b
+blvs 0xfea0000c
+address: 0x000122ae
+0100a86b
+blvs 0xfea0000c
+address: 0x000122b2
+0100a86b
+blvs 0xfea0000c
+address: 0x000122b6
+0100a86b
+blvs 0xfea0000c
+address: 0x000122ba
+0100a86b
+blvs 0xfea0000c
+address: 0x000122be
+0100a86b
+blvs 0xfea0000c
+address: 0x000122c2
+0100a86b
+blvs 0xfea0000c
+address: 0x000122c6
+0100a86b
+blvs 0xfea0000c
+address: 0x000122ca
+0100a86b
+blvs 0xfea0000c
+address: 0x000122ce
+0100a86b
+blvs 0xfea0000c
+address: 0x000122d2
+0100a86b
+blvs 0xfea0000c
+address: 0x000122d6
+0100a86b
+blvs 0xfea0000c
+address: 0x000122da
+0100a86b
+blvs 0xfea0000c
+address: 0x000122de
+0100a86b
+blvs 0xfea0000c
+address: 0x000122e2
+0100a86b
+blvs 0xfea0000c
+address: 0x000122e6
+0100a86b
+blvs 0xfea0000c
+address: 0x000122ea
+0100a86b
+blvs 0xfea0000c
+address: 0x000122ee
+0100a86b
+blvs 0xfea0000c
+address: 0x000122f2
+0100a86b
+blvs 0xfea0000c
+address: 0x000122f6
+0100a86b
+blvs 0xfea0000c
+address: 0x000122fa
+0100a86b
+blvs 0xfea0000c
+address: 0x000122fe
+0100a86b
+blvs 0xfea0000c
+address: 0x00012302
+01003025
+ldrhs r0, [r0, -1]!
+address: 0x00012306
+0100a86b
+blvs 0xfea0000c
+address: 0x0001230a
+0100a86b
+blvs 0xfea0000c
+address: 0x0001230e
+0100a86b
+blvs 0xfea0000c
+address: 0x00012312
+01006048
+stmdami r0!, {r0} ^
+address: 0x00012316
+01007448
+ldmdami r4!, {r0} ^
+address: 0x0001231a
+01000027
+strhs r0, [r0, -r1]
+address: 0x0001231e
+0100d426
+ldrbhs r0, [r4], r1
+address: 0x00012322
+0100a86b
+blvs 0xfea0000c
+address: 0x00012326
+0100a86b
+blvs 0xfea0000c
+address: 0x0001232a
+0100c02e
+cdphs p0, 0xc, c0, c0, c1, 0
+address: 0x0001232e
+0100a86b
+blvs 0xfea0000c
+address: 0x00012332
+0100a86b
+blvs 0xfea0000c
+address: 0x00012336
+0100a86b
+blvs 0xfea0000c
+address: 0x0001233a
+0100a86b
+blvs 0xfea0000c
+address: 0x0001233e
+0100a86b
+blvs 0xfea0000c
+address: 0x00012342
+0100a86b
+blvs 0xfea0000c
+address: 0x00012346
+0100a86b
+blvs 0xfea0000c
+address: 0x0001234a
+0100a86b
+blvs 0xfea0000c
+address: 0x0001234e
+0100a86b
+blvs 0xfea0000c
+address: 0x00012352
+0100a86b
+blvs 0xfea0000c
+address: 0x00012356
+0100a86b
+blvs 0xfea0000c
+address: 0x0001235a
+0100a86b
+blvs 0xfea0000c
+address: 0x0001235e
+0100a86b
+blvs 0xfea0000c
+address: 0x00012362
+0100a86b
+blvs 0xfea0000c
+address: 0x00012366
+0100a86b
+blvs 0xfea0000c
+address: 0x0001236a
+0100a86b
+blvs 0xfea0000c
+address: 0x0001236e
+0100d426
+ldrbhs r0, [r4], r1
+address: 0x00012372
+01007c00
+rsbseq r0, ip, r1
+address: 0x00012376
+53e30a12
+andne lr, sl, 0x4c000001
+address: 0x0001237a
+00ca5b00
+subseq ip, fp, r0, lsl 20
+address: 0x0001237e
+53e39bff
+invalid
+address: 0x00012382
+ffaa0712
+andne sl, r7, 0xff000
+address: 0x00012386
+00eae831
+invalid
+address: 0x0001238a
+1be50120
+andhs lr, r1, fp, lsl r5
+address: 0x0001238e
+83e2d031
+bicslo lr, r0, r3, lsl 5
+address: 0x00012392
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00012396
+52e15600
+subseq lr, r6, r2, asr r1
+address: 0x0001239a
+000af031
+mvnslo r0, r0, lsl 20
+address: 0x0001239e
+1be50830
+andlo lr, r8, fp, lsl r5
+address: 0x000123a2
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x000123a6
+53e35200
+subseq lr, r2, r3, asr r3
+address: 0x000123aa
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x000123ae
+1be5f021
+mvnshs lr, fp, lsl r5
+address: 0x000123b2
+1be50310
+andne lr, r3, fp, lsl r5
+address: 0x000123b6
+a0e1e801
+invalid
+address: 0x000123ba
+1be50914
+strne lr, [sb], -0x51b
+address: 0x000123be
+00eb0030
+andlo lr, r0, r0, lsl 22
+address: 0x000123c2
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x000123c6
+53e3cd11
+bicne lr, sp, r3, asr r3
+address: 0x000123ca
+000a4900
+subeq r0, sb, r0, lsl 20
+address: 0x000123ce
+00eaf431
+invalid
+address: 0x000123d2
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x000123d6
+93e59831
+invalid
+address: 0x000123da
+0be5f431
+invalid
+address: 0x000123de
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x000123e2
+93e50108
+stmdaeq r1, {r0, r1, r4, r7, r8, sl, sp, lr, pc}
+address: 0x000123e6
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x000123ea
+001a0f30
+andlo r1, pc, r0, lsl 20
+address: 0x000123ee
+a0e38213
+orrne lr, r2, 160, 6
+address: 0x000123f2
+00eaf431
+invalid
+address: 0x000123f6
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x000123fa
+93e58320
+umullhs lr, r3, r3, r5
+address: 0x000123fe
+a0e1f431
+invalid
+address: 0x00012402
+1be50420
+andhs lr, r4, fp, lsl r5
+address: 0x00012406
+83e5f431
+invalid
+address: 0x0001240a
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x0001240e
+93e50108
+stmdaeq r1, {r0, r1, r4, r7, r8, sl, sp, lr, pc}
+address: 0x00012412
+53e30200
+andeq lr, r2, r3, asr r3
+address: 0x00012416
+009af431
+invalid
+address: 0x0001241a
+1be50128
+stmdahs r1, {r0, r1, r3, r4, r8, sl, sp, lr, pc}
+address: 0x0001241e
+a0e30420
+andhs lr, r4, r0, lsr 7
+address: 0x00012422
+83e5f431
+invalid
+address: 0x00012426
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x0001242a
+93e5f431
+invalid
+address: 0x0001242e
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012432
+93e50310
+mulne r3, r3, r5
+address: 0x00012436
+a0e10200
+andeq lr, r2, r0, lsr 3
+address: 0x0001243a
+a0e15bfe
+cdp2 p1, 5, c14, c11, c0, 5
+address: 0x0001243e
+ffeb0020
+strdhs lr, pc, [r0], -pc
+address: 0x00012442
+a0e1f431
+invalid
+address: 0x00012446
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x0001244a
+83e5f431
+invalid
+address: 0x0001244e
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00012452
+93e50000
+muleq r0, r3, r5
+address: 0x00012456
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x0001245a
+001a0c30
+andlo r1, ip, r0, lsl 20
+address: 0x0001245e
+a0e36613
+invalid
+address: 0x00012462
+00eaf431
+invalid
+address: 0x00012466
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x0001246a
+93e59821
+invalid
+address: 0x0001246e
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00012472
+52e11f00
+andseq lr, pc, r2, asr r1
+address: 0x00012476
+000af431
+invalid
+address: 0x0001247a
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x0001247e
+93e59831
+invalid
+address: 0x00012482
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012486
+42e09431
+orrslo lr, r4, r2, asr 32
+address: 0x0001248a
+0be59431
+orrslo lr, r4, fp, lsl 10
+address: 0x0001248e
+1be50340
+andmi lr, r3, fp, lsl r5
+address: 0x00012492
+84e09431
+orrslo lr, r4, r4, lsl 1
+address: 0x00012496
+1be5c421
+bichs lr, r4, fp, lsl r5
+address: 0x0001249a
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x0001249e
+82e0c431
+biclo lr, r4, r2, lsl 1
+address: 0x000124a2
+0be5c031
+biclo lr, r0, fp, lsl 10
+address: 0x000124a6
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x000124aa
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x000124ae
+000a9431
+orrslo r0, r4, r0, lsl 20
+address: 0x000124b2
+1be5c021
+bichs lr, r0, fp, lsl r5
+address: 0x000124b6
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x000124ba
+82e0c031
+biclo lr, r0, r2, lsl 1
+address: 0x000124be
+0be5c831
+biclo lr, r8, fp, lsl 10
+address: 0x000124c2
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x000124c6
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x000124ca
+000a9431
+orrslo r0, r4, r0, lsl 20
+address: 0x000124ce
+1be5c821
+bichs lr, r8, fp, lsl r5
+address: 0x000124d2
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x000124d6
+82e0c831
+biclo lr, r8, r2, lsl 1
+address: 0x000124da
+0be5cc31
+biclo lr, ip, fp, lsl 10
+address: 0x000124de
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x000124e2
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x000124e6
+000a9431
+orrslo r0, r4, r0, lsl 20
+address: 0x000124ea
+1be5cc21
+bichs lr, ip, fp, lsl r5
+address: 0x000124ee
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x000124f2
+82e0cc31
+biclo lr, ip, r2, lsl 1
+address: 0x000124f6
+0be5f431
+invalid
+address: 0x000124fa
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x000124fe
+93e50330
+mullo r3, r3, r5
+address: 0x00012502
+44e00130
+andlo lr, r1, r4, asr 32
+address: 0x00012506
+83e20320
+andhs lr, r3, r3, lsl 5
+address: 0x0001250a
+a0e1f431
+invalid
+address: 0x0001250e
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012512
+93e50300
+muleq r3, r3, r5
+address: 0x00012516
+52e1acff
+invalid
+address: 0x0001251a
+ff8a0430
+strdlo r8, sb, [r4], -pc
+address: 0x0001251e
+a0e10140
+andmi lr, r1, r0, lsr 3
+address: 0x00012522
+83e20920
+andhs lr, sb, r3, lsl 5
+address: 0x00012526
+a0e30020
+andhs lr, r0, r0, lsr 7
+address: 0x0001252a
+c3e5b712
+adcsne lr, r7, 0x30c00000
+address: 0x0001252e
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x00012532
+1be5a821
+invalid
+address: 0x00012536
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x0001253a
+52e15600
+subseq lr, r6, r2, asr r1
+address: 0x0001253e
+000af031
+mvnslo r0, r0, lsl 20
+address: 0x00012542
+1be50830
+andlo lr, r8, fp, lsl r5
+address: 0x00012546
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x0001254a
+53e35200
+subseq lr, r2, r3, asr r3
+address: 0x0001254e
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x00012552
+1be5f021
+mvnshs lr, fp, lsl r5
+address: 0x00012556
+1be5a811
+invalid
+address: 0x0001255a
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x0001255e
+a0e1d413
+bicsne lr, r4, 160, 2
+address: 0x00012562
+00eb0030
+andlo lr, r0, r0, lsl 22
+address: 0x00012566
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x0001256a
+53e36611
+qdsubne lr, r3, r6
+address: 0x0001256e
+000a4900
+subeq r0, sb, r0, lsl 20
+address: 0x00012572
+00eaf431
+invalid
+address: 0x00012576
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x0001257a
+93e5cc30
+smulllo lr, ip, r3, r5
+address: 0x0001257e
+0be5f431
+invalid
+address: 0x00012582
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012586
+93e50108
+stmdaeq r1, {r0, r1, r4, r7, r8, sl, sp, lr, pc}
+address: 0x0001258a
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x0001258e
+001a0f30
+andlo r1, pc, r0, lsl 20
+address: 0x00012592
+a0e31913
+tstne sb, 160, 6
+address: 0x00012596
+00eaf431
+invalid
+address: 0x0001259a
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x0001259e
+93e58320
+umullhs lr, r3, r3, r5
+address: 0x000125a2
+a0e1f431
+invalid
+address: 0x000125a6
+1be50420
+andhs lr, r4, fp, lsl r5
+address: 0x000125aa
+83e5f431
+invalid
+address: 0x000125ae
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x000125b2
+93e50108
+stmdaeq r1, {r0, r1, r4, r7, r8, sl, sp, lr, pc}
+address: 0x000125b6
+53e30200
+andeq lr, r2, r3, asr r3
+address: 0x000125ba
+009af431
+invalid
+address: 0x000125be
+1be50128
+stmdahs r1, {r0, r1, r3, r4, r8, sl, sp, lr, pc}
+address: 0x000125c2
+a0e30420
+andhs lr, r4, r0, lsr 7
+address: 0x000125c6
+83e5f431
+invalid
+address: 0x000125ca
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x000125ce
+93e5f431
+invalid
+address: 0x000125d2
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x000125d6
+93e50310
+mulne r3, r3, r5
+address: 0x000125da
+a0e10200
+andeq lr, r2, r0, lsr 3
+address: 0x000125de
+a0e1f2fd
+ldc2l p1, c14, [r2, 0x280]!
+address: 0x000125e2
+ffeb0020
+strdhs lr, pc, [r0], -pc
+address: 0x000125e6
+a0e1f431
+invalid
+address: 0x000125ea
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x000125ee
+83e5f431
+invalid
+address: 0x000125f2
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x000125f6
+93e50000
+muleq r0, r3, r5
+address: 0x000125fa
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x000125fe
+001a0c30
+andlo r1, ip, r0, lsl 20
+address: 0x00012602
+a0e3fd12
+rscsne lr, sp, 160, 6
+address: 0x00012606
+00eaf431
+invalid
+address: 0x0001260a
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x0001260e
+93e5cc20
+smullhs lr, ip, r3, r5
+address: 0x00012612
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00012616
+52e11f00
+andseq lr, pc, r2, asr r1
+address: 0x0001261a
+000af431
+invalid
+address: 0x0001261e
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x00012622
+93e5cc30
+smulllo lr, ip, r3, r5
+address: 0x00012626
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x0001262a
+42e0c830
+sbclo lr, r8, r2, asr 32
+address: 0x0001262e
+0be5c830
+sbclo lr, r8, fp, lsl 10
+address: 0x00012632
+1be50340
+andmi lr, r3, fp, lsl r5
+address: 0x00012636
+84e0c830
+sbclo lr, r8, r4, lsl 1
+address: 0x0001263a
+1be5c421
+bichs lr, r4, fp, lsl r5
+address: 0x0001263e
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012642
+82e0c431
+biclo lr, r4, r2, lsl 1
+address: 0x00012646
+0be5c031
+biclo lr, r0, fp, lsl 10
+address: 0x0001264a
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x0001264e
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00012652
+000ac830
+sbclo r0, r8, r0, lsl 20
+address: 0x00012656
+1be5c021
+bichs lr, r0, fp, lsl r5
+address: 0x0001265a
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x0001265e
+82e0c031
+biclo lr, r0, r2, lsl 1
+address: 0x00012662
+0be5c831
+biclo lr, r8, fp, lsl 10
+address: 0x00012666
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x0001266a
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x0001266e
+000ac830
+sbclo r0, r8, r0, lsl 20
+address: 0x00012672
+1be5c821
+bichs lr, r8, fp, lsl r5
+address: 0x00012676
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x0001267a
+82e0c831
+biclo lr, r8, r2, lsl 1
+address: 0x0001267e
+0be5cc31
+biclo lr, ip, fp, lsl 10
+address: 0x00012682
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012686
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x0001268a
+000ac830
+sbclo r0, r8, r0, lsl 20
+address: 0x0001268e
+1be5cc21
+bichs lr, ip, fp, lsl r5
+address: 0x00012692
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012696
+82e0cc31
+biclo lr, ip, r2, lsl 1
+address: 0x0001269a
+0be5f431
+invalid
+address: 0x0001269e
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x000126a2
+93e50330
+mullo r3, r3, r5
+address: 0x000126a6
+44e00130
+andlo lr, r1, r4, asr 32
+address: 0x000126aa
+83e20320
+andhs lr, r3, r3, lsl 5
+address: 0x000126ae
+a0e1f431
+invalid
+address: 0x000126b2
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x000126b6
+93e50300
+muleq r3, r3, r5
+address: 0x000126ba
+52e1acff
+invalid
+address: 0x000126be
+ff8a0430
+strdlo r8, sb, [r4], -pc
+address: 0x000126c2
+a0e10140
+andmi lr, r1, r0, lsr 3
+address: 0x000126c6
+83e20a20
+andhs lr, sl, r3, lsl 5
+address: 0x000126ca
+a0e30020
+andhs lr, r0, r0, lsr 7
+address: 0x000126ce
+c3e54e12
+subne lr, lr, 0x30c00000
+address: 0x000126d2
+00eaf031
+mvnslo lr, r0, lsl 20
+address: 0x000126d6
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x000126da
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x000126de
+53e30b11
+qaddne lr, r3, fp
+address: 0x000126e2
+001af031
+mvnslo r1, r0, lsl 20
+address: 0x000126e6
+1be5013b
+bllo 0x79474
+address: 0x000126ea
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x000126ee
+53e30711
+qaddne lr, r3, r7
+address: 0x000126f2
+001a0000
+andeq r1, r0, r0, lsl 20
+address: 0x000126f6
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x000126fa
+00ea0000
+andeq lr, r0, r0, lsl 20
+address: 0x000126fe
+a0e1c831
+biclo lr, r8, r0, lsr 3
+address: 0x00012702
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012706
+53e30c00
+andeq lr, ip, r3, asr r3
+address: 0x0001270a
+001af031
+mvnslo r1, r0, lsl 20
+address: 0x0001270e
+1be52030
+eorlo lr, r0, fp, lsl r5
+address: 0x00012712
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00012716
+53e30400
+andeq lr, r4, r3, asr r3
+address: 0x0001271a
+000aa430
+adclo r0, r4, r0, lsl 20
+address: 0x0001271e
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00012722
+a0e1cffc
+stc2l p1, c14, [pc], {0xa0}
+address: 0x00012726
+ffeb0d30
+strdlo lr, pc, [sp], -pc
+address: 0x0001272a
+a0e3b312
+adcsne lr, r3, 160, 6
+address: 0x0001272e
+00eaf031
+mvnslo lr, r0, lsl 20
+address: 0x00012732
+1be51030
+andslo lr, r0, fp, lsl r5
+address: 0x00012736
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x0001273a
+53e3f610
+rscsne lr, r6, r3, asr r3
+address: 0x0001273e
+000a0030
+andlo r0, r0, r0, lsl 20
+address: 0x00012742
+a0e3e031
+mvnlo lr, r0, lsr 7
+address: 0x00012746
+4be50030
+andlo lr, r0, fp, asr 10
+address: 0x0001274a
+a0e3df31
+bicslo lr, pc, r0, lsr 7
+address: 0x0001274e
+4be50030
+andlo lr, r0, fp, asr 10
+address: 0x00012752
+a0e3de31
+bicslo lr, lr, r0, lsr 7
+address: 0x00012756
+4be52b00
+eoreq lr, fp, fp, asr 10
+address: 0x0001275a
+55e30130
+andlo lr, r1, r5, asr r3
+address: 0x0001275e
+a0130030
+andlo r1, r0, r0, lsr 7
+address: 0x00012762
+a003ff30
+rscslo r0, pc, r0, lsr 7
+address: 0x00012766
+03e2033c
+invalid
+address: 0x0001276a
+a0e1432c
+mcrrhs p1, 0xa, lr, r3, c0
+address: 0x0001276e
+a0e1773f
+svclo 0x77e1a0
+address: 0x00012772
+4be20330
+andlo lr, r3, fp, asr 4
+address: 0x00012776
+43e2d030
+sbcslo lr, r0, r3, asr 4
+address: 0x0001277a
+d3e10330
+ldrdlo lr, pc, [r3], -r3
+address: 0x0001277e
+82e1033c
+invalid
+address: 0x00012782
+a0e1433c
+mcrrlo p1, 0xa, lr, r3, c0
+address: 0x00012786
+a0e1df31
+bicslo lr, pc, r0, lsr 3
+address: 0x0001278a
+4be53f00
+eorseq lr, pc, fp, asr 10
+address: 0x0001278e
+55e30130
+andlo lr, r1, r5, asr r3
+address: 0x00012792
+a0130030
+andlo r1, r0, r0, lsr 7
+address: 0x00012796
+a003ff30
+rscslo r0, pc, r0, lsr 7
+address: 0x0001279a
+03e2033c
+invalid
+address: 0x0001279e
+a0e1432c
+mcrrhs p1, 0xa, lr, r3, c0
+address: 0x000127a2
+a0e1773f
+svclo 0x77e1a0
+address: 0x000127a6
+4be20230
+andlo lr, r2, fp, asr 4
+address: 0x000127aa
+43e2d030
+sbcslo lr, r0, r3, asr 4
+address: 0x000127ae
+d3e10330
+ldrdlo lr, pc, [r3], -r3
+address: 0x000127b2
+82e1033c
+invalid
+address: 0x000127b6
+a0e1433c
+mcrrlo p1, 0xa, lr, r3, c0
+address: 0x000127ba
+a0e1de31
+bicslo lr, lr, r0, lsr 3
+address: 0x000127be
+4be5d031
+bicslo lr, r0, fp, asr 10
+address: 0x000127c2
+1be5a821
+invalid
+address: 0x000127c6
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000127ca
+52e14d00
+subeq lr, sp, r2, asr r1
+address: 0x000127ce
+000ad031
+bicslo r0, r0, r0, lsl 20
+address: 0x000127d2
+1be5a821
+invalid
+address: 0x000127d6
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000127da
+52e10100
+andeq lr, r1, r2, asr r1
+address: 0x000127de
+001a0e30
+andlo r1, lr, r0, lsl 20
+address: 0x000127e2
+a0e38512
+addne lr, r5, 160, 6
+address: 0x000127e6
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x000127ea
+1be50120
+andhs lr, r1, fp, lsl r5
+address: 0x000127ee
+83e2d021
+bicshs lr, r0, r3, lsl 5
+address: 0x000127f2
+0be50050
+andpl lr, r0, fp, lsl 10
+address: 0x000127f6
+d3e5a431
+ldrdlo lr, pc, [r4, r3]!
+address: 0x000127fa
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x000127fe
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00012802
+000a0520
+andhs r0, r5, r0, lsl 20
+address: 0x00012806
+a0e1a431
+invalid
+address: 0x0001280a
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x0001280e
+83e00050
+andpl lr, r0, r3, lsl 1
+address: 0x00012812
+d3e52a00
+invalid
+address: 0x00012816
+55e3ceff
+invalid
+address: 0x0001281a
+ff0af031
+ldrshlo r0, [r0, 0xaf]!
+address: 0x0001281e
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x00012822
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00012826
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x0001282a
+001a2b00
+eoreq r1, fp, r0, lsl 20
+address: 0x0001282e
+55e33200
+eorseq lr, r2, r5, asr r3
+address: 0x00012832
+000a3f00
+eorseq r0, pc, r0, lsl 20
+address: 0x00012836
+55e33000
+eorseq lr, r0, r5, asr r3
+address: 0x0001283a
+000af031
+mvnslo r0, r0, lsl 20
+address: 0x0001283e
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x00012842
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00012846
+53e32800
+eoreq lr, r8, r3, asr r3
+address: 0x0001284a
+000a5c00
+subseq r0, ip, r0, lsl 20
+address: 0x0001284e
+55e32600
+eoreq lr, r6, r5, asr r3
+address: 0x00012852
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x00012856
+1be5a821
+invalid
+address: 0x0001285a
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x0001285e
+52e10400
+andeq lr, r4, r2, asr r1
+address: 0x00012862
+001aa430
+adclo r1, r4, r0, lsl 20
+address: 0x00012866
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x0001286a
+a0e17dfc
+ldc2l p1, c14, [sp], -0x280
+address: 0x0001286e
+ffeb0530
+strdlo lr, pc, [r5], -pc
+address: 0x00012872
+a0e36112
+rsbne lr, r1, 160, 6
+address: 0x00012876
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x0001287a
+1be5a821
+invalid
+address: 0x0001287e
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00012882
+52e10100
+andeq lr, r1, r2, asr r1
+address: 0x00012886
+001a0e30
+andlo r1, lr, r0, lsl 20
+address: 0x0001288a
+a0e35b12
+subsne lr, fp, 160, 6
+address: 0x0001288e
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x00012892
+1be50120
+andhs lr, r1, fp, lsl r5
+address: 0x00012896
+83e2d021
+bicshs lr, r0, r3, lsl 5
+address: 0x0001289a
+0be50060
+andvs lr, r0, fp, lsl 10
+address: 0x0001289e
+d3e5a431
+ldrdlo lr, pc, [r4, r3]!
+address: 0x000128a2
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x000128a6
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x000128aa
+000a0620
+andhs r0, r6, r0, lsl 20
+address: 0x000128ae
+a0e1a431
+invalid
+address: 0x000128b2
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x000128b6
+83e00060
+andvs lr, r0, r3, lsl 1
+address: 0x000128ba
+d3e52b00
+invalid
+address: 0x000128be
+56e30800
+andeq lr, r8, r6, asr r3
+address: 0x000128c2
+000a3f00
+eorseq r0, pc, r0, lsl 20
+address: 0x000128c6
+56e30600
+andeq lr, r6, r6, asr r3
+address: 0x000128ca
+000ad031
+bicslo r0, r0, r0, lsl 20
+address: 0x000128ce
+1be50130
+andlo lr, r1, fp, lsl r5
+address: 0x000128d2
+43e2d031
+bicslo lr, r0, r3, asr 4
+address: 0x000128d6
+0be5d031
+bicslo lr, r0, fp, lsl 10
+address: 0x000128da
+1be50130
+andlo lr, r1, fp, lsl r5
+address: 0x000128de
+43e2d031
+bicslo lr, r0, r3, asr 4
+address: 0x000128e2
+0be50800
+andeq lr, r8, fp, lsl 10
+address: 0x000128e6
+00ea0650
+andpl lr, r6, r0, lsl 20
+address: 0x000128ea
+a0e10400
+andeq lr, r4, r0, lsr 3
+address: 0x000128ee
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x000128f2
+1be50130
+andlo lr, r1, fp, lsl r5
+address: 0x000128f6
+43e2d031
+bicslo lr, r0, r3, asr 4
+address: 0x000128fa
+0be50200
+andeq lr, r2, fp, lsl 10
+address: 0x000128fe
+00ea0000
+andeq lr, r0, r0, lsl 20
+address: 0x00012902
+a0e193ff
+invalid
+address: 0x00012906
+ffea0000
+strdeq lr, pc, [r0], -pc
+address: 0x0001290a
+a0e1c831
+biclo lr, r8, r0, lsr 3
+address: 0x0001290e
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012912
+53e30000
+andeq lr, r0, r3, asr r3
+address: 0x00012916
+001abc11
+invalid
+address: 0x0001291a
+00eade31
+bicslo lr, lr, r0, lsl 20
+address: 0x0001291e
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x00012922
+53e3ee00
+rsceq lr, lr, r3, asr r3
+address: 0x00012926
+000a4900
+subeq r0, sb, r0, lsl 20
+address: 0x0001292a
+00eaf431
+invalid
+address: 0x0001292e
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00012932
+93e50431
+swplo lr, r3, [r4]
+address: 0x00012936
+0be5f431
+invalid
+address: 0x0001293a
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x0001293e
+93e50108
+stmdaeq r1, {r0, r1, r4, r7, r8, sl, sp, lr, pc}
+address: 0x00012942
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x00012946
+001a0f30
+andlo r1, pc, r0, lsl 20
+address: 0x0001294a
+a0e32b12
+eorne lr, fp, 160, 6
+address: 0x0001294e
+00eaf431
+invalid
+address: 0x00012952
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012956
+93e58320
+umullhs lr, r3, r3, r5
+address: 0x0001295a
+a0e1f431
+invalid
+address: 0x0001295e
+1be50420
+andhs lr, r4, fp, lsl r5
+address: 0x00012962
+83e5f431
+invalid
+address: 0x00012966
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x0001296a
+93e50108
+stmdaeq r1, {r0, r1, r4, r7, r8, sl, sp, lr, pc}
+address: 0x0001296e
+53e30200
+andeq lr, r2, r3, asr r3
+address: 0x00012972
+009af431
+invalid
+address: 0x00012976
+1be50128
+stmdahs r1, {r0, r1, r3, r4, r8, sl, sp, lr, pc}
+address: 0x0001297a
+a0e30420
+andhs lr, r4, r0, lsr 7
+address: 0x0001297e
+83e5f431
+invalid
+address: 0x00012982
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x00012986
+93e5f431
+invalid
+address: 0x0001298a
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x0001298e
+93e50310
+mulne r3, r3, r5
+address: 0x00012992
+a0e10200
+andeq lr, r2, r0, lsr 3
+address: 0x00012996
+a0e104fd
+stc2 p1, c14, [r4, -0x280]
+address: 0x0001299a
+ffeb0020
+strdhs lr, pc, [r0], -pc
+address: 0x0001299e
+a0e1f431
+invalid
+address: 0x000129a2
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x000129a6
+83e5f431
+invalid
+address: 0x000129aa
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x000129ae
+93e50000
+muleq r0, r3, r5
+address: 0x000129b2
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x000129b6
+001a0c30
+andlo r1, ip, r0, lsl 20
+address: 0x000129ba
+a0e30f12
+andne lr, pc, 160, 6
+address: 0x000129be
+00eaf431
+invalid
+address: 0x000129c2
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x000129c6
+93e50421
+swphs lr, r3, [r4]
+address: 0x000129ca
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000129ce
+52e11f00
+andseq lr, pc, r2, asr r1
+address: 0x000129d2
+000af431
+invalid
+address: 0x000129d6
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x000129da
+93e50431
+swplo lr, r3, [r4]
+address: 0x000129de
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x000129e2
+42e00031
+invalid
+address: 0x000129e6
+0be50031
+invalid
+address: 0x000129ea
+1be50340
+andmi lr, r3, fp, lsl r5
+address: 0x000129ee
+84e00031
+smlabblo r0, r4, r0, lr
+address: 0x000129f2
+1be5c421
+bichs lr, r4, fp, lsl r5
+address: 0x000129f6
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x000129fa
+82e0c431
+biclo lr, r4, r2, lsl 1
+address: 0x000129fe
+0be5c031
+biclo lr, r0, fp, lsl 10
+address: 0x00012a02
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012a06
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00012a0a
+000a0031
+invalid
+address: 0x00012a0e
+1be5c021
+bichs lr, r0, fp, lsl r5
+address: 0x00012a12
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012a16
+82e0c031
+biclo lr, r0, r2, lsl 1
+address: 0x00012a1a
+0be5c831
+biclo lr, r8, fp, lsl 10
+address: 0x00012a1e
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012a22
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00012a26
+000a0031
+invalid
+address: 0x00012a2a
+1be5c821
+bichs lr, r8, fp, lsl r5
+address: 0x00012a2e
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012a32
+82e0c831
+biclo lr, r8, r2, lsl 1
+address: 0x00012a36
+0be5cc31
+biclo lr, ip, fp, lsl 10
+address: 0x00012a3a
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012a3e
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00012a42
+000a0031
+invalid
+address: 0x00012a46
+1be5cc21
+bichs lr, ip, fp, lsl r5
+address: 0x00012a4a
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012a4e
+82e0cc31
+biclo lr, ip, r2, lsl 1
+address: 0x00012a52
+0be5f431
+invalid
+address: 0x00012a56
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00012a5a
+93e50330
+mullo r3, r3, r5
+address: 0x00012a5e
+44e00330
+andlo lr, r3, r4, asr 32
+address: 0x00012a62
+83e20320
+andhs lr, r3, r3, lsl 5
+address: 0x00012a66
+a0e1f431
+invalid
+address: 0x00012a6a
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012a6e
+93e50300
+muleq r3, r3, r5
+address: 0x00012a72
+52e1acff
+invalid
+address: 0x00012a76
+ff8aa431
+strdlo r8, sb, [r4, pc]!
+address: 0x00012a7a
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012a7e
+53e30800
+andeq lr, r8, r3, asr r3
+address: 0x00012a82
+000ad031
+bicslo r0, r0, r0, lsl 20
+address: 0x00012a86
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x00012a8a
+43e20030
+andlo lr, r0, r3, asr 4
+address: 0x00012a8e
+d3e50320
+ldrdhs lr, pc, [r3], -r3
+address: 0x00012a92
+a0e1a431
+invalid
+address: 0x00012a96
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x00012a9a
+83e00030
+andlo lr, r0, r3, lsl 1
+address: 0x00012a9e
+d3e50320
+ldrdhs lr, pc, [r3], -r3
+address: 0x00012aa2
+a0e10300
+andeq lr, r3, r0, lsr 3
+address: 0x00012aa6
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x00012aaa
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x00012aae
+43e20030
+andlo lr, r0, r3, asr 4
+address: 0x00012ab2
+d3e50320
+ldrdhs lr, pc, [r3], -r3
+address: 0x00012ab6
+a0e1a431
+invalid
+address: 0x00012aba
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012abe
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00012ac2
+000aa431
+invalid
+address: 0x00012ac6
+1be52e30
+eorlo lr, lr, fp, lsl r5
+address: 0x00012aca
+83e20030
+andlo lr, r0, r3, lsl 5
+address: 0x00012ace
+d3e50000
+ldrdeq lr, pc, [r0], -r3
+address: 0x00012ad2
+00ea2e30
+eorlo lr, lr, r0, lsl 20
+address: 0x00012ad6
+a0e30300
+andeq lr, r3, r0, lsr 7
+address: 0x00012ada
+52e12c00
+eoreq lr, ip, r2, asr r1
+address: 0x00012ade
+001adf31
+bicslo r1, pc, r0, lsl 20
+address: 0x00012ae2
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x00012ae6
+53e32900
+eoreq lr, sb, r3, asr r3
+address: 0x00012aea
+000ad031
+bicslo r0, r0, r0, lsl 20
+address: 0x00012aee
+1be5a821
+invalid
+address: 0x00012af2
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00012af6
+52e12500
+eoreq lr, r5, r2, asr r1
+address: 0x00012afa
+009aa431
+invalid
+address: 0x00012afe
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012b02
+53e30700
+andeq lr, r7, r3, asr r3
+address: 0x00012b06
+000ad031
+bicslo r0, r0, r0, lsl 20
+address: 0x00012b0a
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00012b0e
+d3e50320
+ldrdhs lr, pc, [r3], -r3
+address: 0x00012b12
+a0e1a431
+invalid
+address: 0x00012b16
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x00012b1a
+83e00030
+andlo lr, r0, r3, lsl 1
+address: 0x00012b1e
+d3e50320
+ldrdhs lr, pc, [r3], -r3
+address: 0x00012b22
+a0e10200
+andeq lr, r2, r0, lsr 3
+address: 0x00012b26
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x00012b2a
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00012b2e
+d3e50320
+ldrdhs lr, pc, [r3], -r3
+address: 0x00012b32
+a0e1a431
+invalid
+address: 0x00012b36
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012b3a
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00012b3e
+000aa431
+invalid
+address: 0x00012b42
+1be50a30
+andlo lr, sl, fp, lsl r5
+address: 0x00012b46
+83e20030
+andlo lr, r0, r3, lsl 5
+address: 0x00012b4a
+d3e50000
+ldrdeq lr, pc, [r0], -r3
+address: 0x00012b4e
+00ea0a30
+andlo lr, sl, r0, lsl 20
+address: 0x00012b52
+a0e30300
+andeq lr, r3, r0, lsr 7
+address: 0x00012b56
+52e10d00
+andeq lr, sp, r2, asr r1
+address: 0x00012b5a
+001af031
+mvnslo r1, r0, lsl 20
+address: 0x00012b5e
+1be54030
+sublo lr, r0, fp, lsl r5
+address: 0x00012b62
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00012b66
+53e30900
+andeq lr, sb, r3, asr r3
+address: 0x00012b6a
+001ac831
+biclo r1, r8, r0, lsl 20
+address: 0x00012b6e
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012b72
+43e00330
+andlo lr, r3, r3, asr 32
+address: 0x00012b76
+43e20320
+andhs lr, r3, r3, asr 4
+address: 0x00012b7a
+a0e10410
+andne lr, r4, r0, lsr 3
+address: 0x00012b7e
+a0e10d00
+andeq lr, sp, r0, lsr 3
+address: 0x00012b82
+a0e3a611
+invalid
+address: 0x00012b86
+00eb0130
+andlo lr, r1, r0, lsl 22
+address: 0x00012b8a
+a0e3e031
+mvnlo lr, r0, lsr 7
+address: 0x00012b8e
+4be50700
+andeq lr, r7, fp, asr 10
+address: 0x00012b92
+00eac831
+biclo lr, r8, r0, lsl 20
+address: 0x00012b96
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012b9a
+43e20430
+andlo lr, r4, r3, asr 4
+address: 0x00012b9e
+43e00330
+andlo lr, r3, r3, asr 32
+address: 0x00012ba2
+43e20320
+andhs lr, r3, r3, asr 4
+address: 0x00012ba6
+a0e10410
+andne lr, r4, r0, lsr 3
+address: 0x00012baa
+a0e11200
+andseq lr, r2, r0, lsr 3
+address: 0x00012bae
+a0e39b11
+orrsne lr, fp, r0, lsr 7
+address: 0x00012bb2
+00eb0340
+andmi lr, r3, r0, lsl 22
+address: 0x00012bb6
+84e24900
+subeq lr, sb, r4, lsl 5
+address: 0x00012bba
+00eaf431
+invalid
+address: 0x00012bbe
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00012bc2
+93e5f430
+smlalslo lr, r4, r3, r5
+address: 0x00012bc6
+0be5f431
+invalid
+address: 0x00012bca
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012bce
+93e50108
+stmdaeq r1, {r0, r1, r4, r7, r8, sl, sp, lr, pc}
+address: 0x00012bd2
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x00012bd6
+001a0f30
+andlo r1, pc, r0, lsl 20
+address: 0x00012bda
+a0e38711
+orrne lr, r7, r0, lsr 7
+address: 0x00012bde
+00eaf431
+invalid
+address: 0x00012be2
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012be6
+93e58320
+umullhs lr, r3, r3, r5
+address: 0x00012bea
+a0e1f431
+invalid
+address: 0x00012bee
+1be50420
+andhs lr, r4, fp, lsl r5
+address: 0x00012bf2
+83e5f431
+invalid
+address: 0x00012bf6
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012bfa
+93e50108
+stmdaeq r1, {r0, r1, r4, r7, r8, sl, sp, lr, pc}
+address: 0x00012bfe
+53e30200
+andeq lr, r2, r3, asr r3
+address: 0x00012c02
+009af431
+invalid
+address: 0x00012c06
+1be50128
+stmdahs r1, {r0, r1, r3, r4, r8, sl, sp, lr, pc}
+address: 0x00012c0a
+a0e30420
+andhs lr, r4, r0, lsr 7
+address: 0x00012c0e
+83e5f431
+invalid
+address: 0x00012c12
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x00012c16
+93e5f431
+invalid
+address: 0x00012c1a
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012c1e
+93e50310
+mulne r3, r3, r5
+address: 0x00012c22
+a0e10200
+andeq lr, r2, r0, lsr 3
+address: 0x00012c26
+a0e160fc
+stc2l p1, c14, [r0], -0x280
+address: 0x00012c2a
+ffeb0020
+strdhs lr, pc, [r0], -pc
+address: 0x00012c2e
+a0e1f431
+invalid
+address: 0x00012c32
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x00012c36
+83e5f431
+invalid
+address: 0x00012c3a
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00012c3e
+93e50000
+muleq r0, r3, r5
+address: 0x00012c42
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x00012c46
+001a0c30
+andlo r1, ip, r0, lsl 20
+address: 0x00012c4a
+a0e36b11
+smultbne fp, r0, r3
+address: 0x00012c4e
+00eaf431
+invalid
+address: 0x00012c52
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00012c56
+93e5f420
+smlalshs lr, r4, r3, r5
+address: 0x00012c5a
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00012c5e
+52e11f00
+andseq lr, pc, r2, asr r1
+address: 0x00012c62
+000af431
+invalid
+address: 0x00012c66
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x00012c6a
+93e5f430
+smlalslo lr, r4, r3, r5
+address: 0x00012c6e
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012c72
+42e0f030
+rscslo lr, r0, r2, asr 32
+address: 0x00012c76
+0be5f030
+rscslo lr, r0, fp, lsl 10
+address: 0x00012c7a
+1be50340
+andmi lr, r3, fp, lsl r5
+address: 0x00012c7e
+84e0f030
+rscslo lr, r0, r4, lsl 1
+address: 0x00012c82
+1be5c421
+bichs lr, r4, fp, lsl r5
+address: 0x00012c86
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012c8a
+82e0c431
+biclo lr, r4, r2, lsl 1
+address: 0x00012c8e
+0be5c031
+biclo lr, r0, fp, lsl 10
+address: 0x00012c92
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012c96
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00012c9a
+000af030
+rscslo r0, r0, r0, lsl 20
+address: 0x00012c9e
+1be5c021
+bichs lr, r0, fp, lsl r5
+address: 0x00012ca2
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012ca6
+82e0c031
+biclo lr, r0, r2, lsl 1
+address: 0x00012caa
+0be5c831
+biclo lr, r8, fp, lsl 10
+address: 0x00012cae
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012cb2
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00012cb6
+000af030
+rscslo r0, r0, r0, lsl 20
+address: 0x00012cba
+1be5c821
+bichs lr, r8, fp, lsl r5
+address: 0x00012cbe
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012cc2
+82e0c831
+biclo lr, r8, r2, lsl 1
+address: 0x00012cc6
+0be5cc31
+biclo lr, ip, fp, lsl 10
+address: 0x00012cca
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012cce
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00012cd2
+000af030
+rscslo r0, r0, r0, lsl 20
+address: 0x00012cd6
+1be5cc21
+bichs lr, ip, fp, lsl r5
+address: 0x00012cda
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012cde
+82e0cc31
+biclo lr, ip, r2, lsl 1
+address: 0x00012ce2
+0be5f431
+invalid
+address: 0x00012ce6
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00012cea
+93e50330
+mullo r3, r3, r5
+address: 0x00012cee
+44e00330
+andlo lr, r3, r4, asr 32
+address: 0x00012cf2
+83e20320
+andhs lr, r3, r3, lsl 5
+address: 0x00012cf6
+a0e1f431
+invalid
+address: 0x00012cfa
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012cfe
+93e50300
+muleq r3, r3, r5
+address: 0x00012d02
+52e1acff
+invalid
+address: 0x00012d06
+ff8ae031
+strdlo r8, sb, [r0, 0xaf]!
+address: 0x00012d0a
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x00012d0e
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x00012d12
+000a1000
+andseq r0, r0, r0, lsl 20
+address: 0x00012d16
+a0e30000
+andeq lr, r0, r0, lsr 7
+address: 0x00012d1a
+00ea0f00
+andeq lr, pc, r0, lsl 20
+address: 0x00012d1e
+a0e30320
+andhs lr, r3, r0, lsr 7
+address: 0x00012d22
+84e2c831
+biclo lr, r8, r4, lsl 5
+address: 0x00012d26
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012d2a
+42e00320
+andhs lr, r3, r2, asr 32
+address: 0x00012d2e
+43e20430
+andlo lr, r4, r3, asr 4
+address: 0x00012d32
+a0e1c811
+bicne lr, r8, r0, lsr 3
+address: 0x00012d36
+1be57711
+cmnne r7, fp, lsl r5
+address: 0x00012d3a
+00eb0030
+andlo lr, r0, r0, lsl 22
+address: 0x00012d3e
+a0e3cc31
+biclo lr, ip, r0, lsr 7
+address: 0x00012d42
+0be50340
+andmi lr, r3, fp, lsl 10
+address: 0x00012d46
+84e2df31
+bicslo lr, pc, r4, lsl 5
+address: 0x00012d4a
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x00012d4e
+53e3ae10
+adcne lr, lr, r3, asr r3
+address: 0x00012d52
+001a4900
+subeq r1, sb, r0, lsl 20
+address: 0x00012d56
+00eaf431
+invalid
+address: 0x00012d5a
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00012d5e
+93e5fc30
+smlalslo lr, ip, r3, r5
+address: 0x00012d62
+0be5f431
+invalid
+address: 0x00012d66
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012d6a
+93e50108
+stmdaeq r1, {r0, r1, r4, r7, r8, sl, sp, lr, pc}
+address: 0x00012d6e
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x00012d72
+001a0f30
+andlo r1, pc, r0, lsl 20
+address: 0x00012d76
+a0e32011
+smulwbne r0, r0, r3
+address: 0x00012d7a
+00eaf431
+invalid
+address: 0x00012d7e
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012d82
+93e58320
+umullhs lr, r3, r3, r5
+address: 0x00012d86
+a0e1f431
+invalid
+address: 0x00012d8a
+1be50420
+andhs lr, r4, fp, lsl r5
+address: 0x00012d8e
+83e5f431
+invalid
+address: 0x00012d92
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012d96
+93e50108
+stmdaeq r1, {r0, r1, r4, r7, r8, sl, sp, lr, pc}
+address: 0x00012d9a
+53e30200
+andeq lr, r2, r3, asr r3
+address: 0x00012d9e
+009af431
+invalid
+address: 0x00012da2
+1be50128
+stmdahs r1, {r0, r1, r3, r4, r8, sl, sp, lr, pc}
+address: 0x00012da6
+a0e30420
+andhs lr, r4, r0, lsr 7
+address: 0x00012daa
+83e5f431
+invalid
+address: 0x00012dae
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x00012db2
+93e5f431
+invalid
+address: 0x00012db6
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012dba
+93e50310
+mulne r3, r3, r5
+address: 0x00012dbe
+a0e10200
+andeq lr, r2, r0, lsr 3
+address: 0x00012dc2
+a0e1f9fb
+blx 0xffe7868a
+address: 0x00012dc6
+ffeb0020
+strdhs lr, pc, [r0], -pc
+address: 0x00012dca
+a0e1f431
+invalid
+address: 0x00012dce
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x00012dd2
+83e5f431
+invalid
+address: 0x00012dd6
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00012dda
+93e50000
+muleq r0, r3, r5
+address: 0x00012dde
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x00012de2
+001a0c30
+andlo r1, ip, r0, lsl 20
+address: 0x00012de6
+a0e30411
+smlatbne r4, r0, r3, lr
+address: 0x00012dea
+00eaf431
+invalid
+address: 0x00012dee
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00012df2
+93e5fc20
+smlalshs lr, ip, r3, r5
+address: 0x00012df6
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00012dfa
+52e11f00
+andseq lr, pc, r2, asr r1
+address: 0x00012dfe
+000af431
+invalid
+address: 0x00012e02
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x00012e06
+93e5fc30
+smlalslo lr, ip, r3, r5
+address: 0x00012e0a
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012e0e
+42e0f830
+rscslo lr, r8, r2, asr 32
+address: 0x00012e12
+0be5f830
+rscslo lr, r8, fp, lsl 10
+address: 0x00012e16
+1be50340
+andmi lr, r3, fp, lsl r5
+address: 0x00012e1a
+84e0f830
+rscslo lr, r8, r4, lsl 1
+address: 0x00012e1e
+1be5c421
+bichs lr, r4, fp, lsl r5
+address: 0x00012e22
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012e26
+82e0c431
+biclo lr, r4, r2, lsl 1
+address: 0x00012e2a
+0be5c031
+biclo lr, r0, fp, lsl 10
+address: 0x00012e2e
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012e32
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00012e36
+000af830
+rscslo r0, r8, r0, lsl 20
+address: 0x00012e3a
+1be5c021
+bichs lr, r0, fp, lsl r5
+address: 0x00012e3e
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012e42
+82e0c031
+biclo lr, r0, r2, lsl 1
+address: 0x00012e46
+0be5c831
+biclo lr, r8, fp, lsl 10
+address: 0x00012e4a
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012e4e
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00012e52
+000af830
+rscslo r0, r8, r0, lsl 20
+address: 0x00012e56
+1be5c821
+bichs lr, r8, fp, lsl r5
+address: 0x00012e5a
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012e5e
+82e0c831
+biclo lr, r8, r2, lsl 1
+address: 0x00012e62
+0be5cc31
+biclo lr, ip, fp, lsl 10
+address: 0x00012e66
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012e6a
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00012e6e
+000af830
+rscslo r0, r8, r0, lsl 20
+address: 0x00012e72
+1be5cc21
+bichs lr, ip, fp, lsl r5
+address: 0x00012e76
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012e7a
+82e0cc31
+biclo lr, ip, r2, lsl 1
+address: 0x00012e7e
+0be5f431
+invalid
+address: 0x00012e82
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00012e86
+93e50330
+mullo r3, r3, r5
+address: 0x00012e8a
+44e00330
+andlo lr, r3, r4, asr 32
+address: 0x00012e8e
+83e20320
+andhs lr, r3, r3, lsl 5
+address: 0x00012e92
+a0e1f431
+invalid
+address: 0x00012e96
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012e9a
+93e50300
+muleq r3, r3, r5
+address: 0x00012e9e
+52e1acff
+invalid
+address: 0x00012ea2
+ff8a0430
+strdlo r8, sb, [r4], -pc
+address: 0x00012ea6
+a0e10320
+andhs lr, r3, r0, lsr 3
+address: 0x00012eaa
+a0e3c811
+bicne lr, r8, r0, lsr 7
+address: 0x00012eae
+1be51300
+andseq lr, r3, fp, lsl r5
+address: 0x00012eb2
+a0e31811
+tstne r8, r0, lsr 7
+address: 0x00012eb6
+00eb0340
+andmi lr, r3, r0, lsl 22
+address: 0x00012eba
+84e25310
+subsne lr, r3, r4, lsl 5
+address: 0x00012ebe
+00eac841
+bicmi lr, r8, r0, lsl 20
+address: 0x00012ec2
+0be55600
+subseq lr, r6, fp, lsl 10
+address: 0x00012ec6
+00eaf431
+invalid
+address: 0x00012eca
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00012ece
+93e50c31
+swplo lr, r3, [ip]
+address: 0x00012ed2
+0be5f431
+invalid
+address: 0x00012ed6
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012eda
+93e50108
+stmdaeq r1, {r0, r1, r4, r7, r8, sl, sp, lr, pc}
+address: 0x00012ede
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x00012ee2
+001a0f30
+andlo r1, pc, r0, lsl 20
+address: 0x00012ee6
+a0e3c410
+sbcne lr, r4, r0, lsr 7
+address: 0x00012eea
+00eaf431
+invalid
+address: 0x00012eee
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012ef2
+93e58320
+umullhs lr, r3, r3, r5
+address: 0x00012ef6
+a0e1f431
+invalid
+address: 0x00012efa
+1be50420
+andhs lr, r4, fp, lsl r5
+address: 0x00012efe
+83e5f431
+invalid
+address: 0x00012f02
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012f06
+93e50108
+stmdaeq r1, {r0, r1, r4, r7, r8, sl, sp, lr, pc}
+address: 0x00012f0a
+53e30200
+andeq lr, r2, r3, asr r3
+address: 0x00012f0e
+009af431
+invalid
+address: 0x00012f12
+1be50128
+stmdahs r1, {r0, r1, r3, r4, r8, sl, sp, lr, pc}
+address: 0x00012f16
+a0e30420
+andhs lr, r4, r0, lsr 7
+address: 0x00012f1a
+83e5f431
+invalid
+address: 0x00012f1e
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x00012f22
+93e5f431
+invalid
+address: 0x00012f26
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00012f2a
+93e50310
+mulne r3, r3, r5
+address: 0x00012f2e
+a0e10200
+andeq lr, r2, r0, lsr 3
+address: 0x00012f32
+a0e19dfb
+blx 0xfe77868a
+address: 0x00012f36
+ffeb0020
+strdhs lr, pc, [r0], -pc
+address: 0x00012f3a
+a0e1f431
+invalid
+address: 0x00012f3e
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x00012f42
+83e5f431
+invalid
+address: 0x00012f46
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00012f4a
+93e50000
+muleq r0, r3, r5
+address: 0x00012f4e
+53e30e00
+andeq lr, lr, r3, asr r3
+address: 0x00012f52
+001a0c30
+andlo r1, ip, r0, lsl 20
+address: 0x00012f56
+a0e3a810
+adcne lr, r8, r0, lsr 7
+address: 0x00012f5a
+00ea80a4
+strge lr, [r0], 0xa00
+address: 0x00012f5e
+590028a4
+strtge r0, [r8], -0x59
+address: 0x00012f62
+590070a4
+ldrbtge r0, [r0], -0x59
+address: 0x00012f66
+590050a4
+ldrbge r0, [r0], -0x59
+address: 0x00012f6a
+590040a4
+strbge r0, [r0], -0x59
+address: 0x00012f6e
+590020a4
+strtge r0, [r0], -0x59
+address: 0x00012f72
+590078a4
+ldrbtge r0, [r8], -0x59
+address: 0x00012f76
+590068a4
+strbtge r0, [r8], -0x59
+address: 0x00012f7a
+590058a4
+ldrbge r0, [r8], -0x59
+address: 0x00012f7e
+590060a4
+strbtge r0, [r0], -0x59
+address: 0x00012f82
+590048a4
+strbge r0, [r8], -0x59
+address: 0x00012f86
+590038a4
+ldrtge r0, [r8], -0x59
+address: 0x00012f8a
+590030a4
+ldrtge r0, [r0], -0x59
+address: 0x00012f8e
+5900f431
+invalid
+address: 0x00012f92
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00012f96
+93e50c21
+swphs lr, r3, [ip]
+address: 0x00012f9a
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00012f9e
+52e11f00
+andseq lr, pc, r2, asr r1
+address: 0x00012fa2
+000af431
+invalid
+address: 0x00012fa6
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x00012faa
+93e50c31
+swplo lr, r3, [ip]
+address: 0x00012fae
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012fb2
+42e00831
+invalid
+address: 0x00012fb6
+0be50831
+invalid
+address: 0x00012fba
+1be50340
+andmi lr, r3, fp, lsl r5
+address: 0x00012fbe
+84e00831
+smlabblo r8, r4, r0, lr
+address: 0x00012fc2
+1be5c421
+bichs lr, r4, fp, lsl r5
+address: 0x00012fc6
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012fca
+82e0c431
+biclo lr, r4, r2, lsl 1
+address: 0x00012fce
+0be5c031
+biclo lr, r0, fp, lsl 10
+address: 0x00012fd2
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012fd6
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00012fda
+000a0831
+invalid
+address: 0x00012fde
+1be5c021
+bichs lr, r0, fp, lsl r5
+address: 0x00012fe2
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00012fe6
+82e0c031
+biclo lr, r0, r2, lsl 1
+address: 0x00012fea
+0be5c831
+biclo lr, r8, fp, lsl 10
+address: 0x00012fee
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00012ff2
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00012ff6
+000a0831
+invalid
+address: 0x00012ffa
+1be5c821
+bichs lr, r8, fp, lsl r5
+address: 0x00012ffe
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00013002
+82e0c831
+biclo lr, r8, r2, lsl 1
+address: 0x00013006
+0be5cc31
+biclo lr, ip, fp, lsl 10
+address: 0x0001300a
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x0001300e
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00013012
+000a0831
+invalid
+address: 0x00013016
+1be5cc21
+bichs lr, ip, fp, lsl r5
+address: 0x0001301a
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x0001301e
+82e0cc31
+biclo lr, ip, r2, lsl 1
+address: 0x00013022
+0be5f431
+invalid
+address: 0x00013026
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x0001302a
+93e50330
+mullo r3, r3, r5
+address: 0x0001302e
+44e00130
+andlo lr, r1, r4, asr 32
+address: 0x00013032
+83e20320
+andhs lr, r3, r3, lsl 5
+address: 0x00013036
+a0e1f431
+invalid
+address: 0x0001303a
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x0001303e
+93e50300
+muleq r3, r3, r5
+address: 0x00013042
+52e19fff
+invalid
+address: 0x00013046
+ff8a0430
+strdlo r8, sb, [r4], -pc
+address: 0x0001304a
+a0e10140
+andmi lr, r1, r0, lsr 3
+address: 0x0001304e
+83e20320
+andhs lr, r3, r3, lsl 5
+address: 0x00013052
+a0e30020
+andhs lr, r0, r0, lsr 7
+address: 0x00013056
+c3e5ec0f
+svceq 0xece5c3
+address: 0x0001305a
+00ea0030
+andlo lr, r0, r0, lsl 20
+address: 0x0001305e
+a0e3dd31
+bicslo lr, sp, r0, lsr 7
+address: 0x00013062
+4be50030
+andlo lr, r0, fp, asr 10
+address: 0x00013066
+e0e3b831
+invalid
+address: 0x0001306a
+0be5d031
+bicslo lr, r0, fp, lsl 10
+address: 0x0001306e
+1be5a821
+invalid
+address: 0x00013072
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00013076
+52e14e00
+subeq lr, lr, r2, asr r1
+address: 0x0001307a
+001aa430
+adclo r1, r4, r0, lsl 20
+address: 0x0001307e
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00013082
+a0e177fa
+blx 0x1df8688
+address: 0x00013086
+ffeb0730
+strdlo lr, pc, [r7], -pc
+address: 0x0001308a
+a0e35b10
+subsne lr, fp, r0, lsr 7
+address: 0x0001308e
+00eaf431
+invalid
+address: 0x00013092
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00013096
+93e51431
+invalid
+address: 0x0001309a
+0be5f431
+invalid
+address: 0x0001309e
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x000130a2
+93e50108
+stmdaeq r1, {r0, r1, r4, r7, r8, sl, sp, lr, pc}
+address: 0x000130a6
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x000130aa
+001a0f30
+andlo r1, pc, r0, lsl 20
+address: 0x000130ae
+a0e35210
+subsne lr, r2, r0, lsr 7
+address: 0x000130b2
+00eaf431
+invalid
+address: 0x000130b6
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x000130ba
+93e58320
+umullhs lr, r3, r3, r5
+address: 0x000130be
+a0e1f431
+invalid
+address: 0x000130c2
+1be50420
+andhs lr, r4, fp, lsl r5
+address: 0x000130c6
+83e5f431
+invalid
+address: 0x000130ca
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x000130ce
+93e50108
+stmdaeq r1, {r0, r1, r4, r7, r8, sl, sp, lr, pc}
+address: 0x000130d2
+53e30200
+andeq lr, r2, r3, asr r3
+address: 0x000130d6
+009af431
+invalid
+address: 0x000130da
+1be50128
+stmdahs r1, {r0, r1, r3, r4, r8, sl, sp, lr, pc}
+address: 0x000130de
+a0e30420
+andhs lr, r4, r0, lsr 7
+address: 0x000130e2
+83e5f431
+invalid
+address: 0x000130e6
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x000130ea
+93e5f431
+invalid
+address: 0x000130ee
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x000130f2
+93e50310
+mulne r3, r3, r5
+address: 0x000130f6
+a0e10200
+andeq lr, r2, r0, lsr 3
+address: 0x000130fa
+a0e12bfb
+blx 0xaf868a
+address: 0x000130fe
+ffeb0020
+strdhs lr, pc, [r0], -pc
+address: 0x00013102
+a0e1f431
+invalid
+address: 0x00013106
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x0001310a
+83e5f431
+invalid
+address: 0x0001310e
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00013112
+93e50000
+muleq r0, r3, r5
+address: 0x00013116
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x0001311a
+001a0c30
+andlo r1, ip, r0, lsl 20
+address: 0x0001311e
+a0e33610
+eorsne lr, r6, r0, lsr 7
+address: 0x00013122
+00eaf431
+invalid
+address: 0x00013126
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x0001312a
+93e51421
+invalid
+address: 0x0001312e
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00013132
+52e11f00
+andseq lr, pc, r2, asr r1
+address: 0x00013136
+000af431
+invalid
+address: 0x0001313a
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x0001313e
+93e51431
+invalid
+address: 0x00013142
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00013146
+42e01031
+tstlo r0, r2, asr 32
+address: 0x0001314a
+0be51031
+tstlo r0, fp, lsl 10
+address: 0x0001314e
+1be50340
+andmi lr, r3, fp, lsl r5
+address: 0x00013152
+84e01031
+tstlo r0, r4, lsl 1
+address: 0x00013156
+1be5c421
+bichs lr, r4, fp, lsl r5
+address: 0x0001315a
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x0001315e
+82e0c431
+biclo lr, r4, r2, lsl 1
+address: 0x00013162
+0be5c031
+biclo lr, r0, fp, lsl 10
+address: 0x00013166
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x0001316a
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x0001316e
+000a1031
+tstlo r0, r0, lsl 20
+address: 0x00013172
+1be5c021
+bichs lr, r0, fp, lsl r5
+address: 0x00013176
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x0001317a
+82e0c031
+biclo lr, r0, r2, lsl 1
+address: 0x0001317e
+0be5c831
+biclo lr, r8, fp, lsl 10
+address: 0x00013182
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00013186
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x0001318a
+000a1031
+tstlo r0, r0, lsl 20
+address: 0x0001318e
+1be5c821
+bichs lr, r8, fp, lsl r5
+address: 0x00013192
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00013196
+82e0c831
+biclo lr, r8, r2, lsl 1
+address: 0x0001319a
+0be5cc31
+biclo lr, ip, fp, lsl 10
+address: 0x0001319e
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x000131a2
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x000131a6
+000a1031
+tstlo r0, r0, lsl 20
+address: 0x000131aa
+1be5cc21
+bichs lr, ip, fp, lsl r5
+address: 0x000131ae
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x000131b2
+82e0cc31
+biclo lr, ip, r2, lsl 1
+address: 0x000131b6
+0be5f431
+invalid
+address: 0x000131ba
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x000131be
+93e50330
+mullo r3, r3, r5
+address: 0x000131c2
+44e02230
+eorlo lr, r2, r4, asr 32
+address: 0x000131c6
+83e20320
+andhs lr, r3, r3, lsl 5
+address: 0x000131ca
+a0e1f431
+invalid
+address: 0x000131ce
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x000131d2
+93e50300
+muleq r3, r3, r5
+address: 0x000131d6
+52e1acff
+invalid
+address: 0x000131da
+ff8ac841
+strdmi r8, sb, [r8, 0xaf]
+address: 0x000131de
+0be54900
+subeq lr, sb, fp, lsl 10
+address: 0x000131e2
+00eaf431
+invalid
+address: 0x000131e6
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x000131ea
+93e51c31
+invalid
+address: 0x000131ee
+0be5f431
+invalid
+address: 0x000131f2
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x000131f6
+93e50108
+stmdaeq r1, {r0, r1, r4, r7, r8, sl, sp, lr, pc}
+address: 0x000131fa
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x000131fe
+001a0f30
+andlo r1, pc, r0, lsl 20
+address: 0x00013202
+a0e3fd0f
+svceq 0xfde3a0
+address: 0x00013206
+00eaf431
+invalid
+address: 0x0001320a
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x0001320e
+93e58320
+umullhs lr, r3, r3, r5
+address: 0x00013212
+a0e1f431
+invalid
+address: 0x00013216
+1be50420
+andhs lr, r4, fp, lsl r5
+address: 0x0001321a
+83e5f431
+invalid
+address: 0x0001321e
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00013222
+93e50108
+stmdaeq r1, {r0, r1, r4, r7, r8, sl, sp, lr, pc}
+address: 0x00013226
+53e30200
+andeq lr, r2, r3, asr r3
+address: 0x0001322a
+009af431
+invalid
+address: 0x0001322e
+1be50128
+stmdahs r1, {r0, r1, r3, r4, r8, sl, sp, lr, pc}
+address: 0x00013232
+a0e30420
+andhs lr, r4, r0, lsr 7
+address: 0x00013236
+83e5f431
+invalid
+address: 0x0001323a
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x0001323e
+93e5f431
+invalid
+address: 0x00013242
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00013246
+93e50310
+mulne r3, r3, r5
+address: 0x0001324a
+a0e10200
+andeq lr, r2, r0, lsr 3
+address: 0x0001324e
+a0e1d6fa
+blx 0xff5b8688
+address: 0x00013252
+ffeb0020
+strdhs lr, pc, [r0], -pc
+address: 0x00013256
+a0e1f431
+invalid
+address: 0x0001325a
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x0001325e
+83e5f431
+invalid
+address: 0x00013262
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00013266
+93e50000
+muleq r0, r3, r5
+address: 0x0001326a
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x0001326e
+001a0c30
+andlo r1, ip, r0, lsl 20
+address: 0x00013272
+a0e3e10f
+svceq 0xe1e3a0
+address: 0x00013276
+00eaf431
+invalid
+address: 0x0001327a
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x0001327e
+93e51c21
+invalid
+address: 0x00013282
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00013286
+52e11f00
+andseq lr, pc, r2, asr r1
+address: 0x0001328a
+000af431
+invalid
+address: 0x0001328e
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x00013292
+93e51c31
+invalid
+address: 0x00013296
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x0001329a
+42e01831
+tstlo r8, r2, asr 32
+address: 0x0001329e
+0be51831
+tstlo r8, fp, lsl 10
+address: 0x000132a2
+1be50340
+andmi lr, r3, fp, lsl r5
+address: 0x000132a6
+84e01831
+tstlo r8, r4, lsl 1
+address: 0x000132aa
+1be5c421
+bichs lr, r4, fp, lsl r5
+address: 0x000132ae
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x000132b2
+82e0c431
+biclo lr, r4, r2, lsl 1
+address: 0x000132b6
+0be5c031
+biclo lr, r0, fp, lsl 10
+address: 0x000132ba
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x000132be
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x000132c2
+000a1831
+tstlo r8, r0, lsl 20
+address: 0x000132c6
+1be5c021
+bichs lr, r0, fp, lsl r5
+address: 0x000132ca
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x000132ce
+82e0c031
+biclo lr, r0, r2, lsl 1
+address: 0x000132d2
+0be5c831
+biclo lr, r8, fp, lsl 10
+address: 0x000132d6
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x000132da
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x000132de
+000a1831
+tstlo r8, r0, lsl 20
+address: 0x000132e2
+1be5c821
+bichs lr, r8, fp, lsl r5
+address: 0x000132e6
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x000132ea
+82e0c831
+biclo lr, r8, r2, lsl 1
+address: 0x000132ee
+0be5cc31
+biclo lr, ip, fp, lsl 10
+address: 0x000132f2
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x000132f6
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x000132fa
+000a1831
+tstlo r8, r0, lsl 20
+address: 0x000132fe
+1be5cc21
+bichs lr, ip, fp, lsl r5
+address: 0x00013302
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00013306
+82e0cc31
+biclo lr, ip, r2, lsl 1
+address: 0x0001330a
+0be5f431
+invalid
+address: 0x0001330e
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00013312
+93e50330
+mullo r3, r3, r5
+address: 0x00013316
+44e00130
+andlo lr, r1, r4, asr 32
+address: 0x0001331a
+83e20320
+andhs lr, r3, r3, lsl 5
+address: 0x0001331e
+a0e1f431
+invalid
+address: 0x00013322
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00013326
+93e50300
+muleq r3, r3, r5
+address: 0x0001332a
+52e1acff
+invalid
+address: 0x0001332e
+ff8ad031
+ldrshlo r8, [r0, 0xaf]
+address: 0x00013332
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00013336
+d3e55e00
+ldrsbeq lr, [lr], -0x53
+address: 0x0001333a
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x0001333e
+001a0520
+andhs r1, r5, r0, lsl 20
+address: 0x00013342
+a0e30000
+andeq lr, r0, r0, lsr 7
+address: 0x00013346
+00ea0420
+andhs lr, r4, r0, lsl 20
+address: 0x0001334a
+a0e30430
+andlo lr, r4, r0, lsr 7
+address: 0x0001334e
+a0e10140
+andmi lr, r1, r0, lsr 3
+address: 0x00013352
+83e20020
+andhs lr, r0, r3, lsl 5
+address: 0x00013356
+c3e5d031
+bicslo lr, r0, r3, asr 11
+address: 0x0001335a
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x0001335e
+d3e55e00
+ldrsbeq lr, [lr], -0x53
+address: 0x00013362
+53e30200
+andeq lr, r2, r3, asr r3
+address: 0x00013366
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x0001336a
+1be50130
+andlo lr, r1, fp, lsl r5
+address: 0x0001336e
+83e2d031
+bicslo lr, r0, r3, lsl 5
+address: 0x00013372
+0be5d031
+bicslo lr, r0, fp, lsl 10
+address: 0x00013376
+1be53031
+teqlo r0, fp, lsl r5
+address: 0x0001337a
+0be54900
+subeq lr, sb, fp, lsl 10
+address: 0x0001337e
+00eaf431
+invalid
+address: 0x00013382
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00013386
+93e52431
+invalid
+address: 0x0001338a
+0be5f431
+invalid
+address: 0x0001338e
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00013392
+93e50108
+stmdaeq r1, {r0, r1, r4, r7, r8, sl, sp, lr, pc}
+address: 0x00013396
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x0001339a
+001a0f30
+andlo r1, pc, r0, lsl 20
+address: 0x0001339e
+a0e3960f
+svceq 0x96e3a0
+address: 0x000133a2
+00eaf431
+invalid
+address: 0x000133a6
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x000133aa
+93e58320
+umullhs lr, r3, r3, r5
+address: 0x000133ae
+a0e1f431
+invalid
+address: 0x000133b2
+1be50420
+andhs lr, r4, fp, lsl r5
+address: 0x000133b6
+83e5f431
+invalid
+address: 0x000133ba
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x000133be
+93e50108
+stmdaeq r1, {r0, r1, r4, r7, r8, sl, sp, lr, pc}
+address: 0x000133c2
+53e30200
+andeq lr, r2, r3, asr r3
+address: 0x000133c6
+009af431
+invalid
+address: 0x000133ca
+1be50128
+stmdahs r1, {r0, r1, r3, r4, r8, sl, sp, lr, pc}
+address: 0x000133ce
+a0e30420
+andhs lr, r4, r0, lsr 7
+address: 0x000133d2
+83e5f431
+invalid
+address: 0x000133d6
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x000133da
+93e5f431
+invalid
+address: 0x000133de
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x000133e2
+93e50310
+mulne r3, r3, r5
+address: 0x000133e6
+a0e10200
+andeq lr, r2, r0, lsr 3
+address: 0x000133ea
+a0e16ffa
+blx 0x1bf8688
+address: 0x000133ee
+ffeb0020
+strdhs lr, pc, [r0], -pc
+address: 0x000133f2
+a0e1f431
+invalid
+address: 0x000133f6
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x000133fa
+83e5f431
+invalid
+address: 0x000133fe
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00013402
+93e50000
+muleq r0, r3, r5
+address: 0x00013406
+53e30100
+andeq lr, r1, r3, asr r3
+address: 0x0001340a
+001a0c30
+andlo r1, ip, r0, lsl 20
+address: 0x0001340e
+a0e37a0f
+svceq 0x7ae3a0
+address: 0x00013412
+00eaf431
+invalid
+address: 0x00013416
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x0001341a
+93e52421
+invalid
+address: 0x0001341e
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00013422
+52e11f00
+andseq lr, pc, r2, asr r1
+address: 0x00013426
+000af431
+invalid
+address: 0x0001342a
+1be50020
+andhs lr, r0, fp, lsl r5
+address: 0x0001342e
+93e52431
+invalid
+address: 0x00013432
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00013436
+42e02031
+invalid
+address: 0x0001343a
+0be52031
+invalid
+address: 0x0001343e
+1be50340
+andmi lr, r3, fp, lsl r5
+address: 0x00013442
+84e02031
+smlawblo r0, r4, r0, lr
+address: 0x00013446
+1be5c421
+bichs lr, r4, fp, lsl r5
+address: 0x0001344a
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x0001344e
+82e0c431
+biclo lr, r4, r2, lsl 1
+address: 0x00013452
+0be5c031
+biclo lr, r0, fp, lsl 10
+address: 0x00013456
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x0001345a
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x0001345e
+000a2031
+invalid
+address: 0x00013462
+1be5c021
+bichs lr, r0, fp, lsl r5
+address: 0x00013466
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x0001346a
+82e0c031
+biclo lr, r0, r2, lsl 1
+address: 0x0001346e
+0be5c831
+biclo lr, r8, fp, lsl 10
+address: 0x00013472
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00013476
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x0001347a
+000a2031
+invalid
+address: 0x0001347e
+1be5c821
+bichs lr, r8, fp, lsl r5
+address: 0x00013482
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00013486
+82e0c831
+biclo lr, r8, r2, lsl 1
+address: 0x0001348a
+0be5cc31
+biclo lr, ip, fp, lsl 10
+address: 0x0001348e
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00013492
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00013496
+000a2031
+invalid
+address: 0x0001349a
+1be5cc21
+bichs lr, ip, fp, lsl r5
+address: 0x0001349e
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x000134a2
+82e0cc31
+biclo lr, ip, r2, lsl 1
+address: 0x000134a6
+0be5f431
+invalid
+address: 0x000134aa
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x000134ae
+93e50330
+mullo r3, r3, r5
+address: 0x000134b2
+44e00130
+andlo lr, r1, r4, asr 32
+address: 0x000134b6
+83e20320
+andhs lr, r3, r3, lsl 5
+address: 0x000134ba
+a0e1f431
+invalid
+address: 0x000134be
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x000134c2
+93e50300
+muleq r3, r3, r5
+address: 0x000134c6
+52e1acff
+invalid
+address: 0x000134ca
+ff8a0430
+strdlo r8, sb, [r4], -pc
+address: 0x000134ce
+a0e10140
+andmi lr, r1, r0, lsr 3
+address: 0x000134d2
+83e22020
+eorhs lr, r0, r3, lsl 5
+address: 0x000134d6
+a0e30020
+andhs lr, r0, r0, lsr 7
+address: 0x000134da
+c3e52020
+eorhs lr, r0, r3, asr 11
+address: 0x000134de
+a0e30010
+andne lr, r0, r0, lsr 7
+address: 0x000134e2
+a0e30400
+andeq lr, r4, r0, lsr 7
+address: 0x000134e6
+a0e13df9
+rfedb 4!
+address: 0x000134ea
+ffeb0230
+strdlo lr, pc, [r2], -pc
+address: 0x000134ee
+44e20030
+andlo lr, r0, r4, asr 4
+address: 0x000134f2
+d3e50500
+ldrdeq lr, pc, [r5], -r3
+address: 0x000134f6
+53e30900
+andeq lr, sb, r3, asr r3
+address: 0x000134fa
+001af031
+mvnslo r1, r0, lsl 20
+address: 0x000134fe
+1be5013c
+invalid
+address: 0x00013502
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00013506
+53e30500
+andeq lr, r5, r3, asr r3
+address: 0x0001350a
+000a0130
+andlo r0, r1, r0, lsl 20
+address: 0x0001350e
+84e20020
+andhs lr, r0, r4, lsl 5
+address: 0x00013512
+d3e50130
+ldrdlo lr, pc, [r1], -r3
+address: 0x00013516
+84e20420
+andhs lr, r4, r4, lsl 5
+address: 0x0001351a
+82e3ff20
+rscshs lr, pc, r2, lsl 7
+address: 0x0001351e
+02e20020
+andhs lr, r0, r2, lsl 4
+address: 0x00013522
+c3e5d031
+bicslo lr, r0, r3, asr 11
+address: 0x00013526
+1be5a821
+invalid
+address: 0x0001352a
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x0001352e
+52e10400
+andeq lr, r4, r2, asr r1
+address: 0x00013532
+001aa430
+adclo r1, r4, r0, lsl 20
+address: 0x00013536
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x0001353a
+a0e149f9
+invalid
+address: 0x0001353e
+ffeb0730
+strdlo lr, pc, [r7], -pc
+address: 0x00013542
+a0e32d0f
+svceq 0x2de3a0
+address: 0x00013546
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x0001354a
+1be5a821
+invalid
+address: 0x0001354e
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00013552
+52e10100
+andeq lr, r1, r2, asr r1
+address: 0x00013556
+001a0e30
+andlo r1, lr, r0, lsl 20
+address: 0x0001355a
+a0e3270f
+svceq 0x27e3a0
+address: 0x0001355e
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x00013562
+1be50120
+andhs lr, r1, fp, lsl r5
+address: 0x00013566
+83e2d021
+bicshs lr, r0, r3, lsl 5
+address: 0x0001356a
+0be50050
+andpl lr, r0, fp, lsl 10
+address: 0x0001356e
+d3e5a431
+ldrdlo lr, pc, [r4, r3]!
+address: 0x00013572
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00013576
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x0001357a
+000a0520
+andhs r0, r5, r0, lsl 20
+address: 0x0001357e
+a0e1a431
+invalid
+address: 0x00013582
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x00013586
+83e00050
+andpl lr, r0, r3, lsl 1
+address: 0x0001358a
+d3e5f031
+ldrsblo lr, [r0, 0x53]!
+address: 0x0001358e
+1be50130
+andlo lr, r1, fp, lsl r5
+address: 0x00013592
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00013596
+53e33100
+eorseq lr, r1, r3, asr r3
+address: 0x0001359a
+000a5c00
+subseq r0, ip, r0, lsl 20
+address: 0x0001359e
+55e32f00
+eoreq lr, pc, r5, asr r3
+address: 0x000135a2
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x000135a6
+1be5a821
+invalid
+address: 0x000135aa
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000135ae
+52e10400
+andeq lr, r4, r2, asr r1
+address: 0x000135b2
+001aa430
+adclo r1, r4, r0, lsl 20
+address: 0x000135b6
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000135ba
+a0e129f9
+invalid
+address: 0x000135be
+ffeb0530
+strdlo lr, pc, [r5], -pc
+address: 0x000135c2
+a0e30d0f
+svceq 0xde3a0
+address: 0x000135c6
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x000135ca
+1be5a821
+invalid
+address: 0x000135ce
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000135d2
+52e10100
+andeq lr, r1, r2, asr r1
+address: 0x000135d6
+001a0e30
+andlo r1, lr, r0, lsl 20
+address: 0x000135da
+a0e3070f
+svceq 0x7e3a0
+address: 0x000135de
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x000135e2
+1be50120
+andhs lr, r1, fp, lsl r5
+address: 0x000135e6
+83e2d021
+bicshs lr, r0, r3, lsl 5
+address: 0x000135ea
+0be50060
+andvs lr, r0, fp, lsl 10
+address: 0x000135ee
+d3e5a431
+ldrdlo lr, pc, [r4, r3]!
+address: 0x000135f2
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x000135f6
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x000135fa
+000a0620
+andhs r0, r6, r0, lsl 20
+address: 0x000135fe
+a0e1a431
+invalid
+address: 0x00013602
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x00013606
+83e00060
+andvs lr, r0, r3, lsl 1
+address: 0x0001360a
+d3e5a631
+ldrdlo lr, pc, [r6, r3]!
+address: 0x0001360e
+a0e1ff00
+rscseq lr, pc, r0, lsr 3
+address: 0x00013612
+03e20030
+andlo lr, r0, r3, lsl 4
+address: 0x00013616
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x0001361a
+84e00030
+andlo lr, r0, r4, lsl 1
+address: 0x0001361e
+d3e5033c
+invalid
+address: 0x00013622
+a0e1432c
+mcrrhs p1, 0xa, lr, r3, c0
+address: 0x00013626
+a0e10630
+andlo lr, r6, r0, lsr 3
+address: 0x0001362a
+a0e10730
+andlo lr, r7, r0, lsr 3
+address: 0x0001362e
+03e20110
+andne lr, r1, r3, lsl 4
+address: 0x00013632
+a0e31133
+tstlo r1, 160, 6
+address: 0x00013636
+a0e1033c
+invalid
+address: 0x0001363a
+a0e1433c
+mcrrlo p1, 0xa, lr, r3, c0
+address: 0x0001363e
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00013642
+82e1033c
+invalid
+address: 0x00013646
+a0e1432c
+mcrrhs p1, 0xa, lr, r3, c0
+address: 0x0001364a
+a0e10030
+andlo lr, r0, r0, lsr 3
+address: 0x0001364e
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00013652
+84e0ff20
+rscshs lr, pc, r4, lsl 1
+address: 0x00013656
+02e20020
+andhs lr, r0, r2, lsl 4
+address: 0x0001365a
+c3e5b861
+invalid
+address: 0x0001365e
+0be56704
+strbteq lr, [r7], -0x50b
+address: 0x00013662
+00ea5d00
+subseq lr, sp, r0, lsl 20
+address: 0x00013666
+55e30400
+andeq lr, r4, r5, asr r3
+address: 0x0001366a
+001a3031
+teqlo r0, r0, lsl 20
+address: 0x0001366e
+1be50120
+andhs lr, r1, fp, lsl r5
+address: 0x00013672
+83e2d031
+bicslo lr, r0, r3, lsl 5
+address: 0x00013676
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x0001367a
+52e16104
+strbteq lr, [r1], -0x152
+address: 0x0001367e
+001add31
+bicslo r1, sp, r0, lsl 20
+address: 0x00013682
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x00013686
+53e30a00
+andeq lr, sl, r3, asr r3
+address: 0x0001368a
+000a2d00
+eoreq r0, sp, r0, lsl 20
+address: 0x0001368e
+55e30800
+andeq lr, r8, r5, asr r3
+address: 0x00013692
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x00013696
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x0001369a
+d3e55d00
+ldrsbeq lr, [sp], -0x53
+address: 0x0001369e
+53e30400
+andeq lr, r4, r3, asr r3
+address: 0x000136a2
+000aa430
+adclo r0, r4, r0, lsl 20
+address: 0x000136a6
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000136aa
+a0e1edf8
+invalid
+address: 0x000136ae
+ffeb0b30
+strdlo lr, pc, [fp], -pc
+address: 0x000136b2
+a0e3d10e
+cdpeq p3, 0xd, c14, c1, c0, 5
+address: 0x000136b6
+00ea2d00
+eoreq lr, sp, r0, lsl 20
+address: 0x000136ba
+55e33000
+eorseq lr, r0, r5, asr r3
+address: 0x000136be
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x000136c2
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x000136c6
+43e2e821
+invalid
+address: 0x000136ca
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000136ce
+52e10400
+andeq lr, r4, r2, asr r1
+address: 0x000136d2
+008ad031
+bicslo r8, r0, r0, lsl 20
+address: 0x000136d6
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x000136da
+43e20030
+andlo lr, r0, r3, asr 4
+address: 0x000136de
+d3e55b00
+ldrsbeq lr, [fp], -0x53
+address: 0x000136e2
+53e32600
+eoreq lr, r6, r3, asr r3
+address: 0x000136e6
+000ad031
+bicslo r0, r0, r0, lsl 20
+address: 0x000136ea
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x000136ee
+43e2e821
+invalid
+address: 0x000136f2
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000136f6
+52e10900
+andeq lr, sb, r2, asr r1
+address: 0x000136fa
+008ad031
+bicslo r8, r0, r0, lsl 20
+address: 0x000136fe
+1be50330
+andlo lr, r3, fp, lsl r5
+address: 0x00013702
+43e20030
+andlo lr, r0, r3, asr 4
+address: 0x00013706
+d3e55b00
+ldrsbeq lr, [fp], -0x53
+address: 0x0001370a
+53e30400
+andeq lr, r4, r3, asr r3
+address: 0x0001370e
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x00013712
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x00013716
+43e20030
+andlo lr, r0, r3, asr 4
+address: 0x0001371a
+d3e55e00
+ldrsbeq lr, [lr], -0x53
+address: 0x0001371e
+53e31700
+andseq lr, r7, r3, asr r3
+address: 0x00013722
+000ad031
+bicslo r0, r0, r0, lsl 20
+address: 0x00013726
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x0001372a
+d3e55d00
+ldrsbeq lr, [sp], -0x53
+address: 0x0001372e
+53e31300
+andseq lr, r3, r3, asr r3
+address: 0x00013732
+000a1d1e
+vnmlsne.f32 s0, s26, s0
+address: 0x00013736
+4be20440
+andmi lr, r4, fp, asr 4
+address: 0x0001373a
+8de5f031
+mvnslo lr, sp, lsl 11
+address: 0x0001373e
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00013742
+8de5a431
+invalid
+address: 0x00013746
+1be5a821
+invalid
+address: 0x0001374a
+1be5b801
+invalid
+address: 0x0001374e
+1be5ad0f
+svceq 0xade51b
+address: 0x00013752
+00eb2c01
+invalid
+address: 0x00013756
+0be52c31
+invalid
+address: 0x0001375a
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x0001375e
+53e30400
+andeq lr, r4, r3, asr r3
+address: 0x00013762
+000aa430
+adclo r0, r4, r0, lsl 20
+address: 0x00013766
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x0001376a
+a0e1bdf8
+rfeia 1!
+address: 0x0001376e
+ffeb2c31
+strdlo lr, pc, [ip, -pc]!
+address: 0x00013772
+1be5a10e
+mcreq p5, 5, lr, c1, c11, 0
+address: 0x00013776
+00ea0030
+andlo lr, r0, r0, lsl 20
+address: 0x0001377a
+e0e3b831
+invalid
+address: 0x0001377e
+0be51f04
+ldreq lr, [pc], -0x50b
+address: 0x00013782
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x00013786
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x0001378a
+d3e52d00
+invalid
+address: 0x0001378e
+53e32900
+eoreq lr, sb, r3, asr r3
+address: 0x00013792
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x00013796
+1be50130
+andlo lr, r1, fp, lsl r5
+address: 0x0001379a
+83e20030
+andlo lr, r0, r3, lsl 5
+address: 0x0001379e
+d3e55d00
+ldrsbeq lr, [sp], -0x53
+address: 0x000137a2
+53e32400
+eoreq lr, r4, r3, asr r3
+address: 0x000137a6
+000ad031
+bicslo r0, r0, r0, lsl 20
+address: 0x000137aa
+1be5a821
+invalid
+address: 0x000137ae
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000137b2
+52e10100
+andeq lr, r1, r2, asr r1
+address: 0x000137b6
+001a0e30
+andlo r1, lr, r0, lsl 20
+address: 0x000137ba
+a0e38f0e
+cdpeq p3, 8, c14, c15, c0, 5
+address: 0x000137be
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x000137c2
+1be50120
+andhs lr, r1, fp, lsl r5
+address: 0x000137c6
+83e2d021
+bicshs lr, r0, r3, lsl 5
+address: 0x000137ca
+0be50060
+andvs lr, r0, fp, lsl 10
+address: 0x000137ce
+d3e5a431
+ldrdlo lr, pc, [r4, r3]!
+address: 0x000137d2
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x000137d6
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x000137da
+000a0620
+andhs r0, r6, r0, lsl 20
+address: 0x000137de
+a0e1a431
+invalid
+address: 0x000137e2
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x000137e6
+83e00060
+andvs lr, r0, r3, lsl 1
+address: 0x000137ea
+d3e50500
+ldrdeq lr, pc, [r5], -r3
+address: 0x000137ee
+a0e11d1e
+cdpne p1, 1, c14, c13, c0, 5
+address: 0x000137f2
+4be20440
+andmi lr, r4, fp, asr 4
+address: 0x000137f6
+8de5f031
+mvnslo lr, sp, lsl 11
+address: 0x000137fa
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x000137fe
+8de5a431
+invalid
+address: 0x00013802
+1be5a821
+invalid
+address: 0x00013806
+1be57f0f
+svceq 0x7fe51b
+address: 0x0001380a
+00eb2801
+invalid
+address: 0x0001380e
+0be52831
+invalid
+address: 0x00013812
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00013816
+53e30400
+andeq lr, r4, r3, asr r3
+address: 0x0001381a
+000aa430
+adclo r0, r4, r0, lsl 20
+address: 0x0001381e
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00013822
+a0e18ff8
+invalid
+address: 0x00013826
+ffeb2831
+strdlo lr, pc, [r8, -pc]!
+address: 0x0001382a
+1be5730e
+mrceq p5, 3, lr, c3, c11, 0
+address: 0x0001382e
+00ea0030
+andlo lr, r0, r0, lsl 20
+address: 0x00013832
+e0e3b831
+invalid
+address: 0x00013836
+0be5f103
+invalid
+address: 0x0001383a
+00eaf031
+mvnslo lr, r0, lsl 20
+address: 0x0001383e
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00013842
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00013846
+53e37f02
+rsbseq lr, pc, 0x4c000001
+address: 0x0001384a
+000a5b00
+subseq r0, fp, r0, lsl 20
+address: 0x0001384e
+55e37d02
+rsbseq lr, sp, 0x54000001
+address: 0x00013852
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x00013856
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x0001385a
+d3e53a00
+ldrsbteq lr, [sl], -r3
+address: 0x0001385e
+53e37902
+rsbseq lr, sb, 0x4c000001
+address: 0x00013862
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x00013866
+1be5a821
+invalid
+address: 0x0001386a
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x0001386e
+52e10100
+andeq lr, r1, r2, asr r1
+address: 0x00013872
+001a0e30
+andlo r1, lr, r0, lsl 20
+address: 0x00013876
+a0e3600e
+cdpeq p3, 6, c14, c0, c0, 5
+address: 0x0001387a
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x0001387e
+1be50120
+andhs lr, r1, fp, lsl r5
+address: 0x00013882
+83e2d021
+bicshs lr, r0, r3, lsl 5
+address: 0x00013886
+0be50050
+andpl lr, r0, fp, lsl 10
+address: 0x0001388a
+d3e5a431
+ldrdlo lr, pc, [r4, r3]!
+address: 0x0001388e
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00013892
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00013896
+000a0520
+andhs r0, r5, r0, lsl 20
+address: 0x0001389a
+a0e1a431
+invalid
+address: 0x0001389e
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x000138a2
+83e00050
+andpl lr, r0, r3, lsl 1
+address: 0x000138a6
+d3e50060
+ldrdvs lr, pc, [r0], -r3
+address: 0x000138aa
+a0e3d031
+bicslo lr, r0, r0, lsr 7
+address: 0x000138ae
+1be5a821
+invalid
+address: 0x000138b2
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000138b6
+52e10400
+andeq lr, r4, r2, asr r1
+address: 0x000138ba
+001aa430
+adclo r1, r4, r0, lsl 20
+address: 0x000138be
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000138c2
+a0e167f8
+invalid
+address: 0x000138c6
+ffeb0730
+strdlo lr, pc, [r7], -pc
+address: 0x000138ca
+a0e34b0e
+cdpeq p3, 4, c14, c11, c0, 5
+address: 0x000138ce
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x000138d2
+1be5a821
+invalid
+address: 0x000138d6
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000138da
+52e10100
+andeq lr, r1, r2, asr r1
+address: 0x000138de
+001a0e30
+andlo r1, lr, r0, lsl 20
+address: 0x000138e2
+a0e3450e
+cdpeq p3, 4, c14, c5, c0, 5
+address: 0x000138e6
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x000138ea
+1be50120
+andhs lr, r1, fp, lsl r5
+address: 0x000138ee
+83e2d021
+bicshs lr, r0, r3, lsl 5
+address: 0x000138f2
+0be50050
+andpl lr, r0, fp, lsl 10
+address: 0x000138f6
+d3e5a431
+ldrdlo lr, pc, [r4, r3]!
+address: 0x000138fa
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x000138fe
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00013902
+000a0520
+andhs r0, r5, r0, lsl 20
+address: 0x00013906
+a0e1a431
+invalid
+address: 0x0001390a
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x0001390e
+83e00050
+andpl lr, r0, r3, lsl 1
+address: 0x00013912
+d3e53a00
+ldrsbteq lr, [sl], -r3
+address: 0x00013916
+55e30300
+andeq lr, r3, r5, asr r3
+address: 0x0001391a
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x0001391e
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00013922
+d3e55d00
+ldrsbeq lr, [sp], -0x53
+address: 0x00013926
+53e31100
+andseq lr, r1, r3, asr r3
+address: 0x0001392a
+000ad031
+bicslo r0, r0, r0, lsl 20
+address: 0x0001392e
+1be5a821
+invalid
+address: 0x00013932
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00013936
+52e10d00
+andeq lr, sp, r2, asr r1
+address: 0x0001393a
+000a0500
+andeq r0, r5, r0, lsl 20
+address: 0x0001393e
+56e30800
+andeq lr, r8, r6, asr r3
+address: 0x00013942
+008a0620
+andhs r8, r6, r0, lsl 20
+address: 0x00013946
+a0e10130
+andlo lr, r1, r0, lsr 3
+address: 0x0001394a
+82e2ff60
+rscsvs lr, pc, r2, lsl 5
+address: 0x0001394e
+03e20230
+andlo lr, r2, r3, lsl 4
+address: 0x00013952
+a0e11420
+andshs lr, r4, r0, lsr 3
+address: 0x00013956
+4be20330
+andlo lr, r3, fp, asr 4
+address: 0x0001395a
+82e00520
+andhs lr, r5, r2, lsl 1
+address: 0x0001395e
+a0e18420
+addhs lr, r4, r0, lsr 3
+address: 0x00013962
+43e5d9ff
+invalid
+address: 0x00013966
+ffea0030
+strdlo lr, pc, [r0], -pc
+address: 0x0001396a
+a0e39830
+addslo lr, r8, r0, lsr 7
+address: 0x0001396e
+4be5d6ff
+invalid
+address: 0x00013972
+ffea0630
+strdlo lr, pc, [r6], -pc
+address: 0x00013976
+a0e11420
+andshs lr, r4, r0, lsr 3
+address: 0x0001397a
+4be20330
+andlo lr, r3, fp, asr 4
+address: 0x0001397e
+82e00020
+andhs lr, r0, r2, lsl 1
+address: 0x00013982
+a0e38420
+addhs lr, r4, r0, lsr 7
+address: 0x00013986
+43e53a00
+eorseq lr, sl, r3, asr 10
+address: 0x0001398a
+55e31102
+andseq lr, r1, 0x54000001
+address: 0x0001398e
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x00013992
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00013996
+d3e55d00
+ldrsbeq lr, [sp], -0x53
+address: 0x0001399a
+53e30d02
+andeq lr, sp, 0x4c000001
+address: 0x0001399e
+001a9830
+addslo r1, r8, r0, lsl 20
+address: 0x000139a2
+4be23c1a
+bne 0xf38934
+address: 0x000139a6
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x000139aa
+a0e111f9
+invalid
+address: 0x000139ae
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x000139b2
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x000139b6
+53e30130
+andlo lr, r1, r3, asr r3
+address: 0x000139ba
+a0030030
+andlo r0, r0, r0, lsr 7
+address: 0x000139be
+a013ff30
+rscslo r1, pc, r0, lsr 7
+address: 0x000139c2
+03e2dc31
+bicslo lr, ip, r3, lsl 4
+address: 0x000139c6
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x000139ca
+4be2741a
+bne 0x1d38934
+address: 0x000139ce
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x000139d2
+a0e107f9
+invalid
+address: 0x000139d6
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x000139da
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x000139de
+53e30130
+andlo lr, r1, r3, asr r3
+address: 0x000139e2
+a0030030
+andlo r0, r0, r0, lsr 7
+address: 0x000139e6
+a013ff30
+rscslo r1, pc, r0, lsr 7
+address: 0x000139ea
+03e2db31
+bicslo lr, fp, r3, lsl 4
+address: 0x000139ee
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x000139f2
+4be2701a
+bne 0x1c38934
+address: 0x000139f6
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x000139fa
+a0e1fdf8
+invalid
+address: 0x000139fe
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013a02
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013a06
+53e30130
+andlo lr, r1, r3, asr r3
+address: 0x00013a0a
+a0030030
+andlo r0, r0, r0, lsr 7
+address: 0x00013a0e
+a013ff30
+rscslo r1, pc, r0, lsr 7
+address: 0x00013a12
+03e2da31
+bicslo lr, sl, r3, lsl 4
+address: 0x00013a16
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013a1a
+4be29c1a
+bne 0xfe738934
+address: 0x00013a1e
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013a22
+a0e1f3f8
+invalid
+address: 0x00013a26
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013a2a
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013a2e
+53e30130
+andlo lr, r1, r3, asr r3
+address: 0x00013a32
+a0030030
+andlo r0, r0, r0, lsr 7
+address: 0x00013a36
+a013ff30
+rscslo r1, pc, r0, lsr 7
+address: 0x00013a3a
+03e2d931
+bicslo lr, sb, r3, lsl 4
+address: 0x00013a3e
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013a42
+4be2e01a
+bne 0xff838934
+address: 0x00013a46
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013a4a
+a0e1e9f8
+invalid
+address: 0x00013a4e
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013a52
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013a56
+53e30130
+andlo lr, r1, r3, asr r3
+address: 0x00013a5a
+a0030030
+andlo r0, r0, r0, lsr 7
+address: 0x00013a5e
+a013ff30
+rscslo r1, pc, r0, lsr 7
+address: 0x00013a62
+03e2d831
+bicslo lr, r8, r3, lsl 4
+address: 0x00013a66
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013a6a
+4be2f01a
+bne 0xffc38934
+address: 0x00013a6e
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013a72
+a0e1dff8
+invalid
+address: 0x00013a76
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013a7a
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013a7e
+53e30130
+andlo lr, r1, r3, asr r3
+address: 0x00013a82
+a0030030
+andlo r0, r0, r0, lsr 7
+address: 0x00013a86
+a013ff30
+rscslo r1, pc, r0, lsr 7
+address: 0x00013a8a
+03e2d731
+bicslo lr, r7, r3, lsl 4
+address: 0x00013a8e
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013a92
+4be2341b
+blne 0xd38934
+address: 0x00013a96
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013a9a
+a0e1d5f8
+invalid
+address: 0x00013a9e
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013aa2
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013aa6
+53e30130
+andlo lr, r1, r3, asr r3
+address: 0x00013aaa
+a0030030
+andlo r0, r0, r0, lsr 7
+address: 0x00013aae
+a013ff30
+rscslo r1, pc, r0, lsr 7
+address: 0x00013ab2
+03e2d631
+bicslo lr, r6, r3, lsl 4
+address: 0x00013ab6
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013aba
+4be2481b
+blne 0x1238934
+address: 0x00013abe
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013ac2
+a0e1cbf8
+invalid
+address: 0x00013ac6
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013aca
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013ace
+53e30130
+andlo lr, r1, r3, asr r3
+address: 0x00013ad2
+a0030030
+andlo r0, r0, r0, lsr 7
+address: 0x00013ad6
+a013ff30
+rscslo r1, pc, r0, lsr 7
+address: 0x00013ada
+03e2d531
+bicslo lr, r5, r3, lsl 4
+address: 0x00013ade
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013ae2
+4be26c1b
+blne 0x1b38934
+address: 0x00013ae6
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013aea
+a0e1c1f8
+invalid
+address: 0x00013aee
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013af2
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013af6
+53e30130
+andlo lr, r1, r3, asr r3
+address: 0x00013afa
+a0030030
+andlo r0, r0, r0, lsr 7
+address: 0x00013afe
+a013ff30
+rscslo r1, pc, r0, lsr 7
+address: 0x00013b02
+03e2d431
+bicslo lr, r4, r3, lsl 4
+address: 0x00013b06
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013b0a
+4be29c1b
+blne 0xfe738934
+address: 0x00013b0e
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013b12
+a0e1b7f8
+rfeia 1!
+address: 0x00013b16
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013b1a
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013b1e
+53e30130
+andlo lr, r1, r3, asr r3
+address: 0x00013b22
+a0030030
+andlo r0, r0, r0, lsr 7
+address: 0x00013b26
+a013ff30
+rscslo r1, pc, r0, lsr 7
+address: 0x00013b2a
+03e2d331
+bicslo lr, r3, r3, lsl 4
+address: 0x00013b2e
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013b32
+4be2d81b
+blne 0xff638934
+address: 0x00013b36
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013b3a
+a0e1adf8
+invalid
+address: 0x00013b3e
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013b42
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013b46
+53e30130
+andlo lr, r1, r3, asr r3
+address: 0x00013b4a
+a0030030
+andlo r0, r0, r0, lsr 7
+address: 0x00013b4e
+a013ff30
+rscslo r1, pc, r0, lsr 7
+address: 0x00013b52
+03e2d231
+bicslo lr, r2, r3, lsl 4
+address: 0x00013b56
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013b5a
+4be2f01b
+blne 0xffc38934
+address: 0x00013b5e
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013b62
+a0e1a3f8
+invalid
+address: 0x00013b66
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013b6a
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013b6e
+53e30130
+andlo lr, r1, r3, asr r3
+address: 0x00013b72
+a0030030
+andlo r0, r0, r0, lsr 7
+address: 0x00013b76
+a013ff30
+rscslo r1, pc, r0, lsr 7
+address: 0x00013b7a
+03e2d131
+bicslo lr, r1, r3, lsl 4
+address: 0x00013b7e
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013b82
+4be22c1c
+stcne p2, c14, [ip], -0x12c
+address: 0x00013b86
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013b8a
+a0e199f8
+invalid
+address: 0x00013b8e
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013b92
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013b96
+53e35100
+subseq lr, r1, r3, asr r3
+address: 0x00013b9a
+000a9830
+addslo r0, r8, r0, lsl 20
+address: 0x00013b9e
+4be2441c
+mcrrne p2, 4, lr, r4, c11
+address: 0x00013ba2
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013ba6
+a0e192f8
+invalid
+address: 0x00013baa
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013bae
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013bb2
+53e34a00
+subeq lr, sl, r3, asr r3
+address: 0x00013bb6
+000a9830
+addslo r0, r8, r0, lsl 20
+address: 0x00013bba
+4be25c1c
+mrrcne p2, 4, lr, ip, c11
+address: 0x00013bbe
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013bc2
+a0e18bf8
+invalid
+address: 0x00013bc6
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013bca
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013bce
+53e34300
+subeq lr, r3, r3, asr r3
+address: 0x00013bd2
+000a9830
+addslo r0, r8, r0, lsl 20
+address: 0x00013bd6
+4be2741c
+ldclne p2, c14, [r4], -0x12c
+address: 0x00013bda
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013bde
+a0e184f8
+invalid
+address: 0x00013be2
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013be6
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013bea
+53e33c00
+eorseq lr, ip, r3, asr r3
+address: 0x00013bee
+000a9830
+addslo r0, r8, r0, lsl 20
+address: 0x00013bf2
+4be28c1c
+stcne p2, c14, [ip], {0x4b}
+address: 0x00013bf6
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013bfa
+a0e17df8
+invalid
+address: 0x00013bfe
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013c02
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013c06
+53e33500
+eorseq lr, r5, r3, asr r3
+address: 0x00013c0a
+000a9830
+addslo r0, r8, r0, lsl 20
+address: 0x00013c0e
+4be2a41c
+stcne p2, c14, [r4], 0x12c
+address: 0x00013c12
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013c16
+a0e176f8
+invalid
+address: 0x00013c1a
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013c1e
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013c22
+53e32e00
+eoreq lr, lr, r3, asr r3
+address: 0x00013c26
+000a9830
+addslo r0, r8, r0, lsl 20
+address: 0x00013c2a
+4be2bc1c
+ldcne p2, c14, [ip], 0x12c
+address: 0x00013c2e
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013c32
+a0e16ff8
+invalid
+address: 0x00013c36
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013c3a
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013c3e
+53e32700
+eoreq lr, r7, r3, asr r3
+address: 0x00013c42
+000a9830
+addslo r0, r8, r0, lsl 20
+address: 0x00013c46
+4be2d41c
+ldclne p2, c14, [r4], {0x4b}
+address: 0x00013c4a
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013c4e
+a0e168f8
+invalid
+address: 0x00013c52
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013c56
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013c5a
+53e32000
+eoreq lr, r0, r3, asr r3
+address: 0x00013c5e
+000a9830
+addslo r0, r8, r0, lsl 20
+address: 0x00013c62
+4be2ec1c
+stclne p2, c14, [ip], 0x12c
+address: 0x00013c66
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013c6a
+a0e161f8
+invalid
+address: 0x00013c6e
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013c72
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013c76
+53e31900
+andseq lr, sb, r3, asr r3
+address: 0x00013c7a
+000a9830
+addslo r0, r8, r0, lsl 20
+address: 0x00013c7e
+4be2041d
+stcne p2, c14, [r4, -0x12c]
+address: 0x00013c82
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013c86
+a0e15af8
+invalid
+address: 0x00013c8a
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013c8e
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013c92
+53e31200
+andseq lr, r2, r3, asr r3
+address: 0x00013c96
+000a9830
+addslo r0, r8, r0, lsl 20
+address: 0x00013c9a
+4be21c1d
+ldcne p2, c14, [ip, -0x12c]
+address: 0x00013c9e
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013ca2
+a0e153f8
+invalid
+address: 0x00013ca6
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013caa
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013cae
+53e30b00
+andeq lr, fp, r3, asr r3
+address: 0x00013cb2
+000a9830
+addslo r0, r8, r0, lsl 20
+address: 0x00013cb6
+4be2341d
+ldcne p2, c14, [r4, -0x12c]!
+address: 0x00013cba
+1fe50300
+andeq lr, r3, pc, lsl r5
+address: 0x00013cbe
+a0e14cf8
+invalid
+address: 0x00013cc2
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013cc6
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013cca
+53e30400
+andeq lr, r4, r3, asr r3
+address: 0x00013cce
+000aa430
+adclo r0, r4, r0, lsl 20
+address: 0x00013cd2
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00013cd6
+a0e162f7
+invalid
+address: 0x00013cda
+ffeb0430
+strdlo lr, pc, [r4], -pc
+address: 0x00013cde
+a0e3460d
+stcleq p3, c14, [r6, -0x280]
+address: 0x00013ce2
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x00013ce6
+1be5a821
+invalid
+address: 0x00013cea
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00013cee
+52e10100
+andeq lr, r1, r2, asr r1
+address: 0x00013cf2
+001a0e30
+andlo r1, lr, r0, lsl 20
+address: 0x00013cf6
+a0e3400d
+stcleq p3, c14, [r0, -0x280]
+address: 0x00013cfa
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x00013cfe
+1be50120
+andhs lr, r1, fp, lsl r5
+address: 0x00013d02
+83e2d021
+bicshs lr, r0, r3, lsl 5
+address: 0x00013d06
+0be50050
+andpl lr, r0, fp, lsl 10
+address: 0x00013d0a
+d3e5a431
+ldrdlo lr, pc, [r4, r3]!
+address: 0x00013d0e
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00013d12
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00013d16
+000a0520
+andhs r0, r5, r0, lsl 20
+address: 0x00013d1a
+a0e1a431
+invalid
+address: 0x00013d1e
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x00013d22
+83e00050
+andpl lr, r0, r3, lsl 1
+address: 0x00013d26
+d3e5d031
+ldrsblo lr, [r0, 0x53]
+address: 0x00013d2a
+1be5a821
+invalid
+address: 0x00013d2e
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00013d32
+52e10400
+andeq lr, r4, r2, asr r1
+address: 0x00013d36
+001aa430
+adclo r1, r4, r0, lsl 20
+address: 0x00013d3a
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00013d3e
+a0e148f7
+invalid
+address: 0x00013d42
+ffeb0730
+strdlo lr, pc, [r7], -pc
+address: 0x00013d46
+a0e32c0d
+stceq p3, c14, [ip, -0x280]!
+address: 0x00013d4a
+00ea0030
+andlo lr, r0, r0, lsl 20
+address: 0x00013d4e
+a0e3b431
+invalid
+address: 0x00013d52
+0be51801
+tsteq r8, fp, lsl 10
+address: 0x00013d56
+00eadc31
+bicslo lr, ip, r0, lsl 20
+address: 0x00013d5a
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x00013d5e
+53e30900
+andeq lr, sb, r3, asr r3
+address: 0x00013d62
+000abdf7
+invalid
+address: 0x00013d66
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013d6a
+a0e10020
+andhs lr, r0, r0, lsr 3
+address: 0x00013d6e
+93e5b431
+invalid
+address: 0x00013d72
+1be58330
+addlo lr, r3, fp, lsl r5
+address: 0x00013d76
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00013d7a
+82e0b030
+adcslo lr, r0, r2, lsl 1
+address: 0x00013d7e
+d3e10830
+ldrdlo lr, pc, [r8], -r3
+address: 0x00013d82
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00013d86
+53e32600
+eoreq lr, r6, r3, asr r3
+address: 0x00013d8a
+001adb31
+bicslo r1, fp, r0, lsl 20
+address: 0x00013d8e
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x00013d92
+53e30900
+andeq lr, sb, r3, asr r3
+address: 0x00013d96
+000ab0f7
+invalid
+address: 0x00013d9a
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013d9e
+a0e10020
+andhs lr, r0, r0, lsr 3
+address: 0x00013da2
+93e5b431
+invalid
+address: 0x00013da6
+1be58330
+addlo lr, r3, fp, lsl r5
+address: 0x00013daa
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00013dae
+82e0b030
+adcslo lr, r0, r2, lsl 1
+address: 0x00013db2
+d3e1013b
+bllo 0x78754
+address: 0x00013db6
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00013dba
+53e31900
+andseq lr, sb, r3, asr r3
+address: 0x00013dbe
+001ada31
+bicslo r1, sl, r0, lsl 20
+address: 0x00013dc2
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x00013dc6
+53e30900
+andeq lr, sb, r3, asr r3
+address: 0x00013dca
+000aa3f7
+invalid
+address: 0x00013dce
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013dd2
+a0e10020
+andhs lr, r0, r0, lsr 3
+address: 0x00013dd6
+93e5b431
+invalid
+address: 0x00013dda
+1be58330
+addlo lr, r3, fp, lsl r5
+address: 0x00013dde
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00013de2
+82e0b030
+adcslo lr, r0, r2, lsl 1
+address: 0x00013de6
+d3e10130
+ldrdlo lr, pc, [r1], -r3
+address: 0x00013dea
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00013dee
+53e30c00
+andeq lr, ip, r3, asr r3
+address: 0x00013df2
+001ad931
+bicslo r1, sb, r0, lsl 20
+address: 0x00013df6
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x00013dfa
+53e32000
+eoreq lr, r0, r3, asr r3
+address: 0x00013dfe
+000a96f7
+invalid
+address: 0x00013e02
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013e06
+a0e10020
+andhs lr, r0, r0, lsr 3
+address: 0x00013e0a
+93e5b431
+invalid
+address: 0x00013e0e
+1be58330
+addlo lr, r3, fp, lsl r5
+address: 0x00013e12
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00013e16
+82e0b030
+adcslo lr, r0, r2, lsl 1
+address: 0x00013e1a
+d3e10230
+ldrdlo lr, pc, [r2], -r3
+address: 0x00013e1e
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00013e22
+53e31600
+andseq lr, r6, r3, asr r3
+address: 0x00013e26
+000ab431
+invalid
+address: 0x00013e2a
+1be5ff30
+rscslo lr, pc, fp, lsl r5
+address: 0x00013e2e
+03e2a331
+invalid
+address: 0x00013e32
+a0e1ff00
+rscseq lr, pc, r0, lsr 3
+address: 0x00013e36
+03e20030
+andlo lr, r0, r3, lsl 4
+address: 0x00013e3a
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00013e3e
+84e00030
+andlo lr, r0, r4, lsl 1
+address: 0x00013e42
+d3e5033c
+invalid
+address: 0x00013e46
+a0e1432c
+mcrrhs p1, 0xa, lr, r3, c0
+address: 0x00013e4a
+a0e1b431
+invalid
+address: 0x00013e4e
+1be5ff30
+rscslo lr, pc, fp, lsl r5
+address: 0x00013e52
+03e20730
+andlo lr, r7, r3, lsl 4
+address: 0x00013e56
+03e20110
+andne lr, r1, r3, lsl 4
+address: 0x00013e5a
+a0e31133
+tstlo r1, 160, 6
+address: 0x00013e5e
+a0e1033c
+invalid
+address: 0x00013e62
+a0e1433c
+mcrrlo p1, 0xa, lr, r3, c0
+address: 0x00013e66
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00013e6a
+82e1033c
+invalid
+address: 0x00013e6e
+a0e1432c
+mcrrhs p1, 0xa, lr, r3, c0
+address: 0x00013e72
+a0e10030
+andlo lr, r0, r0, lsr 3
+address: 0x00013e76
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00013e7a
+84e0ff20
+rscshs lr, pc, r4, lsl 1
+address: 0x00013e7e
+02e20020
+andhs lr, r0, r2, lsl 4
+address: 0x00013e82
+c3e5d831
+bicslo lr, r8, r3, asr 11
+address: 0x00013e86
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x00013e8a
+53e30900
+andeq lr, sb, r3, asr r3
+address: 0x00013e8e
+000a72f7
+invalid
+address: 0x00013e92
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013e96
+a0e10020
+andhs lr, r0, r0, lsr 3
+address: 0x00013e9a
+93e5b431
+invalid
+address: 0x00013e9e
+1be58330
+addlo lr, r3, fp, lsl r5
+address: 0x00013ea2
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00013ea6
+82e0b030
+adcslo lr, r0, r2, lsl 1
+address: 0x00013eaa
+d3e1023b
+bllo 0xb8754
+address: 0x00013eae
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00013eb2
+53e32700
+eoreq lr, r7, r3, asr r3
+address: 0x00013eb6
+001ad731
+bicslo r1, r7, r0, lsl 20
+address: 0x00013eba
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x00013ebe
+53e30a00
+andeq lr, sl, r3, asr r3
+address: 0x00013ec2
+000a65f7
+invalid
+address: 0x00013ec6
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013eca
+a0e10020
+andhs lr, r0, r0, lsr 3
+address: 0x00013ece
+93e5b431
+invalid
+address: 0x00013ed2
+1be58330
+addlo lr, r3, fp, lsl r5
+address: 0x00013ed6
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00013eda
+82e0b030
+adcslo lr, r0, r2, lsl 1
+address: 0x00013ede
+d3e10338
+stmdalo r3, {r0, r1, r4, r6, r7, r8, sp, lr, pc}
+address: 0x00013ee2
+a0e14338
+stmdalo r3, {r5, r7, r8, sp, lr, pc} ^
+address: 0x00013ee6
+a0e10000
+andeq lr, r0, r0, lsr 3
+address: 0x00013eea
+53e31900
+andseq lr, sb, r3, asr r3
+address: 0x00013eee
+00bad631
+bicslo fp, r6, r0, lsl 20
+address: 0x00013ef2
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x00013ef6
+53e30900
+andeq lr, sb, r3, asr r3
+address: 0x00013efa
+000a57f7
+invalid
+address: 0x00013efe
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013f02
+a0e10020
+andhs lr, r0, r0, lsr 3
+address: 0x00013f06
+93e5b431
+invalid
+address: 0x00013f0a
+1be58330
+addlo lr, r3, fp, lsl r5
+address: 0x00013f0e
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00013f12
+82e0b030
+adcslo lr, r0, r2, lsl 1
+address: 0x00013f16
+d3e1023c
+invalid
+address: 0x00013f1a
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00013f1e
+53e30c00
+andeq lr, ip, r3, asr r3
+address: 0x00013f22
+001ad531
+bicslo r1, r5, r0, lsl 20
+address: 0x00013f26
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x00013f2a
+53e32000
+eoreq lr, r0, r3, asr r3
+address: 0x00013f2e
+000a4af7
+invalid
+address: 0x00013f32
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013f36
+a0e10020
+andhs lr, r0, r0, lsr 3
+address: 0x00013f3a
+93e5b431
+invalid
+address: 0x00013f3e
+1be58330
+addlo lr, r3, fp, lsl r5
+address: 0x00013f42
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00013f46
+82e0b030
+adcslo lr, r0, r2, lsl 1
+address: 0x00013f4a
+d3e10139
+stmdblo r1, {r0, r1, r4, r6, r7, r8, sp, lr, pc}
+address: 0x00013f4e
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00013f52
+53e31600
+andseq lr, r6, r3, asr r3
+address: 0x00013f56
+000ab431
+invalid
+address: 0x00013f5a
+1be5ff30
+rscslo lr, pc, fp, lsl r5
+address: 0x00013f5e
+03e2a331
+invalid
+address: 0x00013f62
+a0e1ff00
+rscseq lr, pc, r0, lsr 3
+address: 0x00013f66
+03e20030
+andlo lr, r0, r3, lsl 4
+address: 0x00013f6a
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00013f6e
+84e00030
+andlo lr, r0, r4, lsl 1
+address: 0x00013f72
+d3e5033c
+invalid
+address: 0x00013f76
+a0e1432c
+mcrrhs p1, 0xa, lr, r3, c0
+address: 0x00013f7a
+a0e1b431
+invalid
+address: 0x00013f7e
+1be5ff30
+rscslo lr, pc, fp, lsl r5
+address: 0x00013f82
+03e20730
+andlo lr, r7, r3, lsl 4
+address: 0x00013f86
+03e20110
+andne lr, r1, r3, lsl 4
+address: 0x00013f8a
+a0e31133
+tstlo r1, 160, 6
+address: 0x00013f8e
+a0e1033c
+invalid
+address: 0x00013f92
+a0e1433c
+mcrrlo p1, 0xa, lr, r3, c0
+address: 0x00013f96
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00013f9a
+82e1033c
+invalid
+address: 0x00013f9e
+a0e1432c
+mcrrhs p1, 0xa, lr, r3, c0
+address: 0x00013fa2
+a0e10030
+andlo lr, r0, r0, lsr 3
+address: 0x00013fa6
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00013faa
+84e0ff20
+rscshs lr, pc, r4, lsl 1
+address: 0x00013fae
+02e20020
+andhs lr, r0, r2, lsl 4
+address: 0x00013fb2
+c3e5d431
+bicslo lr, r4, r3, asr 11
+address: 0x00013fb6
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x00013fba
+53e30900
+andeq lr, sb, r3, asr r3
+address: 0x00013fbe
+000a26f7
+invalid
+address: 0x00013fc2
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013fc6
+a0e10020
+andhs lr, r0, r0, lsr 3
+address: 0x00013fca
+93e5b431
+invalid
+address: 0x00013fce
+1be58330
+addlo lr, r3, fp, lsl r5
+address: 0x00013fd2
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00013fd6
+82e0b030
+adcslo lr, r0, r2, lsl 1
+address: 0x00013fda
+d3e10430
+ldrdlo lr, pc, [r4], -r3
+address: 0x00013fde
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00013fe2
+53e32600
+eoreq lr, r6, r3, asr r3
+address: 0x00013fe6
+001ad331
+bicslo r1, r3, r0, lsl 20
+address: 0x00013fea
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x00013fee
+53e30900
+andeq lr, sb, r3, asr r3
+address: 0x00013ff2
+000a19f7
+invalid
+address: 0x00013ff6
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00013ffa
+a0e10020
+andhs lr, r0, r0, lsr 3
+address: 0x00013ffe
+93e5b431
+invalid
+address: 0x00014002
+1be58330
+addlo lr, r3, fp, lsl r5
+address: 0x00014006
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x0001400a
+82e0b030
+adcslo lr, r0, r2, lsl 1
+address: 0x0001400e
+d3e1023a
+blo 0xb8754
+address: 0x00014012
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00014016
+53e31900
+andseq lr, sb, r3, asr r3
+address: 0x0001401a
+001ad231
+bicslo r1, r2, r0, lsl 20
+address: 0x0001401e
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x00014022
+53e30900
+andeq lr, sb, r3, asr r3
+address: 0x00014026
+000a0cf7
+invalid
+address: 0x0001402a
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x0001402e
+a0e10020
+andhs lr, r0, r0, lsr 3
+address: 0x00014032
+93e5b431
+invalid
+address: 0x00014036
+1be58330
+addlo lr, r3, fp, lsl r5
+address: 0x0001403a
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x0001403e
+82e0b030
+adcslo lr, r0, r2, lsl 1
+address: 0x00014042
+d3e1013c
+invalid
+address: 0x00014046
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x0001404a
+53e30c00
+andeq lr, ip, r3, asr r3
+address: 0x0001404e
+001ad131
+bicslo r1, r1, r0, lsl 20
+address: 0x00014052
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x00014056
+53e32000
+eoreq lr, r0, r3, asr r3
+address: 0x0001405a
+000afff6
+invalid
+address: 0x0001405e
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00014062
+a0e10020
+andhs lr, r0, r0, lsr 3
+address: 0x00014066
+93e5b431
+invalid
+address: 0x0001406a
+1be58330
+addlo lr, r3, fp, lsl r5
+address: 0x0001406e
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00014072
+82e0b030
+adcslo lr, r0, r2, lsl 1
+address: 0x00014076
+d3e1013a
+blo 0x78754
+address: 0x0001407a
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x0001407e
+53e31600
+andseq lr, r6, r3, asr r3
+address: 0x00014082
+000ab431
+invalid
+address: 0x00014086
+1be5ff30
+rscslo lr, pc, fp, lsl r5
+address: 0x0001408a
+03e2a331
+invalid
+address: 0x0001408e
+a0e1ff00
+rscseq lr, pc, r0, lsr 3
+address: 0x00014092
+03e20030
+andlo lr, r0, r3, lsl 4
+address: 0x00014096
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x0001409a
+84e00030
+andlo lr, r0, r4, lsl 1
+address: 0x0001409e
+d3e5033c
+invalid
+address: 0x000140a2
+a0e1432c
+mcrrhs p1, 0xa, lr, r3, c0
+address: 0x000140a6
+a0e1b431
+invalid
+address: 0x000140aa
+1be5ff30
+rscslo lr, pc, fp, lsl r5
+address: 0x000140ae
+03e20730
+andlo lr, r7, r3, lsl 4
+address: 0x000140b2
+03e20110
+andne lr, r1, r3, lsl 4
+address: 0x000140b6
+a0e31133
+tstlo r1, 160, 6
+address: 0x000140ba
+a0e1033c
+invalid
+address: 0x000140be
+a0e1433c
+mcrrlo p1, 0xa, lr, r3, c0
+address: 0x000140c2
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x000140c6
+82e1033c
+invalid
+address: 0x000140ca
+a0e1432c
+mcrrhs p1, 0xa, lr, r3, c0
+address: 0x000140ce
+a0e10030
+andlo lr, r0, r0, lsr 3
+address: 0x000140d2
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x000140d6
+84e0ff20
+rscshs lr, pc, r4, lsl 1
+address: 0x000140da
+02e20020
+andhs lr, r0, r2, lsl 4
+address: 0x000140de
+c3e5a431
+invalid
+address: 0x000140e2
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x000140e6
+53e33000
+eorseq lr, r0, r3, asr r3
+address: 0x000140ea
+000ad231
+bicslo r0, r2, r0, lsl 20
+address: 0x000140ee
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x000140f2
+53e30200
+andeq lr, r2, r3, asr r3
+address: 0x000140f6
+001ad631
+bicslo r1, r6, r0, lsl 20
+address: 0x000140fa
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x000140fe
+53e32a00
+eoreq lr, sl, r3, asr r3
+address: 0x00014102
+000ad5f6
+invalid
+address: 0x00014106
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x0001410a
+a0e10020
+andhs lr, r0, r0, lsr 3
+address: 0x0001410e
+93e5b431
+invalid
+address: 0x00014112
+1be58330
+addlo lr, r3, fp, lsl r5
+address: 0x00014116
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x0001411a
+82e0b030
+adcslo lr, r0, r2, lsl 1
+address: 0x0001411e
+d3e1013c
+invalid
+address: 0x00014122
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00014126
+53e30900
+andeq lr, sb, r3, asr r3
+address: 0x0001412a
+001acbf6
+invalid
+address: 0x0001412e
+ffeb0030
+strdlo lr, pc, [r0], -pc
+address: 0x00014132
+a0e10020
+andhs lr, r0, r0, lsr 3
+address: 0x00014136
+93e5b431
+invalid
+address: 0x0001413a
+1be58330
+addlo lr, r3, fp, lsl r5
+address: 0x0001413e
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00014142
+82e0b030
+adcslo lr, r0, r2, lsl 1
+address: 0x00014146
+d3e1023c
+invalid
+address: 0x0001414a
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x0001414e
+53e31600
+andseq lr, r6, r3, asr r3
+address: 0x00014152
+000ab431
+invalid
+address: 0x00014156
+1be5ff30
+rscslo lr, pc, fp, lsl r5
+address: 0x0001415a
+03e2a331
+invalid
+address: 0x0001415e
+a0e1ff00
+rscseq lr, pc, r0, lsr 3
+address: 0x00014162
+03e20030
+andlo lr, r0, r3, lsl 4
+address: 0x00014166
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x0001416a
+84e00030
+andlo lr, r0, r4, lsl 1
+address: 0x0001416e
+d3e5033c
+invalid
+address: 0x00014172
+a0e1432c
+mcrrhs p1, 0xa, lr, r3, c0
+address: 0x00014176
+a0e1b431
+invalid
+address: 0x0001417a
+1be5ff30
+rscslo lr, pc, fp, lsl r5
+address: 0x0001417e
+03e20730
+andlo lr, r7, r3, lsl 4
+address: 0x00014182
+03e20110
+andne lr, r1, r3, lsl 4
+address: 0x00014186
+a0e31133
+tstlo r1, 160, 6
+address: 0x0001418a
+a0e1033c
+invalid
+address: 0x0001418e
+a0e1433c
+mcrrlo p1, 0xa, lr, r3, c0
+address: 0x00014192
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00014196
+82e1033c
+invalid
+address: 0x0001419a
+a0e1432c
+mcrrhs p1, 0xa, lr, r3, c0
+address: 0x0001419e
+a0e10030
+andlo lr, r0, r0, lsr 3
+address: 0x000141a2
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x000141a6
+84e0ff20
+rscshs lr, pc, r4, lsl 1
+address: 0x000141aa
+02e20020
+andhs lr, r0, r2, lsl 4
+address: 0x000141ae
+c3e5b431
+invalid
+address: 0x000141b2
+1be50130
+andlo lr, r1, fp, lsl r5
+address: 0x000141b6
+83e2b431
+invalid
+address: 0x000141ba
+0be5b431
+invalid
+address: 0x000141be
+1be5ff00
+rscseq lr, pc, fp, lsl r5
+address: 0x000141c2
+53e3e3fe
+mcr2 p3, 7, lr, c3, c3, 2
+address: 0x000141c6
+ffda0130
+strdlo sp, lr, [r1], -pc
+address: 0x000141ca
+a0e3dd31
+bicslo lr, sp, r0, lsr 7
+address: 0x000141ce
+4be50000
+andeq lr, r0, fp, asr 10
+address: 0x000141d2
+a0e18a01
+orreq lr, sl, r0, lsr 3
+address: 0x000141d6
+00ea0630
+andlo lr, r6, r0, lsl 20
+address: 0x000141da
+a0e10130
+andlo lr, r1, r0, lsr 3
+address: 0x000141de
+83e2ff60
+rscsvs lr, pc, r3, lsl 5
+address: 0x000141e2
+03e20200
+andeq lr, r2, r3, lsl 4
+address: 0x000141e6
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x000141ea
+1be50130
+andlo lr, r1, fp, lsl r5
+address: 0x000141ee
+43e2d031
+bicslo lr, r0, r3, asr 4
+address: 0x000141f2
+0be50630
+andlo lr, r6, fp, lsl 10
+address: 0x000141f6
+a0e10120
+andhs lr, r1, r0, lsr 3
+address: 0x000141fa
+43e2ff60
+rscsvs lr, pc, r3, asr 4
+address: 0x000141fe
+02e20000
+andeq lr, r0, r2, lsl 4
+address: 0x00014202
+53e3f7ff
+invalid
+address: 0x00014206
+ff1a0b30
+strdlo r1, r2, [fp], -pc
+address: 0x0001420a
+84e20020
+andhs lr, r0, r4, lsl 5
+address: 0x0001420e
+d3e50b30
+ldrdlo lr, pc, [fp], -r3
+address: 0x00014212
+84e20820
+andhs lr, r8, r4, lsl 5
+address: 0x00014216
+82e3ff20
+rscshs lr, pc, r2, lsl 7
+address: 0x0001421a
+02e20020
+andhs lr, r0, r2, lsl 4
+address: 0x0001421e
+c3e50730
+andlo lr, r7, r3, asr 11
+address: 0x00014222
+84e20020
+andhs lr, r0, r4, lsl 5
+address: 0x00014226
+d3e50730
+ldrdlo lr, pc, [r7], -r3
+address: 0x0001422a
+84e20420
+andhs lr, r4, r4, lsl 5
+address: 0x0001422e
+82e3ff20
+rscshs lr, pc, r2, lsl 7
+address: 0x00014232
+02e20020
+andhs lr, r0, r2, lsl 4
+address: 0x00014236
+c3e53a30
+eorslo lr, sl, r3, asr 11
+address: 0x0001423a
+a0e3b831
+invalid
+address: 0x0001423e
+0be50030
+andlo lr, r0, fp, lsl 10
+address: 0x00014242
+a0e3dd31
+bicslo lr, sp, r0, lsr 7
+address: 0x00014246
+4be56d01
+invalid
+address: 0x0001424a
+00eaf031
+mvnslo lr, r0, lsl 20
+address: 0x0001424e
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x00014252
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x00014256
+53e3a400
+adceq lr, r4, r3, asr r3
+address: 0x0001425a
+000a5b00
+subseq r0, fp, r0, lsl 20
+address: 0x0001425e
+55e3a200
+adceq lr, r2, r5, asr r3
+address: 0x00014262
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x00014266
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x0001426a
+d3e53d00
+ldrsbteq lr, [sp], -r3
+address: 0x0001426e
+53e39e00
+addseq lr, lr, r3, asr r3
+address: 0x00014272
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x00014276
+1be5a821
+invalid
+address: 0x0001427a
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x0001427e
+52e10100
+andeq lr, r1, r2, asr r1
+address: 0x00014282
+001a0e30
+andlo r1, lr, r0, lsl 20
+address: 0x00014286
+a0e3dc0b
+bleq 0xff738e88
+address: 0x0001428a
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x0001428e
+1be50120
+andhs lr, r1, fp, lsl r5
+address: 0x00014292
+83e2d021
+bicshs lr, r0, r3, lsl 5
+address: 0x00014296
+0be50050
+andpl lr, r0, fp, lsl 10
+address: 0x0001429a
+d3e5a431
+ldrdlo lr, pc, [r4, r3]!
+address: 0x0001429e
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x000142a2
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x000142a6
+000a0520
+andhs r0, r5, r0, lsl 20
+address: 0x000142aa
+a0e1a431
+invalid
+address: 0x000142ae
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x000142b2
+83e00050
+andpl lr, r0, r3, lsl 1
+address: 0x000142b6
+d3e50060
+ldrdvs lr, pc, [r0], -r3
+address: 0x000142ba
+a0e3d031
+bicslo lr, r0, r0, lsr 7
+address: 0x000142be
+1be5a821
+invalid
+address: 0x000142c2
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000142c6
+52e10400
+andeq lr, r4, r2, asr r1
+address: 0x000142ca
+001aa430
+adclo r1, r4, r0, lsl 20
+address: 0x000142ce
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000142d2
+a0e1e3f5
+invalid
+address: 0x000142d6
+ffeb0730
+strdlo lr, pc, [r7], -pc
+address: 0x000142da
+a0e3c70b
+bleq 0xff1f8e88
+address: 0x000142de
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x000142e2
+1be5a821
+invalid
+address: 0x000142e6
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000142ea
+52e10100
+andeq lr, r1, r2, asr r1
+address: 0x000142ee
+001a0e30
+andlo r1, lr, r0, lsl 20
+address: 0x000142f2
+a0e3c10b
+bleq 0xff078e88
+address: 0x000142f6
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x000142fa
+1be50120
+andhs lr, r1, fp, lsl r5
+address: 0x000142fe
+83e2d021
+bicshs lr, r0, r3, lsl 5
+address: 0x00014302
+0be50050
+andpl lr, r0, fp, lsl 10
+address: 0x00014306
+d3e5a431
+ldrdlo lr, pc, [r4, r3]!
+address: 0x0001430a
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x0001430e
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x00014312
+000a0520
+andhs r0, r5, r0, lsl 20
+address: 0x00014316
+a0e1a431
+invalid
+address: 0x0001431a
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x0001431e
+83e00050
+andpl lr, r0, r3, lsl 1
+address: 0x00014322
+d3e53d00
+ldrsbteq lr, [sp], -r3
+address: 0x00014326
+55e30300
+andeq lr, r3, r5, asr r3
+address: 0x0001432a
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x0001432e
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x00014332
+d3e55d00
+ldrsbeq lr, [sp], -0x53
+address: 0x00014336
+53e31100
+andseq lr, r1, r3, asr r3
+address: 0x0001433a
+000ad031
+bicslo r0, r0, r0, lsl 20
+address: 0x0001433e
+1be5a821
+invalid
+address: 0x00014342
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00014346
+52e10d00
+andeq lr, sp, r2, asr r1
+address: 0x0001434a
+000a0f00
+andeq r0, pc, r0, lsl 20
+address: 0x0001434e
+56e30800
+andeq lr, r8, r6, asr r3
+address: 0x00014352
+008a0620
+andhs r8, r6, r0, lsl 20
+address: 0x00014356
+a0e10130
+andlo lr, r1, r0, lsr 3
+address: 0x0001435a
+82e2ff60
+rscsvs lr, pc, r2, lsl 5
+address: 0x0001435e
+03e20230
+andlo lr, r2, r3, lsl 4
+address: 0x00014362
+a0e11420
+andshs lr, r4, r0, lsr 3
+address: 0x00014366
+4be20330
+andlo lr, r3, fp, asr 4
+address: 0x0001436a
+82e00520
+andhs lr, r5, r2, lsl 1
+address: 0x0001436e
+a0e18420
+addhs lr, r4, r0, lsr 3
+address: 0x00014372
+43e5d9ff
+invalid
+address: 0x00014376
+ffea0030
+strdlo lr, pc, [r0], -pc
+address: 0x0001437a
+a0e39830
+addslo lr, r8, r0, lsr 7
+address: 0x0001437e
+4be5d6ff
+invalid
+address: 0x00014382
+ffea0630
+strdlo lr, pc, [r6], -pc
+address: 0x00014386
+a0e11420
+andshs lr, r4, r0, lsr 3
+address: 0x0001438a
+4be20330
+andlo lr, r3, fp, asr 4
+address: 0x0001438e
+82e00020
+andhs lr, r0, r2, lsl 1
+address: 0x00014392
+a0e38420
+addhs lr, r4, r0, lsr 7
+address: 0x00014396
+43e53d00
+eorseq lr, sp, r3, asr 10
+address: 0x0001439a
+55e33600
+eorseq lr, r6, r5, asr r3
+address: 0x0001439e
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x000143a2
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x000143a6
+d3e55d00
+ldrsbeq lr, [sp], -0x53
+address: 0x000143aa
+53e33200
+eorseq lr, r2, r3, asr r3
+address: 0x000143ae
+001a9830
+addslo r1, r8, r0, lsl 20
+address: 0x000143b2
+5be50000
+andeq lr, r0, fp, asr r5
+address: 0x000143b6
+53e32f00
+eoreq lr, pc, r3, asr r3
+address: 0x000143ba
+000a0100
+andeq r0, r1, r0, lsl 20
+address: 0x000143be
+56e30400
+andeq lr, r4, r6, asr r3
+address: 0x000143c2
+000aa430
+adclo r0, r4, r0, lsl 20
+address: 0x000143c6
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000143ca
+a0e1a5f5
+invalid
+address: 0x000143ce
+ffeb0330
+strdlo lr, pc, [r3], -pc
+address: 0x000143d2
+a0e3890b
+bleq 0xfe278e88
+address: 0x000143d6
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x000143da
+1be5a821
+invalid
+address: 0x000143de
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x000143e2
+52e10100
+andeq lr, r1, r2, asr r1
+address: 0x000143e6
+001a0e30
+andlo r1, lr, r0, lsl 20
+address: 0x000143ea
+a0e3830b
+bleq 0xfe0f8e88
+address: 0x000143ee
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x000143f2
+1be50120
+andhs lr, r1, fp, lsl r5
+address: 0x000143f6
+83e2d021
+bicshs lr, r0, r3, lsl 5
+address: 0x000143fa
+0be50050
+andpl lr, r0, fp, lsl 10
+address: 0x000143fe
+d3e5a431
+ldrdlo lr, pc, [r4, r3]!
+address: 0x00014402
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00014406
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x0001440a
+000a0520
+andhs r0, r5, r0, lsl 20
+address: 0x0001440e
+a0e1a431
+invalid
+address: 0x00014412
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x00014416
+83e00050
+andpl lr, r0, r3, lsl 1
+address: 0x0001441a
+d3e59830
+ldrsblo lr, [r8], r3
+address: 0x0001441e
+5be5a331
+invalid
+address: 0x00014422
+a0e1ff00
+rscseq lr, pc, r0, lsr 3
+address: 0x00014426
+03e20030
+andlo lr, r0, r3, lsl 4
+address: 0x0001442a
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x0001442e
+84e00030
+andlo lr, r0, r4, lsl 1
+address: 0x00014432
+d3e5033c
+invalid
+address: 0x00014436
+a0e1432c
+mcrrhs p1, 0xa, lr, r3, c0
+address: 0x0001443a
+a0e19830
+addslo lr, r8, r0, lsr 3
+address: 0x0001443e
+5be50730
+andlo lr, r7, fp, asr r5
+address: 0x00014442
+03e20110
+andne lr, r1, r3, lsl 4
+address: 0x00014446
+a0e31133
+tstlo r1, 160, 6
+address: 0x0001444a
+a0e1033c
+invalid
+address: 0x0001444e
+a0e1433c
+mcrrlo p1, 0xa, lr, r3, c0
+address: 0x00014452
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00014456
+82e1033c
+invalid
+address: 0x0001445a
+a0e1432c
+mcrrhs p1, 0xa, lr, r3, c0
+address: 0x0001445e
+a0e10030
+andlo lr, r0, r0, lsr 3
+address: 0x00014462
+a0e10330
+andlo lr, r3, r0, lsr 3
+address: 0x00014466
+84e0ff20
+rscshs lr, pc, r4, lsl 1
+address: 0x0001446a
+02e20020
+andhs lr, r0, r2, lsl 4
+address: 0x0001446e
+c3e50130
+andlo lr, r1, r3, asr 11
+address: 0x00014472
+a0e3dd31
+bicslo lr, sp, r0, lsr 7
+address: 0x00014476
+4be5e100
+rsceq lr, r1, fp, asr 10
+address: 0x0001447a
+00ea0630
+andlo lr, r6, r0, lsl 20
+address: 0x0001447e
+a0e10130
+andlo lr, r1, r0, lsr 3
+address: 0x00014482
+83e2ff60
+rscsvs lr, pc, r3, lsl 5
+address: 0x00014486
+03e20200
+andeq lr, r2, r3, lsl 4
+address: 0x0001448a
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x0001448e
+1be50130
+andlo lr, r1, fp, lsl r5
+address: 0x00014492
+43e2d031
+bicslo lr, r0, r3, asr 4
+address: 0x00014496
+0be50630
+andlo lr, r6, fp, lsl 10
+address: 0x0001449a
+a0e10120
+andhs lr, r1, r0, lsr 3
+address: 0x0001449e
+43e2ff60
+rscsvs lr, pc, r3, asr 4
+address: 0x000144a2
+02e20000
+andeq lr, r0, r2, lsl 4
+address: 0x000144a6
+53e3f7ff
+invalid
+address: 0x000144aa
+ff1a0b30
+strdlo r1, r2, [fp], -pc
+address: 0x000144ae
+84e20020
+andhs lr, r0, r4, lsl 5
+address: 0x000144b2
+d3e50b30
+ldrdlo lr, pc, [fp], -r3
+address: 0x000144b6
+84e20820
+andhs lr, r8, r4, lsl 5
+address: 0x000144ba
+82e3ff20
+rscshs lr, pc, r2, lsl 7
+address: 0x000144be
+02e20020
+andhs lr, r0, r2, lsl 4
+address: 0x000144c2
+c3e50730
+andlo lr, r7, r3, asr 11
+address: 0x000144c6
+84e20020
+andhs lr, r0, r4, lsl 5
+address: 0x000144ca
+d3e50730
+ldrdlo lr, pc, [r7], -r3
+address: 0x000144ce
+84e22020
+eorhs lr, r0, r4, lsl 5
+address: 0x000144d2
+82e3ff20
+rscshs lr, pc, r2, lsl 7
+address: 0x000144d6
+02e20020
+andhs lr, r0, r2, lsl 4
+address: 0x000144da
+c3e53d30
+eorslo lr, sp, r3, asr 11
+address: 0x000144de
+a0e3b831
+invalid
+address: 0x000144e2
+0be50030
+andlo lr, r0, fp, lsl 10
+address: 0x000144e6
+a0e3dd31
+bicslo lr, sp, r0, lsr 7
+address: 0x000144ea
+4be5c400
+sbceq lr, r4, fp, asr 10
+address: 0x000144ee
+00eaf031
+mvnslo lr, r0, lsl 20
+address: 0x000144f2
+1be50430
+andlo lr, r4, fp, lsl r5
+address: 0x000144f6
+03e20000
+andeq lr, r0, r3, lsl 4
+address: 0x000144fa
+53e3a900
+adceq lr, sb, r3, asr r3
+address: 0x000144fe
+000a5b00
+subseq r0, fp, r0, lsl 20
+address: 0x00014502
+55e3a700
+adceq lr, r7, r5, asr r3
+address: 0x00014506
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x0001450a
+1be50030
+andlo lr, r0, fp, lsl r5
+address: 0x0001450e
+d3e52e00
+invalid
+address: 0x00014512
+53e3a300
+adceq lr, r3, r3, asr r3
+address: 0x00014516
+001ad031
+bicslo r1, r0, r0, lsl 20
+address: 0x0001451a
+1be5a821
+invalid
+address: 0x0001451e
+1be50300
+andeq lr, r3, fp, lsl r5
+address: 0x00014522
+52e10100
+andeq lr, r1, r2, asr r1
+address: 0x00014526
+001a0e30
+andlo r1, lr, r0, lsl 20
+address: 0x0001452a
+a0e3330b
+bleq 0xcf8e88
+address: 0x0001452e
+00ead031
+bicslo lr, r0, r0, lsl 20
+address: 0x00014532
+1be50120
+andhs lr, r1, fp, lsl r5
+address: 0x00014536
+83e2d021
+bicshs lr, r0, r3, lsl 5
+address: 0x0001453a
+0be50050
+andpl lr, r0, fp, lsl 10
+address: 0x0001453e
+d3e5a431
+ldrdlo lr, pc, [r4, r3]!
+address: 0x00014542
+1be50000
+andeq lr, r0, fp, lsl r5
+address: 0x00014546
+53e30300
+andeq lr, r3, r3, asr r3
+address: 0x0001454a
+000a0520
+andhs r0, r5, r0, lsl 20
+address: 0x0001454e
+a0e1a431
+invalid
+address: 0x00014552
+1be50230
+andlo lr, r2, fp, lsl r5
+address: 0x00014556
+83e00050
+andpl lr, r0, r3, lsl 1
+address: 0x0001455a
+d3e50060
+ldrdvs lr, pc, [r0], -r3

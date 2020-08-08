@@ -1,0 +1,90 @@
+address: 0x0001399e
+001a9830
+addslo r1, r8, r0, lsl 20
+address: 0x000139a2
+4be23c1a
+bne 0xf38934
+address: 0x000139c6
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x000139ca
+4be2741a
+bne 0x1d38934
+address: 0x000139ee
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x000139f2
+4be2701a
+bne 0x1c38934
+address: 0x00013a16
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013a1a
+4be29c1a
+bne 0xfe738934
+address: 0x00013a3e
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013a42
+4be2e01a
+bne 0xff838934
+address: 0x00013a66
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013a6a
+4be2f01a
+bne 0xffc38934
+address: 0x00013a8e
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013a92
+4be2341b
+blne 0xd38934
+address: 0x00013ab6
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013aba
+4be2481b
+blne 0x1238934
+address: 0x00013ade
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013ae2
+4be26c1b
+blne 0x1b38934
+address: 0x00013b06
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013b0a
+4be29c1b
+blne 0xfe738934
+address: 0x00013b2e
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013b32
+4be2d81b
+blne 0xff638934
+address: 0x00013b56
+4be59830
+addslo lr, r8, fp, asr 10
+address: 0x00013b5a
+4be2f01b
+blne 0xffc38934
+address: 0x00013bee
+000a9830
+addslo r0, r8, r0, lsl 20
+address: 0x00013bf2
+4be28c1c
+stcne p2, c14, [ip], {0x4b}
+address: 0x00013c42
+000a9830
+addslo r0, r8, r0, lsl 20
+address: 0x00013c46
+4be2d41c
+ldclne p2, c14, [r4], {0x4b}
+address: 0x0001426e
+53e39e00
+addseq lr, lr, r3, asr r3
+address: 0x00014272
+001ad031
+bicslo r1, r0, r0, lsl 20
