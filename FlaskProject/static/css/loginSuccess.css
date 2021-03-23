@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "b";
+	src: url("b.TTF");
+}
+
+#loginTbl {
+	font-family: "b";
+	border : #8000ff solid 5px;
+	width: 350px;
+	height: 250px;
+}
+
+#loginSTd {
+	width: 130px;
+	height: 180px;
+	font-size: 20pt;
+}
+
+#loginTd{
+	font-size: 25pt;
+	line-height: 70px;
+}
+
+
+
+
+/*
+	border : #8080c0 solid 5px;
+	position: fixed;
+	top: 120px;
+	right: 50px;
+	width: 350px;
+	height: 250px;
+	text-align: center;
+	*/

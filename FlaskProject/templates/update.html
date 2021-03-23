@@ -1,0 +1,86 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+
+{%with messages = get_flashed_messages()%}
+{%if messages %}
+<script type="text/javascript">
+      confirm("{{messages[-1]}}");
+
+
+
+</script>
+{%endif%}
+{%endwith%}
+
+<div class="container">
+    <br>
+    <h1 class="text-center">게시글 수정 페이지</h1>
+    <hr>
+    <br><br>
+    <br><br>
+
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <header class="card-header">
+                    <h2 class="float-right btn btn-outline-primary mt-1">작성시각: {{data['time']}}</h2>
+                    <h4 class="card-title mt-2">게시글 수정</h4>
+                </header>
+                <article class="card-body">
+                    <form action="updateMessage" method="POST" enctype="multipart/form-data">
+                        <input type="hidden"  name="messageName" value={{data['messageName']}}>
+                        <div class="form-group">
+                            <label>제목</label>
+                            <input type="text" class="form-control" placeholder="아이디" name="newSubject" value={{data['subject']}}>
+                        </div> <!-- form-group end.// -->
+
+                        <div class="form-group">
+                            <label>내용</label>
+                            <textarea class="form-control" type="text" name="newMessage">{{data['message']}}</textarea>
+                        </div> <!-- form-group end.// -->
+
+                        <div class="form-group">
+                            <label>프로필 사진</label>
+                            <br>
+                            <img src={{data['imgUrl']}}
+                                 style="width: 120px; height: 120px; margin-left: 180px">
+                        </div> <!-- form-group end.// -->
+
+
+                        <div class="form-group">
+                            <label>사진 변경 </label>
+                        </div> <!-- form-group end.// -->
+                        <div class="form-group">
+                            <input type="file" id="ex_file" name="newFile">
+                        </div> <!-- form-group end.// -->
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-block"> Update</button>
+                        </div> <!-- form-group// -->
+                    </form>
+                </article> <!-- card-body end .// -->
+            </div> <!-- card.// -->
+        </div> <!-- col.//-->
+
+    </div> <!-- row.//-->
+
+</div>
+<!--container end.//-->
+
+<br><br>
+<br><br>
+<br><br>
+
+<article class="bg-secondary mb-3">
+    <div class="card-body text-center">
+        <h2 class="text-white mt-3">Flask & Firebase</h2>
+        <h3 class="h5 text-white"><br> 파이썬 플라스크와 <br> 파이어베이스와 파이어베이스 스토리지를 이용한
+            웹 프로젝트 실습</h3>
+    </div>
+    <br><br>
+</article>

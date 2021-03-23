@@ -1,0 +1,74 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+
+{%with messages = get_flashed_messages()%}
+{%if messages %}
+<script type="text/javascript">
+      confirm("{{messages[-1]}}");
+
+
+</script>
+{%endif%}
+{%endwith%}
+
+<div class="container">
+    <br>
+    <h1 class="text-center">로그인 페이지</h1>
+    <hr>
+    <br><br>
+    <br><br>
+
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <header class="card-header">
+                    <h4 class="card-title mt-2">로그인</h4>
+                </header>
+                <article class="card-body">
+                    <form action="login" method="POST" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label>아이디</label>
+                            <input type="text" class="form-control" placeholder="아이디" name="id">
+                        </div> <!-- form-group end.// -->
+
+                        <div class="form-group">
+                            <label>비밀번호</label>
+                            <input class="form-control" type="password" placeholder="비밀번호" name="pw">
+                        </div><!--form-group end.// -->
+
+                        <div class="form-group">
+                            <button type="submit"  style="background: green" class="btn btn-primary btn-block"> 로그인</button>
+                        </div> <!-- form-group// -->
+                    </form>
+                </article> <!-- card-body end .// -->
+                <div class="border-top card-body text-center">회원이 아니세요? <a href="register">회원가입</a></div>
+            </div> <!-- card.// -->
+        </div> <!-- col.//-->
+
+    </div> <!-- row.//-->
+
+</div>
+<!--container end.//-->
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+<article class="bg-secondary mb-3">
+    <div class="card-body text-center">
+        <h2 class="text-white mt-3">Flask & Firebase</h2>
+        <h3 class="h5 text-white"><br> 파이썬 플라스크와 <br> 파이어베이스와 파이어베이스 스토리지를 이용한
+            웹 프로젝트 실습</h3>
+    </div>
+    <br><br>
+</article>

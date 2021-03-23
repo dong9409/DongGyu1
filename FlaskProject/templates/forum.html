@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>forum</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/blog-post.css">
+    <link href="../static/css/styles.css" rel="stylesheet" type="text/css"/> <!-- css파일 import -->
+    <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous"/>
+
+    <script type=text/javascript src="{{url_for('static', filename='jquery.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
+    <script type=text/javascript src="{{url_for('static', filename='datatables-demo.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+{%with messages = get_flashed_messages()%}
+{%if messages %}
+<script type="text/javascript">
+      confirm("{{messages[-1]}}");
+
+
+</script>
+{%endif%}
+{%endwith%}
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.do">포럼 페이지</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="forum">Forum
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="userpage">User
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="logout">Logout
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Content -->
+<div class="container-fluid">
+    <h1 class="mt-4" style="text-align:center;">포럼 게시판</h1>
+    <hr>
+    <img class="img-fluid rounded" src="../static/images/banner.png" alt="" style="margin-left:550px">
+    <hr>
+    <div class="row">
+        <!-- Post Content Column -->
+        <!-- Sidebar Widgets Column -->
+        <div class="col-md-1">
+            <input type="hidden">
+        </div>
+        <div class="col-md-2">
+            <!-- Search Widget -->
+            <div class="card my-4">
+                <h5 class="card-header">{{profile['name']}}님 반갑습니다</h5>
+                <div class="card-body">
+                    <div class="form-group">
+                        <img src={{profile['imgLink']}} style="width: 120px; height: 120px; margin-left: 70px;">
+                    </div><!--form-group end.// -->
+                    <br>
+                    <div class="form-group">
+                        <button style="background: gold; color: black" class="btn btn-primary btn-block" onclick="location.href='user'"> 유저페이지
+                        </button>
+                    </div> <!-- form-group// -->
+                    <div class="form-group">
+                        <button style="background: green" class="btn btn-primary btn-block" onclick="location.href='logout'"> 로그아웃
+                        </button>
+                    </div> <!-- form-group// -->
+                </div>
+            </div>
+            <div class="card my-4">
+                <h5 class="card-header">write message</h5>
+                <form action="writing" method="POST" enctype="multipart/form-data">
+                    <div class="card-body">
+                        <div class="form-group">
+                            <h6>SUBJECT</h6>
+                            <input width="50px" type="text" class="form-control" placeholder="제목" name="subject">
+                        </div> <!-- form-group end.// -->
+
+                        <div class="form-group">
+                            <h6>MESSAGE TEXT</h6>
+                            <textarea class="form-control" type="text" placeholder="메세지" name="message"></textarea>
+                        </div> <!-- form-group end.// -->
+
+
+                        <div class="form-group">
+                            <h6>Upload Image</h6>
+                        </div> <!-- form-group end.// -->
+                        <div class="form-group">
+                            <input type="file" id="ex_file" name="file">
+                        </div> <!-- form-group end.// -->
+                        <hr>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-block"> submit</button>
+                        </div> <!-- form-group// -->
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-1">
+            <input type="hidden">
+        </div>
+        <div class="col-md-1">
+            <table class="table table-bordered" id="dataTable" width="1000px" cellspacing="0">
+                <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>subject</th>
+                    <th>message</th>
+                    <th>user_name</th>
+                    <th>user_image</th>
+                    <th>time</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for row in boardData['data'].values(): %}
+                <tr>
+                    <td width="50" style="word-break:break-all">1</td>
+                    <td width="50" style="word-break:break-all">{{row['subject']}}</td>
+                    <td width="50" style="word-break:break-all">{{row['message']}}</td>
+                    <td width="10" style="word-break:break-all">{{row['writer']}}</td>
+                    <td width="10" style="word-break:break-all"><img src={{row['imgUrl']}}
+                                                                     style="width: 120px; height: 120px; margin-left: 50px">
+                    </td>
+                    <td width="50" style="word-break:break-all">{{row['time']}}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+    </div>
+    <!-- /.container -->
+</footer>
+
+</body>
+</html>

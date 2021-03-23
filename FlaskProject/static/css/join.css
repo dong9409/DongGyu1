@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+#joinTable{
+	width: 800px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#joinTable input{
+	width: 250px;
+	height: 30px;
+}
+
+#joinTable td{
+	width: 10%;
+}
+
+#joinTable button{
+	color: black;
+	background-color : white;
+	font-size:20pt;
+	width: 150px;
+	height: 50px;
+}
+
+.joinTd{
+	padding-left:250px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	}
